@@ -1,0 +1,140 @@
+#logofade {
+    position: relative;
+    height: 133px; 
+}
+
+#logofade img {
+    position:absolute; 
+}
+
+#logofade .logo1 {
+    width: 286px;
+}
+
+#logofade img.logo1 {
+    animation-name: FadeInOut1;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-direction: alternate;
+}
+
+@keyframes FadeInOut1 {
+    0% { opacity:1; }
+    45% { opacity:1; }
+    55% { opacity:0; }
+    100% { opacity:0; }
+}
+
+#logofade .logo2 {
+    width: 286px;
+}
+
+#logofade img.logo2 {
+    animation-name: FadeInOut2;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-direction: alternate;
+}
+
+@keyframes FadeInOut2 {
+    0% { opacity:0; }
+    45% { opacity:0; }
+    55% { opacity:1; }
+    100% { opacity:1; }
+}
+
+header {
+    background-color: #fff; 
+    padding: 0;
+}
+
+header .container {
+    align-items: center;
+    padding: 0px 30px;
+    height: 150px;
+}
+
+header .navigation .nav-regular .header-option-container {
+    position: relative;
+}
+
+header .navigation .nav-regular .header-option {
+    color: #a4a4a4;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    font-size: 14px;
+}
+
+header .navigation .nav-regular .header-option:hover {
+    text-decoration: overline;
+    cursor: pointer;
+    font-weight: bold;
+    color: black;
+}
+
+.examples-dropdown {
+    background: white;
+    position: absolute;
+    width: 100%;
+    border: 1px solid #e1e1e1;
+    border-top: none;
+    color: grey;
+    z-index: 1;
+}
+
+.examples-dropdown-option {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.examples-dropdown-option:hover {
+    text-decoration: overline;
+    cursor: pointer;
+}
+
+.header-triangles {
+    width: 100%;
+    height: 24px;
+    background-image: url('/assets/headerTriangle.png');
+    background-repeat: repeat;
+}
+
+/* Extra small devices */
+@media only screen and (max-width: 600px) {
+    .nav-regular { display: none; }  
+    header { text-align: center; }
+    .logoContainer { padding-right: 286px; }
+} 
+
+/* Small devices */
+@media only screen and (min-width: 600px) {
+    .nav-regular { display: none; }  
+    header { text-align: center; }
+    .logoContainer { padding-right: 286px; }
+} 
+
+/* Medium devices */
+@media only screen and (min-width: 768px) {
+    .nav-regular { display: none; } 
+    header { text-align: center; }
+    .logoContainer { padding-right: 286px; }
+} 
+
+/* Large devices */
+@media only screen and (min-width: 992px) {
+    .nav-regular { display: none; } 
+    header { text-align: center; }
+    .logoContainer { padding-right: 286px; }
+} 
+
+/* Extra large devices */
+@media only screen and (min-width: 1200px) {
+    .nav-regular { display: flex; }  
+    header .container { display: flex; }
+    .logoContainer { padding-right: 0px; }
+} 

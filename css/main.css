@@ -1,0 +1,87 @@
+/* Layout */
+@import 'responsive-menu.css';
+@import 'header.css';
+@import 'footer.css';
+@import 'image-viewer.css';
+
+/* Pages */
+@import 'pages/work-examples.css';
+@import 'pages/about.css';
+@import 'pages/contact.css';
+
+/* Work Examples */
+@import 'work-examples/wakeupdata.css';
+@import 'work-examples/wisemetrics.css';
+@import 'work-examples/fugro.css';
+@import 'work-examples/roames.css';
+
+body {
+	background: #f0f0f0;
+}
+
+.content {
+	padding-top: 50px;
+	display: flex;
+    justify-content: center;
+}
+
+.line-break {
+	width: 100%;
+    height: 1px;
+    margin: 20px 0px;
+    background: #c7c7c7;
+}
+
+input {
+    height: 40px;
+    background-color: #f0f0f0;
+    padding: 12px;
+    margin: 6px 0 4px;
+    border: 1px solid #ccc;
+    background: #fafafa;
+    color: #000;
+    font-family: sans-serif;
+    font-size: 12px;
+    line-height: normal;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+input[type=submit] {
+    height: 50px;
+    width: 100px;
+    background-color: #757474;
+    color: white;
+    display: inline-block;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 0;
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+input[type=submit]:hover, input[type=submit]:focus {
+    background: #d44e4e;
+}
+
+input[type=submit]:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+input[type=submit]:active {
+    transform: scale(0.99);
+}
+
+.screenshot {
+    height: 400px;
+	margin: 20px;
+}
+
+.screenshot img {
+	height: 100%;
+}

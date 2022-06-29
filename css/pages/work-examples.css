@@ -1,0 +1,90 @@
+#work-examples .container {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0;
+    width: 100%;
+    justify-content: center;
+}
+#work-examples .image-text-container {
+    width: 360px;
+    display: flex;
+    flex-flow: column;
+    margin: 8px;
+    border: thin solid #e1e1e1;
+    margin: 10px;
+}
+#work-examples .image-text-container p {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: white;
+    font-weight: bold;
+}
+#work-examples .image-container {
+    overflow: hidden;
+    flex: 2 1 auto;
+    height: 240px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#work-examples .image-container:hover {
+    cursor: pointer;
+}
+
+#work-examples .image-container .work-period {
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    color: lightgrey;
+    top: 0;
+    display: flex;
+    align-items: inherit;
+    padding: 0px 10px;
+    font-size: 10px;
+    justify-content: end;
+}
+
+#work-examples .image-text-container:hover .image-container img {
+    transform: scale(1.05);
+    transition: transform 0.7s ease-in-out;
+    -webkit-transition: transform 0.7s ease-in-out;
+}
+
+#work-examples .image-container.inactive:hover {
+    cursor: default !important;
+}
+
+#work-examples .image-text-container.inactive:hover .image-container img {
+    transform: scale(1);
+}
+
+#work-examples p {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 40px;
+    margin: 2px 0 0 0;
+}
+
+#work-examples .text-field {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+/* Extra large devices */
+@media only screen and (min-width: 1200px) {
+   #work-examples {
+       max-width: 1200px;
+   }
+} 
