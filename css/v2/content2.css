@@ -126,7 +126,7 @@ h3 {
     bottom: 75px;
     z-index: 1000;
     transition: all .2s ease-in-out;
-    opacity: 0.5;
+    opacity: 0.2;
     cursor: pointer;
 }
 
