@@ -1,6 +1,6 @@
 contact = {
     create: function () {
-        $(`.content`).append(`
+        $(`.content2`).append(`
         <div id="contact"> 
             <div class="text-container">
                 <h3>I'd love to hear from you!</h3>

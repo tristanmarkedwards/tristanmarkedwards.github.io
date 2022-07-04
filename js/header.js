@@ -3,37 +3,41 @@ header = {
         var append = ``;
     
         var options = [
+            { title: `home`, url: `#` },
             { title: `work examples`, data: `workexamples` },
-            { title: `about`, data: `about` },
-            { title: `contact`, data: `contact` }
+            { title: `about`, url: `about.html` },
+            { title: `contact`, url: `contact.html` }
         ];
 
         var workexamples = [
-            { title: `wakeupdata`, data: `wakeupdata` },
-            { title: `wisemetrics`, data: `wisemetrics` },
-            { title: `fugro`, data: `fugro` },
-            { title: `roames`, data: `roames` },
-            { title: `vertiko`, data: `vertiko` }
+            { title: `UX Case Study 1`, url: `uxcase1.html` },
+            { title: `UX Case Study 2`, url: `uxcase2.html` }
+            // { title: `Digital Art`, url: `` },
         ];
 
         for (var i = 0; i < options.length; i++){
             var title = options[i].title;
             var dropdown = ``;
-            var identifier = ``;
+            var identifier = `id="header-${options[i].title}"`;
 
             if (options[i].data == `workexamples`) {
                 var suboptions = ``;
 
                 for (var j = 0; j < workexamples.length; j++){
                     var suboptionTitle = workexamples[j].title;
-                    suboptions += `<div class="examples-dropdown-option" data="${workexamples[j].data}">${suboptionTitle.toUpperCase()}</div>`;
+                    suboptions += `<a href="${workexamples[j].url}"><div class="examples-dropdown-option">${suboptionTitle.toUpperCase()}</div></a>`;
                 }
 
                 dropdown = `<div class="examples-dropdown" style="display: none">${suboptions}</div>`;
                 identifier = `id="workexamples-dropdown"`;
             }
 
-            append +=  `<div ${identifier} class="header-option-container"><div class="header-option" data="${options[i].data}">${title.toUpperCase()}</div>${dropdown}</div>`;
+            if (options[i].url){
+                append += `<div ${identifier} class="header-option-container"><a href="${options[i].url}"><div class="header-option">${title.toUpperCase()}</div></a>${dropdown}</div>`;
+            }
+            else {
+                append += `<div ${identifier} class="header-option-container"><div class="header-option">${title.toUpperCase()}</div>${dropdown}</div>`;
+            }
         }
 
         $(`header`).append(`

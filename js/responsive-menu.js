@@ -4,14 +4,15 @@ menu = {
         var append = ``;
     
         var options = [
-            { title: `work examples`, data: `work-examples` },
-            { title: `about`, data: `about` },
-            { title: `contact`, data: `contact` }
+            { title: `home`, url: `` },
+            // { title: `work examples`, url: `work-examples` },
+            { title: `about`, url: `about.html` },
+            { title: `contact`, url: `contact.html` }
         ];
 
         for (var i = 0; i < options.length; i++){
             var title = options[i].title;
-            append +=  `<div class="panel-body"><div class="header-option" data="${options[i].data}">${title.toUpperCase()}</div></div>`;
+            append +=  `<a id="responsive-menu-${options[i].title}" href="${options[i].url}"><div class="panel-body"><div class="header-option">${title.toUpperCase()}</div></div></a>`;
         }
 
         var panelHeader = `

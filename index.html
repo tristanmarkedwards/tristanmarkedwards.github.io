@@ -5,7 +5,7 @@
 	<title>Tristan Edwards</title>
 	<base href="/">
 	<link rel="icon" type="image/png" href="/favicon.png"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, content="width=800">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -31,14 +31,62 @@
 	<script type="text/javascript" src="/js/work-examples/roames.js"></script>
 	<script type="text/javascript" src="/js/work-examples/vertiko.js"></script>
 
+	<script type="text/javascript" src="/js/v2/particle.js"></script>
+
 	<script type="text/javascript" src="/js/routing.js"></script>
 </head>
 <body>
 	<div id="responsiveMenu">
 		<div class="responsiveMenu"></div>
 	</div>
-	<header></header>
-	<div class="content"></div>
+	
+	<div class="content">
+		<img src="assets/movementTriangle.png" class="movement-arrow"/>
+		<img src="assets/background.svg" style="right: 0px;position: absolute;z-index: -1;bottom: 0px;height: 100vh;"/>
+		<div class="title-container">
+			<img class="title-logo" src="assets/tedwards_logo.png"/>
+			<div class="sub-title-container">
+				<img src="assets/uxdesign.png" class="sub-title"/>
+				<img src="assets/softwareengineer.png" class="sub-title"/>
+				<img src="assets/2dartist.png" class="sub-title"/>
+			</div>
+		</div>	
+
+		<div class="gradient-fade"></div>
+	</div>
+	<div class="content2">
+		<header></header>
+		<div class="content2-main">
+			
+			<a href="uxcase1.html">
+				<div class="content2-container">
+					<div class="content2-container-description">
+						<div style="height: 50px; font-size: 14px;">UX Case Study</div>
+						<div>Creating a better return on investment for online merchants</div>
+					</div>
+					<img src="assets/wisemetrics.jpg" class="wise-metrics image-section-link">
+				</div>				
+			</a>
+
+			<a href="uxcase2.html">
+				<div class="content2-container">
+					<div class="content2-container-description">
+						<div style="height: 50px; font-size: 14px;">UX Case Study</div>
+						<div>Giving surveyors a helping hand to identify critical network faults</div>
+					</div>
+					<img src="assets/powerlines.jpg" class="roames-review image-section-link">
+				</div>				
+			</a>
+
+			<div class="content2-container">
+				<div class="content2-container-header-top">
+					<img src="assets/digitalart.png" style="height: 40%"/>
+				</div>
+				<img src="assets/magenta.jpg" class="digital-art image-section-link"/>
+			</div>
+
+		</div>
+	</div>
 	<footer></footer>
 </body>
 </html>
@@ -48,6 +96,37 @@
 		menu.create();
 		header.create();
 		footer.create();
-		routing.initialise();
+		// routing.initialise();
+		
+		particle.controller.start();
+
+		$(`#header-home`).hide();
+		$(`#responsive-menu-home`).hide();
+		$(`#logofade`).addClass(`homepage-view`);
+
+		$(`.logo1`).removeClass(`logo1`);
+		$(`.logo2`).remove();
     });
+
+	$(`.movement-arrow`).click(function (){
+		var offset = $(`.content2`).offset().top;
+		if(offset > window.scrollY){
+			$('html,body').animate({scrollTop: offset}, 1000);
+		}
+
+		var tempInterval = setInterval(function () {
+			if (window.scrollY > 200){
+				$(`.movement-arrow`).hide();
+				clearInterval(tempInterval);
+			}
+		}, 250);
+
+		$(`.movement-arrow`).hide();
+	});
+
+	$( window ).scroll(function() {
+		if (window.scrollY <= 200){
+			$(`.movement-arrow`).show();
+		}
+	});
 </script>

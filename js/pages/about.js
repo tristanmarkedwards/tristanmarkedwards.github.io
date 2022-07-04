@@ -15,7 +15,7 @@ about = {
                 ${about.get.whyDesign()}
             </div>`;
 
-        $(`.content`).append(`
+        $(`.content2`).append(`
             <div id="about"> 
                <div class="container">
                     <div class="photo-container"> <div class="photo"><img src="../../assets/portrait.jpg"></div></div> 

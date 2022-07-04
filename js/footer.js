@@ -1,12 +1,11 @@
 footer = {
     create: function () {
-        //console.log("adding footer");
         var append = ``;
     
         var options = [
             { icon: `linkedin`, url: `linkedin.com/in/tristanmarkedwards/` },
-            { icon: `dribbble`, url: `dribbble.com/BulksonBigT` },
-            { icon: `youtube`, url: `` }
+            // { icon: `dribbble`, url: `dribbble.com/BulksonBigT` },
+            // { icon: `youtube`, url: `` }
         ];
     
         for (var i = 0; i < options.length; i++){
@@ -17,7 +16,7 @@ footer = {
         }
     
         $(`footer`).append(`
-            <div class="pageDivider"></div>
+            <div class="footer-triangles"></div>
             <div class="text-field"><p style="margin: 0px">LAYOUT DESIGN by <strong>TRISTAN EDWARDS</strong> © 2022</p></div>
             <div class="iconsField">${append}</div>
         `);
