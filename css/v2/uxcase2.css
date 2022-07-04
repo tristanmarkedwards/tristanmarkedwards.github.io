@@ -1,0 +1,172 @@
+.air-quote {
+    padding: 30px;
+    background: white;
+    border-radius: 15px 15px 15px 0px;
+    max-width: 500px;
+    color: #8a8a8a;
+    text-align: center;
+    font-size: 18px;
+}
+
+.case-title {
+    width: 100%;
+    margin-bottom: 70px;
+    font-family: LemonMilk;
+    font-size: 28px;
+    text-align: center;
+}
+
+.case-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding-right: 20px;
+}
+
+.content3 {
+    width: 100%;
+    display: flex;
+    background: #F0F0F0;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.content3-main {
+    flex-direction: column; 
+    margin: 30px; 
+    align-items: flex-start; 
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+    padding: 0px 80px;
+}
+
+.ux2-inoffice {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.ux2-inoffice img {
+    height: 280px;
+    margin: 10px;
+}
+
+.content3 p {
+    text-align: center;
+}
+
+.ux2-workflow-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.rr-workflow {
+    height: 700px;
+}
+
+.rr-wireframe {
+    width: 800px;
+}
+
+.ux2-rr-mockups-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.ux2-rr-mockups-container img {
+    margin: 10px;
+    height: 320px;
+}
+
+.ux2-rr3 {
+    width: 600px;
+}
+
+.zigzag-containers {
+    width: 100%;
+    position: relative; 
+}
+
+.ux2-quotesgroup {
+    text-align: center; 
+    font-size: 18px; 
+    color: #8a8a8a;
+}
+
+.ux2-iconcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .content3-main {
+        padding: 0px;
+    }
+
+    .rr-wireframe {
+        width: 500px;
+    }
+
+    .ux2-rr-mockups-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ux2-rr3 {
+        width: 500px;
+    }
+
+    .ux2-rr-mockups-container img {
+        height: unset;
+        width: 500px;
+    }
+} 
+
+@media only screen and (max-width: 800px) {
+    .ux2-inoffice {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ux2-inoffice img {
+        height: unset;
+        width: 350px;
+    }
+
+    .ux2-rr3 {
+        width: 400px;
+    }
+
+    .rr-workflow {
+        height: 500px;
+    }
+    
+    .rr-wifeframe {
+        width: 400px;
+    }
+
+    .ux2-rr-mockups-container img {
+        height: unset;
+        width: 400px;
+    }
+} 
+
+
+@media only screen and (max-width: 600px) {
+    .rr-workflow {
+        height: 400px;
+    }
+    
+    .rr-wifeframe {
+        width: 500px;
+    }
+} 
