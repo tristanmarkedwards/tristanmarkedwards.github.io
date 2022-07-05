@@ -2,6 +2,13 @@
     width: 563px;
 }
 
+.ux1-workflow-container {
+    display: flex; 
+    width: 100%; 
+    align-items: center; 
+    flex-direction: column; 
+    padding: 40px 0px;
+}
 
 /* @media only screen and (max-width: 1000px) {
 } 
