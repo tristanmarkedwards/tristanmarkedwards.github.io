@@ -11,13 +11,18 @@
 }
 
 .ux1-workflow-example {
-    width: 1150px;
+    width: 700px;
 }
 
 @media only screen and (max-width: 1200px) {
     .ux1-workflow-example {
         width: 800px;
     }
+
+    .ux1-workflow-container {
+        flex-direction: row; 
+    }
+    
 } 
 
 @media only screen and (max-width: 1000px) {
