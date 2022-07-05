@@ -14,15 +14,21 @@
     width: 1150px;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
     .ux1-workflow-example {
         width: 800px;
     }
 } 
 
+@media only screen and (max-width: 1000px) {
+    .ux1-workflow-example {
+        width: 700px;
+    }
+} 
+
 @media only screen and (max-width: 800px) {
     .ux1-workflow-example {
-        width: 600px;
+        width: 500px;
     }
 } 
 
