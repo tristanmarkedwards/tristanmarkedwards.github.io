@@ -20,12 +20,13 @@
     overflow: hidden;
     display: flex;
     justify-content: center;
-    transition: all .2s ease-in-out;
+    transform: scale(1);
+    transition: all .3s ease-in-out;
 }
 
 .content2-container:hover .image-section-link {
-    transform: scale(1.2);
-    transition: all .2s ease-in-out;
+    transform: scale(1.1);
+    transition: all .3s ease-in-out;
 }
 
 .content2-container-header-top {
