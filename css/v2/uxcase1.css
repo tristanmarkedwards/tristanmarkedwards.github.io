@@ -10,16 +10,28 @@
     padding: 40px 0px;
 }
 
-/* @media only screen and (max-width: 1000px) {
+.ux1-workflow-example {
+    height: 750px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .ux1-workflow-example {
+        height: 600px;
+    }
 } 
 
 @media only screen and (max-width: 800px) {
-    
-}  */
-
+    .ux1-workflow-example {
+        height: 500px;
+    }
+} 
 
 @media only screen and (max-width: 600px) {
     .wm-logos {
         width: 480px;
+    }
+
+    .ux1-workflow-example {
+        height: 400px;
     }
 } 
