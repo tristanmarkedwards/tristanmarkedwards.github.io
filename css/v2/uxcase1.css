@@ -11,18 +11,18 @@
 }
 
 .ux1-workflow-example {
-    height: 750px;
+    width: 1150px;
 }
 
 @media only screen and (max-width: 1000px) {
     .ux1-workflow-example {
-        height: 600px;
+        width: 800px;
     }
 } 
 
 @media only screen and (max-width: 800px) {
     .ux1-workflow-example {
-        height: 500px;
+        width: 600px;
     }
 } 
 
@@ -32,6 +32,6 @@
     }
 
     .ux1-workflow-example {
-        height: 400px;
+        width: 400px;
     }
 } 
