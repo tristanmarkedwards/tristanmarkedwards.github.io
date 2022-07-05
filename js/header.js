@@ -42,7 +42,7 @@ header = {
 
         $(`header`).append(`
             <div class="bodyContainer container">
-                <a href="https://tristanmarkedwards.bitbucket.io/" id="logofade" class="logoContainer"> 
+                <a href="#" id="logofade" class="logoContainer"> 
                     <img class="logo1" src="assets/titleLogo1.png">
                     <img class="logo2" src="assets/titleLogo2.png">
                 </a>
