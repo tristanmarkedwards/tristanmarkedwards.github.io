@@ -128,20 +128,16 @@
 	$(`.movement-arrow`).click(function (){
 		var offset = $(`.content2`).offset().top;
 		if(offset > window.scrollY){
-			$('html,body').animate({scrollTop: offset}, 1000);
+			$('html,body').animate(
+				{scrollTop: offset}, 
+				1000,
+				console.log("finished scrolling"));
 		}
 
 		var fadeOutArrow = setInterval(function () {
 			if (window.scrollY > 200){
 				$(`.movement-arrow`).hide();
 				clearInterval(fadeOutArrow);
-			}
-
-
-			if (window.scrollY >= offset){
-
-				console.log("yeetttt");
-				$(`.title-logo`).css(`opacity`, 0);
 			}
 		}, 250);
 
