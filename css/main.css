@@ -31,6 +31,7 @@ body {
     justify-content: center;
     height: 100vh;
     position: relative;
+    align-items: center;
 }
 
 .line-break {
