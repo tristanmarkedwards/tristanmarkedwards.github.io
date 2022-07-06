@@ -14,6 +14,10 @@
     width: 700px;
 }
 
+.back-to-top {
+    font-size: 10px;
+}
+
 @media only screen and (max-width: 1200px) {
     .ux1-workflow-example {
         width: 800px;
@@ -40,5 +44,15 @@
 
     .ux1-workflow-example {
         width: 400px;
+    }
+} 
+
+@media only screen and (max-width: 400px) {
+    .wm-logos {
+        width: 480px;
+    }
+
+    .ux1-workflow-example {
+        width: 300px;
     }
 } 

@@ -70,7 +70,11 @@ about = {
                 <p>Lead Unity Developer @ Fugro (Netherlands) | Aug 2019 - Jan 2020</p>
                 <p>UI / UX Designer & Front End Developer @ Fugro (Netherlands) | Sept 2018 - Jan 2020</p>
                 <p>UI / UX Designer & Unity Developer @ Fugro ROAMES (Australia) | Jan 2017 - Sept 2018</p>
-                <p>Junior Software Engineer @ Fugro ROAMES (Australia) | Apr 2016 - Jan 2017</p>`;
+                <p>Junior Software Engineer @ Fugro ROAMES (Australia) | Apr 2016 - Jan 2017</p>
+                <br>
+                <br>
+                </br>
+                </br>`;
         }
     },
     setupEvents: function () {
