@@ -17,6 +17,8 @@ about = {
 
         $(`.content2`).append(`
             <div id="about"> 
+            <br>
+            <br>
                <div class="container">
                     <div class="photo-container"> <div class="photo"><img src="../../assets/portrait.jpg"></div></div> 
                     <div class="about-description-container"> 
