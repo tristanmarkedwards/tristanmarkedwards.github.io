@@ -73,7 +73,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover, input[type=submit]:focus {
-    background: #d44e4e;
+    background: #6b646e;
 }
 
 input[type=submit]:focus {
