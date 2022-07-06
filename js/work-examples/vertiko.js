@@ -9,7 +9,7 @@ vertiko = {
             { image: `${path}04.jpg`, description: `vertiko`, descriptionid: `4` }
         ];
 
-        $(`.content`).append(`<div id="vertiko"><div class="container"></div></div>`);
+        $(`.content2`).append(`<div id="vertiko"><div class="container"></div></div>`);
 
         $(`#vertiko .container`).append(`
             <h4>VERTIKO</h4>
