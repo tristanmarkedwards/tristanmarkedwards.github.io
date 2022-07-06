@@ -136,14 +136,9 @@
 				{
 					duration: 1000,
 					complete: function () {
-						console.log("finished scrolling");
+						$(`.title-logo`).css(`opacity`, 0);
 					}
 				});
-			
-			// $('html,body').animate(
-			// 	{scrollTop: offset}, 
-			// 	1000,
-			// 	console.log("finished scrolling"));
 		}
 
 		var fadeOutArrow = setInterval(function () {
