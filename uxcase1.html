@@ -323,9 +323,12 @@
 			<div class="case-title">Thanks for reading!</div>
 			<br>
 			<br>
-			<!-- <img src="assets/movementTriangle.png" class="movement-arrow" style="">
-			<div class="back-to-top">Back to top</div> -->
 			
+			<div style="transform: rotate(180deg);">
+				<img src="assets/movementTriangle.png" class="movement-arrow"/>
+			</div>
+			<div class="back-to-top">Back to top</div>
+
 		</div>
 	</div>
 	<footer></footer>
@@ -338,4 +341,14 @@
 		header.create();
 		footer.create();
     });
+
+	$(`.movement-arrow`).click(function (){
+		$('html,body').animate(
+				{
+					scrollTop: 0
+				}, 
+				{
+					duration: 1000
+				});
+	});
 </script>
