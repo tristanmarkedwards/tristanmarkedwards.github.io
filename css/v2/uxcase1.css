@@ -18,6 +18,18 @@
     font-size: 10px;
 }
 
+.ux1-wm-mockups-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.ux1-wm-mockups-container img {
+    margin: 10px;
+    height: 320px;
+}
+
 @media only screen and (max-width: 1200px) {
     .ux1-workflow-example {
         width: 800px;
@@ -28,12 +40,27 @@
 @media only screen and (max-width: 1000px) {
     .ux1-workflow-example {
         width: 700px;
+        
+    }
+    .ux1-wm-mockups-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ux1-wm-mockups-container img {
+        height: unset;
+        width: 500px;
     }
 } 
 
 @media only screen and (max-width: 800px) {
     .ux1-workflow-example {
         width: 500px;
+    }
+
+    .ux1-wm-mockups-container img {
+        height: unset;
+        width: 400px;
     }
 } 
 
