@@ -128,10 +128,22 @@
 	$(`.movement-arrow`).click(function (){
 		var offset = $(`.content2`).offset().top;
 		if(offset > window.scrollY){
+
 			$('html,body').animate(
-				{scrollTop: offset}, 
-				1000,
-				console.log("finished scrolling"));
+				{
+					scrollTop: offset
+				}, 
+				{
+					duration: 1000,
+					complete: function () {
+						console.log("finished scrolling");
+					}
+				});
+			
+			// $('html,body').animate(
+			// 	{scrollTop: offset}, 
+			// 	1000,
+			// 	console.log("finished scrolling"));
 		}
 
 		var fadeOutArrow = setInterval(function () {
