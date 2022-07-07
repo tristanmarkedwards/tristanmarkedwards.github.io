@@ -152,6 +152,12 @@ h3 {
     font-size: 12px;
 }
 
+.particle-container {
+    position: absolute;
+    height: 100vh;
+    width: 100vh;
+}
+
 @font-face { 
     font-family: LemonMilk; 
     src: url('/assets/LEMONMILK-Regular.otf') format("opentype"); 

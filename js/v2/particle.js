@@ -26,7 +26,7 @@ particle = {
                 </div>
             `;
     
-            $(`.content`).append(particle);
+            $(`.particle-container`).append(particle);
         },
         move: function(id) {
             $(`#particle-${id}`).data(`lifetime`, 0);
