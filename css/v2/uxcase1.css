@@ -76,10 +76,15 @@
 
 @media only screen and (max-width: 400px) {
     .wm-logos {
-        width: 480px;
+        width: 300px;
     }
 
     .ux1-workflow-example {
+        width: 300px;
+    }
+
+    .ux1-wm-mockups-container img {
+        height: unset;
         width: 300px;
     }
 } 

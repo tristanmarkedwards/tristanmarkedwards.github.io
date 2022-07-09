@@ -169,4 +169,28 @@
     .rr-wifeframe {
         width: 500px;
     }
+
+    .case-title {
+        font-size: 24px;
+    }
+} 
+
+@media only screen and (max-width: 500px) {
+    .rr-workflow {
+        height: 400px;
+    }
+    
+    .rr-wifeframe {
+        width: 500px;
+    }
+
+    .ux2-rr3 {
+        width: 350px;
+    }
+} 
+
+@media only screen and (max-width: 400px) {
+    .ux2-rr3 {
+        width: 300px;
+    }
 } 
