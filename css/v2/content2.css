@@ -158,9 +158,17 @@ h3 {
     width: 100%;
 }
 
-.high-level-plan-parent-container {
-	width: 100%;
+.high-level-plan-main-parent-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.high-level-plan-main-container {
 	position: relative;
+    height: 190px;
+    width: 590px;
 }
 
 .high-level-plan-icon-main {
@@ -174,7 +182,7 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-	z-index: 1;
+    z-index: 1;
 }
 
 .high-level-plan-icon {
@@ -186,7 +194,7 @@ h3 {
 .high-level-plan-text-main {
 	display: flex;
     height: 50px;
-	z-index: 1;
+    width: 590px;
 }
 
 .high-level-plan-text {
@@ -195,6 +203,7 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+	z-index: 1;
 }
 
 .high-level-plan {
