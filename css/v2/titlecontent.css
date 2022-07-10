@@ -33,7 +33,7 @@
 }
 
 .title-main-fadein {
-    animation: title-main-fadein-animation 2s;
+    animation: title-main-fadein-animation 3s;
 }
 
 @keyframes title-main-fadein-animation {
@@ -48,14 +48,14 @@
 }
 
 .sub-titles-fadein-1 {
-    animation: sub-titles-fadein-animation-1 3s;
+    animation: sub-titles-fadein-animation-1 5s;
 }
 
 @keyframes sub-titles-fadein-animation-1 {
     0% {
         opacity: 0;
     }
-    30% {
+    40% {
         opacity: 0;
     } 
     80% {
@@ -64,14 +64,14 @@
 }
 
 .sub-titles-fadein-2 {
-    animation: sub-titles-fadein-animation-2 3s;
+    animation: sub-titles-fadein-animation-2 5s;
 }
 
 @keyframes sub-titles-fadein-animation-2 {
     0% {
         opacity: 0;
     }
-    40% {
+    50% {
         opacity: 0;
     } 
     90% {
@@ -80,14 +80,14 @@
 }
 
 .sub-titles-fadein-3 {
-    animation: sub-titles-fadein-animation-3 3s;
+    animation: sub-titles-fadein-animation-3 5s;
 }
 
 @keyframes sub-titles-fadein-animation-3 {
     0% {
         opacity: 0;
     }
-    50% {
+    60% {
         opacity: 0;
     } 
     100% {
@@ -139,11 +139,6 @@
 
     .sub-title-container {
         justify-content: center;
-    }
-
-    .content2-container {
-        width: 500px;
-        height: 200px;
     }
 
     .title-container {

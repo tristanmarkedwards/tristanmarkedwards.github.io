@@ -95,10 +95,10 @@
 
 		$(`#header-home`).hide();
 		$(`#responsive-menu-home`).hide();
-		$(`#logofade`).addClass(`homepage-vfiew`);
-
-		$(`.logo1`).removeClass(`logo1`);
-		$(`.logo2`).remove();
+		$(`#logofade`).remove();
+		// $(`#logofade`).addClass(`homepage-vfiew`);
+		// $(`.logo1`).removeClass(`logo1`);
+		// $(`.logo2`).remove();
 
 		//fadeInLogo();
     });
@@ -114,7 +114,7 @@
 				{
 					duration: 1000,
 					complete: function () {
-						$(`.title-logo`).css(`opacity`, 0);
+						// $(`.title-logo`).css(`opacity`, 0);
 					}
 				});
 		}
