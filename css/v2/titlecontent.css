@@ -9,6 +9,7 @@
 
 .title-logo {
     width: 400px;
+    position: absolute;
 }
 
 .sub-title-container {
@@ -23,16 +24,31 @@
     height: 20px;
 }
 
-.sub-titles-fadein-1 {
-    animation: sub-titles-fadein-animation-1 3s;
-}
-
 .title-main-container {
     position: relative;
-    height: 70px;
+    height: 150px;
     display: flex;
     width: 100%;
     align-items: center;
+}
+
+.title-main-fadein {
+    animation: title-main-fadein-animation 2s;
+}
+
+@keyframes title-main-fadein-animation {
+    0% {
+        bottom: 100px;
+        opacity: 0;
+    }
+    100% {
+        bottom: 0px;
+        opacity: 1;
+    }
+}
+
+.sub-titles-fadein-1 {
+    animation: sub-titles-fadein-animation-1 3s;
 }
 
 @keyframes sub-titles-fadein-animation-1 {
@@ -99,11 +115,16 @@
     .title-container {
         height: 300px;
     }
+
+    .title-main-container {
+        height: 80px;
+    }
 } 
 
 @media only screen and (max-width: 600px) {
     .title-main-container {
         justify-content: center;
+        height: 60px;
     }
    
     .title-logo {
@@ -147,5 +168,9 @@
 
     .title-container {
         height: 300px;
+    }
+
+    .title-main-container {
+        height: 50px;
     }
 } 
