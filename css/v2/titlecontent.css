@@ -3,6 +3,9 @@
 }
 
 @keyframes sub-titles-fadein-animation-1 {
+    0% {
+        opacity: 0;
+    }
     40% {
         opacity: 0;
     } 
@@ -16,6 +19,9 @@
 }
 
 @keyframes sub-titles-fadein-animation-2 {
+    0% {
+        opacity: 0;
+    }
     50% {
         opacity: 0;
     } 
@@ -24,11 +30,14 @@
     }
 }
 
-.sub-titles-fadein-2 {
+.sub-titles-fadein-3 {
     animation: sub-titles-fadein-animation-3 3s;
 }
 
-@keyframes sub-titles-fadein-animation-2 {
+@keyframes sub-titles-fadein-animation-3 {
+    0% {
+        opacity: 0;
+    }
     60% {
         opacity: 0;
     } 
