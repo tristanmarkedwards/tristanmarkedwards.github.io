@@ -82,7 +82,6 @@
 @media only screen and (max-width: 1200px) {
     .title-main-container {
         align-items: center;
-        justify-content: center;
     }
 } 
 
@@ -103,6 +102,10 @@
 } 
 
 @media only screen and (max-width: 600px) {
+    .title-main-container {
+        justify-content: center;
+    }
+   
     .title-logo {
         width: 200px;
     }
