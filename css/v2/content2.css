@@ -163,6 +163,7 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .high-level-plan-main-container {
@@ -188,7 +189,7 @@ h3 {
 .high-level-plan-icon {
 	height: 50px;
     width: 50px;
-    background: white;
+    background: red;
 }
 
 .high-level-plan-text-main {
