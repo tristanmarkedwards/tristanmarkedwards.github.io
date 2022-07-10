@@ -32,6 +32,7 @@
     height: 70px;
     display: flex;
     width: 100%;
+    align-items: center;
 }
 
 @keyframes sub-titles-fadein-animation-1 {
@@ -81,6 +82,7 @@
 @media only screen and (max-width: 1200px) {
     .title-main-container {
         align-items: center;
+        justify-content: center;
     }
 } 
 
@@ -111,6 +113,10 @@
         margin-right: 20px;
     }
 
+    .sub-title-container {
+        justify-content: center;
+    }
+
     .content2-container {
         width: 500px;
         height: 200px;
@@ -133,6 +139,7 @@
         font-size: 14px;
         height: 14px;
         margin-bottom: 15px;
+        margin-right: 0px;
     }
 
     .title-container {
