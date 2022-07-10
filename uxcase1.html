@@ -52,9 +52,9 @@
 					<br>
 					<br>
 
-					<div class="case-header">
+					<div id="who-is-the-user"class="case-header">
 						<div class="ux2-iconcontainer"><img src="assets/icons/UXCaseStudy/who-is-the-user.svg" style="height: 33px;"></div>
-						<h3 id="who-is-the-user">WHO IS THE USER?</h3>
+						<h3>WHO IS THE USER?</h3>
 					</div>
 					<br>
 					<p style="width: 100%;font-weight: bold;font-size: 16px;">
@@ -197,9 +197,9 @@
 			<br>
 			<br>
 			
-			<div class="case-header">
+			<div id="design" class="case-header">
 				<div class="ux2-iconcontainer"><img src="assets/icons/UXCaseStudy/design.svg" style="height: 33px;"></div>
-				<h3 id="design">DESIGN</h3>
+				<h3>DESIGN</h3>
 			</div>
 			<br>
 
@@ -302,9 +302,9 @@
 					<br>
 					<br>
 
-					<div class="case-header">
+					<div id="delivery" class="case-header">
 						<div class="ux2-iconcontainer"><img src="assets/icons/UXCaseStudy/deliver.svg" style="height: 33px;"></div>
-						<h3 id="delivery">DELIVERY</h3>
+						<h3>DELIVERY</h3>
 					</div>
 					<br>
 					<p>
@@ -333,7 +333,7 @@
 			<br>
 			<br>
 			<br>
-			<div class="case-title" style="margin-bottom: 30px;">Thanks for reading!</div>
+			<div id="thanks-for-reading" class="case-title" style="margin-bottom: 30px;">Thanks for reading!</div>
 			<div style="transform: rotate(180deg);width: 100%;display: flex;justify-content: center;">
 				<img src="assets/movementTriangle.png" class="movement-arrow" style="position: unset";>
 			</div>
@@ -405,6 +405,13 @@
 			}
 			else {
 				$(`#delivery`).addClass(`title-pop`);
+			}
+		}
+		else if ($('#thanks-for-reading').isInViewport()) {
+			if ($(`#thanks-for-reading`).hasClass(`title-pop`)){
+			}
+			else {
+				$(`#thanks-for-reading`).addClass(`title-pop`);
 			}
 		}
 	});
