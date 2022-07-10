@@ -304,7 +304,7 @@
 
 					<div class="case-header">
 						<div class="ux2-iconcontainer"><img src="assets/icons/UXCaseStudy/deliver.svg" style="height: 33px;"></div>
-						<h3>DELIVERY</h3>
+						<h3 id="delivery">DELIVERY</h3>
 					</div>
 					<br>
 					<p>
@@ -354,12 +354,29 @@
     });
 
 	$(`.movement-arrow`).click(function (){
-		$('html,body').animate(
-				{
-					scrollTop: 0
-				}, 
-				{
-					duration: 1000
-				});
+		$('html,body').animate({
+			scrollTop: 0
+		}, {
+			duration: 1000
+		});
+	});
+
+	function isInViewport() {
+		var elementTop = $(this).offset().top;
+    	var elementBottom = elementTop + $(this).outerHeight();
+
+    	var viewportTop = $(window).scrollTop();
+    	var viewportBottom = viewportTop + $(window).height();
+
+    	return elementBottom > viewportTop && elementTop < viewportBottom;
+	}
+
+	$(window).on('resize scroll', function() {
+		if ($('#delivery').isInViewport()) {
+			// do something
+			console.log("can see it");
+		} else {
+			// do something else
+		}
 	});
 </script>
