@@ -1,6 +1,6 @@
 #responsiveMenu {
     z-index: 10003;
-    position: absolute;
+    position: fixed;
     width: 100%;
 }
 
@@ -42,17 +42,20 @@
     display: block;
     transform: rotate(0deg);
 }
+
 #responsiveMenu .panel-default > .panel-heading {
     height: 60px;
     transition: all 0.5s;
     background-color: white;
     padding: 0;
 }
+
 #responsiveMenu .panel-default > .panel-heading:hover {
     transition: all 0.5s;
     background-color: #f6f6f6;
     cursor: pointer;
 }
+
 #responsiveMenu .panel-default > .panel-heading .menu-title-container {
     display: flex;
     align-items: center;
@@ -61,18 +64,22 @@
     border: 0px;
     border-bottom: 1px solid #c6c6c6;
 }
+
 #responsiveMenu .panel-default > .panel-heading .menu-title-container .menu-title-arrow {
     position: absolute;
     top: 42px;
     display: none;
 }
+
 #responsiveMenu .panel-default > .panel-heading .menu-title-container:hover .menu-title {
     color: #616161;
 }
+
 #responsiveMenu .panel-default > .panel-heading .menu-title-container:hover .menu-title-arrow {
     display: block;
     transform: rotate(180deg);
 }
+
 #responsiveMenu .panel-default > .panel-heading .menu-title {
     -webkit-user-select: none;
    /* Safari */
@@ -86,6 +93,7 @@
     font-size: 14px;
     color: #a4a4a4;
 }
+
 #responsiveMenu .panel-body {
     text-align: center;
     padding: 0;
@@ -97,17 +105,21 @@
     border-bottom: 1px solid #e0e0e0;
     transition: all 0.5s;
 }
+
 #responsiveMenu .panel-body div {
     font-size: 12px;
 }
+
 #responsiveMenu .panel-body:hover {
     transition: all 0.5s;
     background-color: #f6f6f6;
     cursor: pointer;
 }
+
 #responsiveMenu .panel-body:hover div {
     color: #616161;
 }
+
 #responsiveMenu a {
     color: #a4a4a4;
     font-size: 1.4em;
@@ -117,5 +129,7 @@
 
 /* Extra large devices */
 @media only screen and (min-width: 1200px) {
-    #responsiveMenu .panel-group { display: none; }  
+    #responsiveMenu .panel-group { 
+        display: none; 
+    }  
 } 
