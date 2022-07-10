@@ -30,32 +30,7 @@
     height: 320px;
 }
 
-.ux1-rr3-main-container {
-    width: 100%; 
-    display: flex;	
-    justify-content: center; 
-    padding: 20px 0px
-}
 
-.ux1-rr3-container {
-    width: 100%; 
-    position: absolute; 
-    height: 100%; 
-    display: flex; 
-}
-
-.ux1-rr3-icon-container {
-    width: 100%; 
-    display: flex; 
-    justify-content: center; 
-    align-items: center;
-}
-
-.ux1-rr3-icon {
-    width: 20px; 
-    height: 20px; 
-    background: red;
-}
 
 @media only screen and (max-width: 1200px) {
     .ux1-workflow-example {

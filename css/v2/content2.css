@@ -158,11 +158,55 @@ h3 {
     width: 100%;
 }
 
+.high-level-plan-parent-container {
+	width: 100%;
+	position: relative;
+}
+
+.high-level-plan-icon-main {
+	display: flex; 
+	height: 200px;
+}
+
+.high-level-plan-icon-container {
+	width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	z-index: 1;
+}
+
+.high-level-plan-icon {
+	height: 50px;
+    width: 50px;
+    background: white;
+}
+
+.high-level-plan-text-main {
+	display: flex;
+    height: 50px;
+	z-index: 1;
+}
+
+.high-level-plan-text-container {
+	width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.high-level-plan {
+	position: absolute;
+	height: 100%;
+	z-index: 0;
+}
+
 @font-face { 
     font-family: LemonMilk; 
     src: url('/assets/LEMONMILK-Regular.otf') format("opentype"); 
 } 
-
 
 @media only screen and (max-height: 800px) {
     /* .content2-main {
