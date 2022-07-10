@@ -63,7 +63,7 @@
         transform: scale(1);
     }    
     10% {
-        transform: scale(1.3);
+        transform: scale(1.4);
     }
     20% {
         transform: scale(1);
@@ -78,10 +78,10 @@
     0% {
         transform: scale(1);
     }    
-    15% {
-        transform: scale(1.3);
+    20% {
+        transform: scale(1.4);
     }
-    25% {
+    30% {
         transform: scale(1);
     }
 }
@@ -90,14 +90,14 @@
     animation: high-level-plan-animation-3 5s infinite;
 }
 
-@keyframes high-level-plan-animation-2 {
+@keyframes high-level-plan-animation-3 {
     0% {
         transform: scale(1);
     }    
-    20% {
-        transform: scale(1.3);
-    }
     30% {
+        transform: scale(1.4);
+    }
+    40% {
         transform: scale(1);
     }
 }
