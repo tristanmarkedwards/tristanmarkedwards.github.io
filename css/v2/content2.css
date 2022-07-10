@@ -158,61 +158,6 @@ h3 {
     width: 100%;
 }
 
-.high-level-plan-main-parent-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.high-level-plan-main-container {
-	position: relative;
-    height: 190px;
-    width: 590px;
-}
-
-.high-level-plan-icon-main {
-	display: flex; 
-	height: 100%;
-}
-
-.high-level-plan-icon-container {
-	width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
-}
-
-.high-level-plan-icon {
-	height: 50px;
-    width: 50px;
-}
-
-.high-level-plan-text-main {
-	display: flex;
-    height: 70px;
-    width: 590px;
-}
-
-.high-level-plan-text {
-	width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    z-index: 1;
-    text-align: center;
-    font-size: 14px;
-}
-
-.high-level-plan {
-	position: absolute;
-	height: 100%;
-	z-index: 0;
-    top: 0;
-}
 
 @font-face { 
     font-family: LemonMilk; 
@@ -281,25 +226,6 @@ h3 {
     .title-container {
         height: 300px;
     }
-
-    .high-level-plan-main-container {
-        width: 472px;
-        height: 152px;
-    }
-
-    .high-level-plan-text-main {
-        width: 472px;
-        height: 50px;
-    }
-
-    .high-level-plan-text {
-        font-size: 12px;
-    }
-
-    .high-level-plan-icon {
-        height: 40px;
-        width: 40px;
-    }
 } 
 
 @media only screen and (max-width: 600px) {
@@ -320,24 +246,6 @@ h3 {
 
     .title-container {
         height: 200px;
-    }
-
-    .high-level-plan-main-container {
-        width: 354px;
-        height: 114px;
-    }
-
-    .high-level-plan-text-main {
-        width: 354px;
-    }
-
-    .high-level-plan-text {
-        font-size: 10px;
-    }
-
-    .high-level-plan-icon {
-        height: 30px;
-        width: 30px;
     }
 } 
 
