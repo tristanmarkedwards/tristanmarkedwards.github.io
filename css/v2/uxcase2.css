@@ -181,6 +181,11 @@
     .ux2-youtube {
         width: 450px; 
     }
+
+    .ux2-rr-mockups-container img {
+        height: unset;
+        width: 350px;
+    }
 } 
 
 @media only screen and (max-width: 500px) {
@@ -224,5 +229,9 @@
 
     .rr-wifeframe {
         width: 300px;
+    }
+
+    .rr-workflow {
+        height: 350px;
     }
 } 
