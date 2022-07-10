@@ -107,6 +107,10 @@
     padding-right: 10px;
 }
 
+.ux2-youtube {
+    width: 750px; 
+}
+
 @media only screen and (max-width: 1000px) {
     .content3-main {
         padding: 0px;
@@ -158,6 +162,10 @@
         height: unset;
         width: 400px;
     }
+
+    .ux2-youtube {
+        width: 600px; 
+    }
 } 
 
 
@@ -167,11 +175,15 @@
     }
     
     .rr-wifeframe {
-        width: 500px;
+        width: 400px;
     }
 
     .case-title {
         font-size: 20px;
+    }
+
+    .ux2-youtube {
+        width: 450px; 
     }
 } 
 
@@ -183,9 +195,13 @@
     .rr-wifeframe {
         width: 500px;
     }
-.ux2-inoffice img
+    
     .ux2-rr3 {
         width: 350px;
+    }
+
+    .ux2-youtube {
+        width: 380px; 
     }
 } 
 
@@ -204,5 +220,9 @@
 
     h4 {
         font-size: 16px;
+    }
+
+    .ux2-youtube {
+        width: 350px; 
     }
 } 
