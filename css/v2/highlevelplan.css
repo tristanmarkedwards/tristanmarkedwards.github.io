@@ -71,7 +71,7 @@
 }
 
 .high-level-plan-2 {
-    animation: high-level-plan-animation-1 5s infinite;
+    animation: high-level-plan-animation-2 5s infinite;
 }
 
 @keyframes high-level-plan-animation-2 {
@@ -87,7 +87,7 @@
 }
 
 .high-level-plan-3 {
-    animation: high-level-plan-animation-1 5s infinite;
+    animation: high-level-plan-animation-3 5s infinite;
 }
 
 @keyframes high-level-plan-animation-2 {
