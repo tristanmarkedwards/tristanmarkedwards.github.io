@@ -25,7 +25,7 @@
 	<div class="content3">
 		<div class="content3-main container">
 
-			<div id="article-title" class="case-title">Creating a better return on investment for online merchants</div>
+			<div class="case-title">Creating a better return on investment for online merchants</div>
 
             <p>
                 Eccommerce merchants and marketeers are being held back by their own product feeds, and while many are generally aware the problem exists, they often don't know how or where to take action.
@@ -86,9 +86,9 @@
 			<br>
 			<br>
 
-			<div class="case-header">
+			<div id="user-challenges" class="case-header">
 				<div class="ux2-iconcontainer"><img src="assets/icons/UXCaseStudy/user-challenges.svg" style="height: 33px;"></div>
-				<h3 id="user-challenges">USER CHALLENGES</h3>
+				<h3>USER CHALLENGES</h3>
 			</div>
             <p>
                 In order to do some initial research, I did a series of interviews with some of WakeupData's existing customer base. The existing customers use their other eccommerce application, WakeupData Hub, that can deploy their data feeds to different channels (Shopify, Facebook, Google Shopping, etc)
@@ -372,14 +372,7 @@
 	};
 
 	$(window).on('resize scroll', function() {
-		if ($('#article-title').isInViewport()) {
-			if ($(`#article-title`).hasClass(`title-pop`)){
-			}
-			else {
-				$(`#article-title`).addClass(`title-pop`);
-			}
-		}
-		else if ($('#who-is-the-user').isInViewport()) {
+		if ($('#who-is-the-user').isInViewport()) {
 			if ($(`#who-is-the-user`).hasClass(`title-pop`)){
 			}
 			else {
