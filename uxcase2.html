@@ -53,7 +53,7 @@
 					<br>
 					<br>
 
-					<div class="case-header">
+					<div id="#who-is-the-user" class="case-header">
 						<div class="ux2-iconcontainer"><img src="assets/icons/UXCaseStudy/who-is-the-user.svg" style="height: 33px;"></div>
 						<h3>WHO IS THE USER?</h3>
 					</div>
@@ -87,7 +87,7 @@
 			<br>
 			<br>
 
-			<div class="case-header">
+			<div id="user-challenges" class="case-header">
 				<div class="ux2-iconcontainer"><img src="assets/icons/UXCaseStudy/user-challenges.svg" style="height: 33px;"></div>
 				<h3>USER CHALLENGES</h3>
 			</div>
@@ -141,7 +141,7 @@
 					<br>
 					<br>
 					<br>
-					<div class="case-header">
+					<div id="high-level-proposal" class="case-header">
 						<div class="ux2-iconcontainer"><img src="assets/icons/UXCaseStudy/high-level-concept.svg" style="height: 33px;"></div>
 						<h3>HIGH LEVEL PROPOSAL</h3>
 					</div>
@@ -198,7 +198,7 @@
 			<br>
 
 			
-			<div class="case-header">
+			<div id="design" class="case-header">
 				<div class="ux2-iconcontainer"><img src="assets/icons/UXCaseStudy/design.svg" style="height: 33px;"></div>
 				<h3>DESIGN</h3>
 			</div>
@@ -278,7 +278,7 @@
 					<br>
 					<br>
 
-					<div class="case-header">
+					<div id="delivery" class="case-header">
 						<div class="ux2-iconcontainer"><img src="assets/icons/UXCaseStudy/deliver.svg" style="height: 33px;"></div>
 						<h3>DELIVERY</h3>
 					</div>
@@ -310,7 +310,7 @@
 			<br>
 			<br>
 			<br>
-			<div class="case-title" style="margin-bottom: 30px;">Thanks for reading!</div>
+			<div id="thanks-for-reading" class="case-title" style="margin-bottom: 30px;">Thanks for reading!</div>
 			<div style="transform: rotate(180deg);width: 100%;display: flex;justify-content: center;">
 				<img src="assets/movementTriangle.png" class="movement-arrow" style="position: unset";>
 			</div>
@@ -337,5 +337,60 @@
 				{
 					duration: 1000
 				});
+	});
+
+	$.fn.isInViewport = function() {
+		var elementTop = $(this).offset().top;
+		var elementBottom = elementTop + $(this).outerHeight();
+
+		var viewportTop = $(window).scrollTop();
+		var viewportBottom = viewportTop + $(window).height();
+
+		return elementBottom > viewportTop && elementTop < viewportBottom;
+	};
+
+	$(window).on('resize scroll', function() {
+		if ($('#who-is-the-user').isInViewport()) {
+			if ($(`#who-is-the-user`).hasClass(`title-pop`)){
+			}
+			else {
+				$(`#who-is-the-user`).addClass(`title-pop`);
+			}
+		}
+		else if ($('#user-challenges').isInViewport()) {
+			if ($(`#user-challenges`).hasClass(`title-pop`)){
+			}
+			else {
+				$(`#user-challenges`).addClass(`title-pop`);
+			}
+		}
+		else if ($('#high-level-proposal').isInViewport()) {
+			if ($(`#high-level-proposal`).hasClass(`title-pop`)){
+			}
+			else {
+				$(`#high-level-proposal`).addClass(`title-pop`);
+			}
+		}
+		else if ($('#design').isInViewport()) {
+			if ($(`#design`).hasClass(`title-pop`)){
+			}
+			else {
+				$(`#design`).addClass(`title-pop`);
+			}
+		}
+		else if ($('#delivery').isInViewport()) {
+			if ($(`#delivery`).hasClass(`title-pop`)){
+			}
+			else {
+				$(`#delivery`).addClass(`title-pop`);
+			}
+		}
+		else if ($('#thanks-for-reading').isInViewport()) {
+			if ($(`#thanks-for-reading`).hasClass(`title-pop`)){
+			}
+			else {
+				$(`#thanks-for-reading`).addClass(`title-pop`);
+			}
+		}
 	});
 </script>
