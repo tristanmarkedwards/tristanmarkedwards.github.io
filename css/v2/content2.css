@@ -189,12 +189,11 @@ h3 {
 .high-level-plan-icon {
 	height: 50px;
     width: 50px;
-    background: red;
 }
 
 .high-level-plan-text-main {
 	display: flex;
-    height: 50px;
+    height: 70px;
     width: 590px;
 }
 
@@ -202,9 +201,10 @@ h3 {
 	width: 100%;
     height: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
-	z-index: 1;
+    z-index: 1;
+    text-align: center;
+    font-size: 14px;
 }
 
 .high-level-plan {
@@ -289,6 +289,11 @@ h3 {
 
     .high-level-plan-text-main {
         width: 472px;
+        height: 50px;
+    }
+
+    .high-level-plan-text {
+        font-size: 12px;
     }
 
     .high-level-plan-icon {
@@ -324,6 +329,10 @@ h3 {
 
     .high-level-plan-text-main {
         width: 354px;
+    }
+
+    .high-level-plan-text {
+        font-size: 10px;
     }
 
     .high-level-plan-icon {
