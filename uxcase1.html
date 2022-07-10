@@ -25,7 +25,7 @@
 	<div class="content3">
 		<div class="content3-main container">
 
-			<div class="case-title">Creating a better return on investment for online merchants</div>
+			<div id="article-title" class="case-title">Creating a better return on investment for online merchants</div>
 
             <p>
                 Eccommerce merchants and marketeers are being held back by their own product feeds, and while many are generally aware the problem exists, they often don't know how or where to take action.
@@ -54,7 +54,7 @@
 
 					<div class="case-header">
 						<div class="ux2-iconcontainer"><img src="assets/icons/UXCaseStudy/who-is-the-user.svg" style="height: 33px;"></div>
-						<h3>WHO IS THE USER?</h3>
+						<h3 id="who-is-the-user">WHO IS THE USER?</h3>
 					</div>
 					<br>
 					<p style="width: 100%;font-weight: bold;font-size: 16px;">
@@ -88,7 +88,7 @@
 
 			<div class="case-header">
 				<div class="ux2-iconcontainer"><img src="assets/icons/UXCaseStudy/user-challenges.svg" style="height: 33px;"></div>
-				<h3>USER CHALLENGES</h3>
+				<h3 id="user-challenges">USER CHALLENGES</h3>
 			</div>
             <p>
                 In order to do some initial research, I did a series of interviews with some of WakeupData's existing customer base. The existing customers use their other eccommerce application, WakeupData Hub, that can deploy their data feeds to different channels (Shopify, Facebook, Google Shopping, etc)
@@ -137,7 +137,7 @@
 
 					<div class="case-header">
 						<div class="ux2-iconcontainer"><img src="assets/icons/UXCaseStudy/high-level-concept.svg" style="height: 33px;"></div>
-						<h3>HIGH LEVEL PROPOSAL</h3>
+						<h3 id="high-level-proposal">HIGH LEVEL PROPOSAL</h3>
 					</div>
 					
 					<br>
@@ -199,7 +199,7 @@
 			
 			<div class="case-header">
 				<div class="ux2-iconcontainer"><img src="assets/icons/UXCaseStudy/design.svg" style="height: 33px;"></div>
-				<h3>DESIGN</h3>
+				<h3 id="design">DESIGN</h3>
 			</div>
 			<br>
 
@@ -372,11 +372,47 @@
 	};
 
 	$(window).on('resize scroll', function() {
-		if ($('#delivery').isInViewport()) {
-			// do something
-			console.log("can see it");
-		} else {
-			// do something else
+		if ($('#article-title').isInViewport()) {
+			if ($(`#article-title`).hasClass(`title-pop`)){
+			}
+			else {
+				$(`#article-title`).addClass(`title-pop`);
+			}
+		}
+		else if ($('#who-is-the-user').isInViewport()) {
+			if ($(`#who-is-the-user`).hasClass(`title-pop`)){
+			}
+			else {
+				$(`#who-is-the-user`).addClass(`title-pop`);
+			}
+		}
+		else if ($('#user-challenges').isInViewport()) {
+			if ($(`#user-challenges`).hasClass(`title-pop`)){
+			}
+			else {
+				$(`#user-challenges`).addClass(`title-pop`);
+			}
+		}
+		else if ($('#high-level-proposal').isInViewport()) {
+			if ($(`#high-level-proposal`).hasClass(`title-pop`)){
+			}
+			else {
+				$(`#high-level-proposal`).addClass(`title-pop`);
+			}
+		}
+		else if ($('#design').isInViewport()) {
+			if ($(`#design`).hasClass(`title-pop`)){
+			}
+			else {
+				$(`#design`).addClass(`title-pop`);
+			}
+		}
+		else if ($('#delivery').isInViewport()) {
+			if ($(`#delivery`).hasClass(`title-pop`)){
+			}
+			else {
+				$(`#delivery`).addClass(`title-pop`);
+			}
 		}
 	});
 </script>
