@@ -1,3 +1,9 @@
+#responsiveMenu {
+    z-index: 10003;
+    position: absolute;
+    width: 100%;
+}
+
 .responsiveMenu {
     background-color: white; 
 }

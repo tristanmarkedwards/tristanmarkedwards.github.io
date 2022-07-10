@@ -1,0 +1,38 @@
+.sub-titles-fadein-1 {
+    animation: sub-titles-fadein-animation-1 3s;
+}
+
+@keyframes sub-titles-fadein-animation-1 {
+    40% {
+        opacity: 0;
+    } 
+    80% {
+        opacity: 1;
+    }
+}
+
+.sub-titles-fadein-2 {
+    animation: sub-titles-fadein-animation-2 3s;
+}
+
+@keyframes sub-titles-fadein-animation-2 {
+    50% {
+        opacity: 0;
+    } 
+    90% {
+        opacity: 1;
+    }
+}
+
+.sub-titles-fadein-2 {
+    animation: sub-titles-fadein-animation-3 3s;
+}
+
+@keyframes sub-titles-fadein-animation-2 {
+    60% {
+        opacity: 0;
+    } 
+    100% {
+        opacity: 1;
+    }
+}
