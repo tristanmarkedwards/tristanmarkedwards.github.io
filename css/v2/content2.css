@@ -280,6 +280,15 @@ h3 {
     .title-container {
         height: 300px;
     }
+
+    .high-level-plan-main-container {
+        width: 472px;
+        height: 152px;
+    }
+
+    .high-level-plan-text-main {
+        width: 472px;
+    }
 } 
 
 @media only screen and (max-width: 600px) {
@@ -300,6 +309,15 @@ h3 {
 
     .title-container {
         height: 200px;
+    }
+
+    .high-level-plan-main-container {
+        width: 354px;
+        height: 114px;
+    }
+
+    .high-level-plan-text-main {
+        width: 354px;
     }
 } 
 
