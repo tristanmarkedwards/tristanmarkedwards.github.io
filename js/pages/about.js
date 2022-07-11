@@ -46,7 +46,7 @@ about = {
                     I'm always up for a new adventure, always keen to learn new things, and obviously not afraid of change or new challenges!
                 </p>
                 <p>
-                    I have 6 years industry experience in professional desktop and WebGL application development across Unity and web-based platforms.
+                    I have 6 1/2 years industry experience in professional desktop and WebGL application development across Unity and web-based platforms.
                     I've been fortunate enough to have worked in several different fields on a variety of applications, ranging from quality assurance, risk assessment, price comparison, feed optimisation and 3D geospatial visualisations.
                 </p>`;
         },

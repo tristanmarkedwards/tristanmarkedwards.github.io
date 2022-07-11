@@ -25,6 +25,7 @@
 	<div class="content3">
 		<div class="content3-main container">
 
+			<br>
 			<div class="case-title">Giving surveyors a helping hand to identify critical network faults</div>
 
             <p>
@@ -330,13 +331,11 @@
     });
 
 	$(`.movement-arrow`).click(function (){
-		$('html,body').animate(
-				{
-					scrollTop: 0
-				}, 
-				{
-					duration: 1000
-				});
+		$('html,body').animate({
+			scrollTop: 0
+		}, {
+			duration: 1000
+		});
 	});
 
 	$.fn.isInViewport = function() {

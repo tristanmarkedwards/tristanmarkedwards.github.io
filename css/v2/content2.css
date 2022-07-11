@@ -185,6 +185,10 @@ h3 {
         width: 600px;
         height: 200px;
     }
+
+    .content2-container-description { 
+        height: 140px
+    }
     
     .roames-review {
         height: 500px;
