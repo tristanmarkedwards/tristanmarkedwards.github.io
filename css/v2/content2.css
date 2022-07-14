@@ -142,6 +142,10 @@ h3 {
     height: 200px;
     background: red;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
 @keyframes title-pop-animation {

@@ -32,6 +32,7 @@
     background: #F0F0F0;
     justify-content: center;
     overflow: hidden;
+    flex-direction: column;
 }
 
 .content3-main {
