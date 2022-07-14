@@ -28,9 +28,8 @@
 .ux1-wm-mockups-container img {
     margin: 10px;
     height: 320px;
+    max-width: 547px;
 }
-
-
 
 @media only screen and (max-width: 1200px) {
     .ux1-workflow-example {
