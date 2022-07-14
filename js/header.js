@@ -4,14 +4,14 @@ header = {
     
         var options = [
             { title: `home`, url: `#` },
-            { title: `work examples`, data: `workexamples` },
+            { title: `case studies`, data: `workexamples` },
             { title: `about`, url: `about.html` },
             { title: `contact`, url: `contact.html` }
         ];
 
         var workexamples = [
-            { title: `UX Case Study 1`, url: `uxcase1.html` },
-            { title: `UX Case Study 2`, url: `uxcase2.html` }
+            { title: `WiseMetrics`, url: `uxcase1.html` },
+            { title: `Roames Review`, url: `uxcase2.html` }
             // { title: `Digital Art`, url: `` },
         ];
 

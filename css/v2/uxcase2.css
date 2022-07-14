@@ -6,6 +6,7 @@
     color: #8a8a8a;
     text-align: center;
     font-size: 18px;
+    font-style: italic;
 }
 
 .case-title {
@@ -14,6 +15,7 @@
     font-family: LemonMilk;
     font-size: 28px;
     text-align: center;
+    color: #6b646e;
 }
 
 .case-header {
@@ -40,6 +42,7 @@
     justify-content: center;
     margin-bottom: 70px;
     padding: 0px 80px;
+    width: auto;
 }
 
 .ux2-inoffice {
