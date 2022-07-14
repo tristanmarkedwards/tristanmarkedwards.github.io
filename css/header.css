@@ -48,6 +48,7 @@
 header {
     background-color: #fff; 
     padding: 0;
+    position: relative;
 }
 
 header .container {
@@ -121,6 +122,9 @@ a:active {
     height: 24px;
     background-image: url('/assets/headerTriangle2.png');
     background-repeat: repeat;
+    position: absolute;
+    bottom: -24px;
+    z-index: 99;
 }
 
 /* Extra small devices */
