@@ -98,11 +98,11 @@ a:active {
 .examples-dropdown {
     background: white;
     position: absolute;
-    width: 100%;
+    width: 130%;
     border: 1px solid #e1e1e1;
     border-top: none;
     color: grey;
-    z-index: 99;
+    z-index: 999;
 }
 
 .examples-dropdown-option {
