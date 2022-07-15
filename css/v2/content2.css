@@ -192,6 +192,10 @@ h3 {
     margin: 0px 20px;
 }
 
+.product-delivery-value {
+    font-size: 40px;
+}
+
 @keyframes title-pop-animation {
     0% {
         transform: scale(1);
@@ -271,6 +275,16 @@ h3 {
     .content2-container {
         width: 500px;
         height: 200px;
+    }
+
+    .product-delivery-circle {
+        height: 120px;
+        width: 120px;
+        border: 7px solid #44c0b5;
+    }
+
+    .product-delivery-value {
+        font-size: 20px;
     }
 } 
 
