@@ -172,6 +172,26 @@ h3 {
     z-index: 1;
 }
 
+.product-delivery-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    color: #44c0b5;
+}
+
+.product-delivery-circle {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    border-radius: 500px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 10px solid #44c0b5;
+    margin: 0px 20px;
+}
+
 @keyframes title-pop-animation {
     0% {
         transform: scale(1);
