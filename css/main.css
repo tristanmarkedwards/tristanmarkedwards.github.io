@@ -34,6 +34,7 @@ body {
     height: 100vh;
     position: relative;
     align-items: center;
+    z-index: 1;
 }
 
 .line-break {
