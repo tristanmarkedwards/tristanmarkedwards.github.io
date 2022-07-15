@@ -17,7 +17,7 @@ footer = {
     
         $(`footer`).append(`
             <div class="footer-triangles"></div>
-            <div class="text-field"><p style="margin: 0px">LAYOUT DESIGN by <strong>TRISTAN EDWARDS</strong> © 2022</p></div>
+            <div class="text-field"><p style="margin: 0px">LAYOUT DESIGNED and PROGRAMMED by <strong>TRISTAN EDWARDS</strong> © 2022</p></div>
             <div class="iconsField">${append}</div>
         `);
     }
