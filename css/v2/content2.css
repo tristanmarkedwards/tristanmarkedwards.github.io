@@ -9,13 +9,13 @@
     justify-content: center;
     height: calc(100% - 250px);
     align-items: center;
+    flex-direction: column;
 }
 
 .content2-container {
-    width: 300px;
+    width: 100%;
     height: 600px;
     background: grey;
-    margin: 20px;
     position: relative;
     overflow: hidden;
     display: flex;
@@ -58,16 +58,13 @@
 }
 
 .wise-metrics {
-    height: 600px;
-    bottom: 0px;
+    width: 100%;
     position: absolute;
-    left: -300px;
 }
 
 .roames-review {
-    bottom: -100px;
+    width: 100%;
     position: absolute;
-    height: 700px;
 }
 
 .digital-art {
