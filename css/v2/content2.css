@@ -209,16 +209,6 @@ h3 {
     src: url('/assets/LEMONMILK-Regular.otf') format("opentype"); 
 } 
 
-@media only screen and (max-height: 800px) {
-    /* .content2-main {
-        margin-bottom: 100px;
-    } */
-    
-    .content2-container {
-        height: 450px;
-    }
-} 
-
 @media only screen and (max-width: 1200px) {
     body {
         padding-top: 60px;
@@ -237,8 +227,7 @@ h3 {
     }
 
     .content2-container {
-        width: 600px;
-        height: 200px;
+        height: 300px;
     }
 
     .content2-container-description { 
@@ -258,6 +247,16 @@ h3 {
     .digital-art {
         bottom: -120px;
         left: unset;
+    }
+} 
+
+@media only screen and (max-height: 800px) {
+    /* .content2-main {
+        margin-bottom: 100px;
+    } */
+    
+    .content2-container {
+        height: 450px;
     }
 } 
 
