@@ -166,6 +166,12 @@ h3 {
     z-index: 1;
 }
 
+.image-banner-text {
+    max-width: 300px;
+    position: absolute; 
+    z-index: 1;
+}
+
 @keyframes title-pop-animation {
     0% {
         transform: scale(1);
@@ -234,6 +240,12 @@ h3 {
         left: unset;
     }
 } 
+
+@media only screen and (max-width: 800px) {
+    .image-banner {
+        height: 200px;
+    }
+}
 
 @media only screen and (max-width: 600px) {
     .content2-container {
