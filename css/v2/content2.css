@@ -20,12 +20,12 @@
     display: flex;
     justify-content: center;
     transform: scale(1);
-    transition: all .3s ease-in-out;
+    transition: all .2s ease-in-out;
 }
 
 .content2-container:hover .image-section-link {
-    transform: scale(1.1);
-    transition: all .3s ease-in-out;
+    transform: scale(1.05);
+    transition: all .2s ease-in-out;
 }
 
 .content2-container-header-top {
@@ -56,12 +56,7 @@
     flex-direction: column;
 }
 
-.wise-metrics {
-    width: 100%;
-    position: absolute;
-}
-
-.roames-review {
+.ux-case {
     width: 100%;
     position: absolute;
 }
@@ -231,7 +226,7 @@ h3 {
     .content2-main {
         flex-direction: column;
         height: 100%;
-        padding-bottom: 70px;
+        padding-bottom: 50px;
     }
 
     .content2-container {
@@ -275,14 +270,9 @@ h3 {
         font-size: 20px;
     }
 
-    .wise-metrics {
+    .ux-case {
         height: 400px;
-        width: unset;
-    }
-
-    .roames-review {
-        height: 400px;
-        width: unset;
+        width: unset; 
     }
 } 
 

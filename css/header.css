@@ -103,6 +103,7 @@ a:active {
     border-top: none;
     color: grey;
     z-index: 999;
+    left: -20px;
 }
 
 .examples-dropdown-option {
