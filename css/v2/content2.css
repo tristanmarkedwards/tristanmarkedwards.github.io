@@ -192,6 +192,10 @@ h3 {
     font-size: 40px;
 }
 
+.ux-use-case-menu {
+    display: none;
+}
+
 @keyframes title-pop-animation {
     0% {
         transform: scale(1);
@@ -212,6 +216,10 @@ h3 {
 @media only screen and (max-width: 1200px) {
     body {
         padding-top: 60px;
+    }
+
+    .ux-use-case-menu {
+        display: unset;
     }
 } 
 
