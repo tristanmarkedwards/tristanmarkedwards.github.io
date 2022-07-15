@@ -1,18 +1,18 @@
 menu = {
     create: function () {
-        //console.log("adding responsive menu");
         var append = ``;
     
         var options = [
-            { title: `home`, url: `` },
-            // { title: `work examples`, url: `work-examples` },
-            { title: `about`, url: `about.html` },
-            { title: `contact`, url: `contact.html` }
+            { title: `home`, id: `home`, url: `` },
+            { title: `case study 1: wisemetrics`, id: `cs1`, url: `uxcase1.html` },
+            { title: `case study 2: roames review`, id: `cs2`, url: `uxcase2.html` },
+            { title: `about`, id: `about`, url: `about.html` },
+            { title: `contact`, id: `contact`, url: `contact.html` }
         ];
 
         for (var i = 0; i < options.length; i++){
             var title = options[i].title;
-            append +=  `<a id="responsive-menu-${options[i].title}" href="${options[i].url}"><div class="panel-body"><div class="header-option">${title.toUpperCase()}</div></div></a>`;
+            append +=  `<a id="responsive-menu-${options[i].id}" href="${options[i].url}"><div class="panel-body"><div class="header-option">${title.toUpperCase()}</div></div></a>`;
         }
 
         var panelHeader = `
