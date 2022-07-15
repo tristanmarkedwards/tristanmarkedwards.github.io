@@ -269,6 +269,16 @@ h3 {
     .image-banner {
         height: 200px;
     }
+
+    .product-delivery-circle {
+        height: 150px;
+        width: 150px;
+        border: 8px solid #44c0b5;
+    }
+
+    .product-delivery-value {
+        font-size: 30px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
