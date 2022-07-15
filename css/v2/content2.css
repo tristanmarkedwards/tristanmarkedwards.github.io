@@ -181,8 +181,8 @@ h3 {
 }
 
 .product-delivery-circle {
-    height: 200px;
-    width: 200px;
+    height: 180px;
+    width: 180px;
     display: flex;
     border-radius: 500px;
     justify-content: center;
