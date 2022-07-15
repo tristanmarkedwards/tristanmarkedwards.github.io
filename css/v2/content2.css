@@ -250,16 +250,6 @@ h3 {
     }
 } 
 
-@media only screen and (max-height: 800px) {
-    /* .content2-main {
-        margin-bottom: 100px;
-    } */
-    
-    .content2-container {
-        height: 450px;
-    }
-} 
-
 @media only screen and (max-width: 800px) {
     .image-banner {
         height: 200px;
@@ -277,10 +267,6 @@ h3 {
 }
 
 @media only screen and (max-width: 600px) {
-    .content2-container {
-        width: 500px;
-        height: 200px;
-    }
 
     .product-delivery-circle {
         height: 120px;
@@ -294,20 +280,12 @@ h3 {
 } 
 
 @media only screen and (max-width: 500px) {
-    .content2-container {
-        width: 350px;
-    }
-
     .air-quote {
         width: 380px;
     }
 } 
 
 @media only screen and (max-width: 400px) {
-    .content2-container {
-        width: 300px;
-    }
-
     .air-quote {
         width: 300px;
         padding: 15px;
