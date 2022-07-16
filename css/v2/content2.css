@@ -250,10 +250,6 @@ h3 {
 } 
 
 @media only screen and (max-width: 800px) {
-    .image-banner {
-        height: 200px;
-    }
-
     .product-delivery-circle {
         height: 150px;
         width: 150px;
