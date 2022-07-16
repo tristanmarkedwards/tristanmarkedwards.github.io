@@ -198,8 +198,15 @@ h3 {
 .toolkit-icon {
     height: 50px;
     width: 50px;
-    background: red;
     margin: 10px;
+}
+
+.interview-criteria {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
 
 @keyframes title-pop-animation {
