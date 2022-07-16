@@ -3,16 +3,16 @@ header = {
         var append = ``;
     
         var options = [
-            { title: `home`, url: `#` },
-            { title: `case studies`, data: `workexamples` },
-            { title: `about`, url: `about.html` },
-            { title: `contact`, url: `contact.html` }
+            { title: `home`, id: `home`, url: `#` },
+            { title: `case studies`, id: `cs`, data: `workexamples` },
+            { title: `about`, id: `about`, url: `about.html` },
+            { title: `contact`, id: `contact`, url: `contact.html` }
         ];
 
         var workexamples = [
             { title: `WiseMetrics`, url: `uxcase1.html` },
-            { title: `Roames Review`, url: `uxcase2.html` }
-            // { title: `Digital Art`, url: `` },
+            { title: `Roames Review`, url: `uxcase2.html` },
+            { title: `Roames World`, url: `` }
         ];
 
         for (var i = 0; i < options.length; i++){

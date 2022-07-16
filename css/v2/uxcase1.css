@@ -31,6 +31,10 @@
     max-width: 547px;
 }
 
+.kaufmann {
+    max-width: 400px;
+}
+
 @media only screen and (max-width: 1200px) {
     .ux1-workflow-example {
         width: 800px;
@@ -72,6 +76,10 @@
 
     .ux1-workflow-example {
         width: 400px;
+    }
+
+    .kaufmann {
+        max-width: 300px;
     }
 } 
 

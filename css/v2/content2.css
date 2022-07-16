@@ -125,7 +125,7 @@ h3 {
 }
 
 .title-pop {
-    animation: title-pop-animation 1s;
+    animation: title-pop-animation 0.8s;
 }
 
 .image-banner {
@@ -183,6 +183,10 @@ h3 {
     margin: 0px 20px;
 }
 
+.product-delivery-text {
+    font-size: 14px;
+}
+
 .product-delivery-value {
     font-size: 40px;
 }
@@ -196,7 +200,7 @@ h3 {
         transform: scale(1);
     }    
     50% {
-        transform: scale(1.2);
+        transform: scale(1.1);
     }
     100% {
         transform: scale(1);
@@ -247,6 +251,7 @@ h3 {
         height: 150px;
         width: 150px;
         border: 8px solid #44c0b5;
+        margin: 0px 5px;
     }
 
     .product-delivery-value {
@@ -261,13 +266,17 @@ h3 {
 @media only screen and (max-width: 600px) {
 
     .product-delivery-circle {
-        height: 120px;
-        width: 120px;
+        height: 110px;
+        width: 110px;
         border: 7px solid #44c0b5;
     }
 
     .product-delivery-value {
         font-size: 20px;
+    }
+
+    .product-delivery-text {
+        font-size: 12px;
     }
 
     .ux-case {
