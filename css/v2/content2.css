@@ -210,10 +210,15 @@ h3 {
 }
 
 .interview-criteria {
-    
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 300px;
+    border: 1px solid #e3e3e3;
+    margin: 10px;
+    border-radius: 15px;
 
 }
 
@@ -226,6 +231,12 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.interview-bubble-text {
+    text-align: center;
+    margin: 20px;
+    min-height: 150px;
 }
 
 @keyframes title-pop-animation {
