@@ -195,6 +195,13 @@ h3 {
     display: none;
 }
 
+.toolkit-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .toolkit-icon {
     height: 50px;
     width: 50px;
@@ -206,7 +213,7 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .interview-criteria {
@@ -214,29 +221,26 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    max-width: 300px;
+    flex-direction: row;
     border: 1px solid #e3e3e3;
     margin: 10px;
     border-radius: 15px;
-
 }
 
 .interview-bubble {
     height: 50px;
-    width: 50px;
+    min-width: 50px;
     background: #f0f0f0;
     border-radius: 5000px;
-    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0px 10px;
 }
 
 .interview-bubble-text {
-    text-align: center;
-    margin: 20px;
-    min-height: 150px;
+    margin: 20px 0px;
+    width: 100%;
 }
 
 .air-quote {
@@ -395,6 +399,10 @@ h3 {
     .ux-case {
         height: 400px;
         width: unset; 
+    }
+
+    .toolkit-container {
+        flex-direction: row;
     }
 } 
 
