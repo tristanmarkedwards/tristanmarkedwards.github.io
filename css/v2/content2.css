@@ -248,6 +248,7 @@ h3 {
     text-align: center;
     font-size: 18px;
     font-style: italic;
+    height: 200px;
 }
 
 .air-quote-row {
@@ -261,6 +262,7 @@ h3 {
 .air-quote-container {
     display: flex;
     flex-direction: row;
+    padding-bottom: 20px;
 }
 
 .air-quote.grey-quote {
@@ -276,6 +278,35 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.design-process-parent {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.design-process-container {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.design-process {
+    height: 100%;
+    width: 100%;
+    border-radius: 5000px;
+    position: absolute;
+}
+
+.design-process-text {
+    z-index: 1;
+    color: white;
+    font-weight: bold;
 }
 
 @keyframes title-pop-animation {
@@ -326,6 +357,11 @@ h3 {
 
     .air-quote-container {
         flex-direction: column;
+        padding-bottom: 0px;
+    }
+    
+    .air-quote {
+        height: unset;
     }
 } 
 
