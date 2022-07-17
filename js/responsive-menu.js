@@ -4,8 +4,10 @@ menu = {
     
         var options = [
             { title: `home`, id: `home`, url: `` },
-            { title: `case study 1: wisemetrics`, id: `cs1`, url: `uxcase1.html` },
-            { title: `case study 2: roames review`, id: `cs2`, url: `uxcase2.html` },
+            { title: `resume`, id: `resume`, url: `assets/resume-tristan.pdf` },
+            { title: `case study: wisemetrics`, id: `cs1`, url: `uxcase1.html` },
+            { title: `case study: roames review`, id: `cs2`, url: `uxcase2.html` },
+            { title: `case study: roames world`, id: `cs2`, url: `` },
             { title: `about`, id: `about`, url: `about.html` },
             { title: `contact`, id: `contact`, url: `contact.html` }
         ];
