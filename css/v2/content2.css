@@ -402,7 +402,7 @@ h3 {
     }
 
     .toolkit-container {
-        flex-direction: row;
+        flex-direction: column;
     }
 } 
 
