@@ -4,6 +4,7 @@ header = {
     
         var options = [
             { title: `home`, id: `home`, url: `#` },
+            { title: `resume`, id: `resume`, url: `resume-tristan.pdf` },
             { title: `case studies`, id: `cs`, data: `workexamples` },
             { title: `about`, id: `about`, url: `about.html` },
             { title: `contact`, id: `contact`, url: `contact.html` }
