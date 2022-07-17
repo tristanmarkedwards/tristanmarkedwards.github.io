@@ -250,6 +250,19 @@ h3 {
     font-style: italic;
 }
 
+.air-quote-row {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 10px;
+}
+
+.air-quote-container {
+    display: flex;
+    flex-direction: row;
+}
+
 .air-quote.grey-quote {
     background: #f7f7f7;
 }
@@ -309,6 +322,10 @@ h3 {
 
     .content2-container-description { 
         height: 140px
+    }
+
+    .air-quote-container {
+        flex-direction: column;
     }
 } 
 
