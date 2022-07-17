@@ -343,6 +343,12 @@ h3 {
     }
 } 
 
+@media only screen and (max-width: 1200px) {
+    .content2-container {
+        height: 650px;
+    }
+}
+
 @media only screen and (max-width: 800px) {
     .product-delivery-value {
         font-size: 30px;
