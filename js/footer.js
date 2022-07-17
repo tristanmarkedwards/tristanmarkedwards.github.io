@@ -3,7 +3,7 @@ footer = {
         var append = ``;
     
         var options = [
-            { icon: `email`, url: `tristan.edwards.portfolio@gmail.com` },
+            { icon: `email`, url: `mailto:tristan.edwards.portfolio@gmail.com` },
             { icon: `linkedin`, url: `https://linkedin.com/in/tristanmarkedwards/` }            
             // { icon: `dribbble`, url: `https://dribbble.com/BulksonBigT` },
             // { icon: `youtube`, url: `` }
