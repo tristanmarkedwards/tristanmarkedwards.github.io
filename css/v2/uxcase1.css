@@ -11,7 +11,7 @@
 }
 
 .ux1-workflow-example {
-    width: 700px;
+    width: 800px;
 }
 
 .back-to-top {
@@ -34,13 +34,6 @@
 .kaufmann {
     max-width: 400px;
 }
-
-@media only screen and (max-width: 1200px) {
-    .ux1-workflow-example {
-        width: 800px;
-    }
-    
-} 
 
 @media only screen and (max-width: 1000px) {
     .ux1-workflow-example {
