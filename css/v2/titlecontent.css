@@ -38,11 +38,13 @@
 
 @keyframes title-main-fadein-animation {
     0% {
-        bottom: 100px;
+        transform: translate(0px, -100px);
+        /* bottom: 100px; */
         opacity: 0;
     }
     100% {
-        bottom: 0px;
+        transform: translate(0px, 0px);
+        /* bottom: 0px; */
         opacity: 1;
     }
 }
