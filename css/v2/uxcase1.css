@@ -35,6 +35,14 @@
     max-width: 400px;
 }
 
+.legeakademiet {
+    max-width: 400px;
+}
+
+.wise-metrics-logos {
+    width: 600px;
+}
+
 @media only screen and (max-width: 1000px) {
     .ux1-workflow-example {
         width: 700px;
@@ -56,6 +64,10 @@
         width: 500px;
     }
 
+    .wise-metrics-logos {
+        width: 500px;
+    }
+
     .ux1-wm-mockups-container img {
         height: unset;
         width: 400px;
@@ -71,8 +83,21 @@
         width: 400px;
     }
 
+    .wise-metrics-logos {
+        width: 400px;
+    }
+
     .kaufmann {
         max-width: 300px;
+        height: 35px;
+    }
+
+    .legeakademiet {
+        max-width: 300px;
+    }
+
+    .ux1-workflow-container {
+        padding: 40px 10px;
     }
 } 
 
@@ -88,6 +113,10 @@
     }
 
     .ux1-workflow-example {
+        width: 300px;
+    }
+
+    .wise-metrics-logos {
         width: 300px;
     }
 

@@ -168,7 +168,7 @@ h3 {
     justify-content: center;
     width: 100%;
     align-items: center;
-    color: #44c0b5;
+    color: #6b646e;
 }
 
 .product-delivery-circle {
@@ -179,7 +179,7 @@ h3 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 8px solid #44c0b5;
+    border: 8px solid #adadad;
     margin: 0px 5px;
 }
 
@@ -214,6 +214,7 @@ h3 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 0px 10px;
 }
 
 .interview-criteria {
@@ -341,6 +342,10 @@ h3 {
     .air-quote {
         height: unset;
     }
+    
+    .air-quote-row {
+        margin: 0px;
+    }
 } 
 
 @media only screen and (max-width: 1200px) {
@@ -364,7 +369,7 @@ h3 {
     .product-delivery-circle {
         height: 110px;
         width: 110px;
-        border: 7px solid #44c0b5;
+        border: 6px solid #adadad;
     }
 
     .product-delivery-value {
