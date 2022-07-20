@@ -122,7 +122,6 @@
 				{
 					duration: 1000,
 					complete: function () {
-						$(`.movement-arrow`).addClass(`movement-arrow-fadein`);
 					}
 				});
 		}
@@ -130,7 +129,7 @@
 		var fadeOutArrow = setInterval(function () {
 			if (window.scrollY > 200){
 				$(`.movement-arrow`).removeClass(`movement-arrow-fadein`);
-				$(`.movement-arrow`).css(`opacity`, `0`);
+				$(`.movement-arrow`).addClass(`movement-arrow-fadein`);
 				clearInterval(fadeOutArrow);
 			}
 		}, 250);

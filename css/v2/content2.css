@@ -101,14 +101,17 @@ h3 {
 }
 
 .movement-arrow-fadein {
-    animation: arrow-fadein-animation 4s;
+    animation: arrow-fadein-animation 6s;
 }
 
 @keyframes arrow-fadein-animation {
     0% {
+        opacity: 1;
+    }
+    20% {
         opacity: 0;
     }
-    75% {
+    80% {
         opacity: 0;
     } 
     100% {
