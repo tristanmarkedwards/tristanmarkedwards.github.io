@@ -127,10 +127,13 @@
 .heuristics-number {
     min-height: 50px;
     min-width: 50px;
-    background: #f0f0f0;
+    background: #ffffff;
     margin: 5px 0px;
     border-radius: 5000px;
     color: #6b646e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .heuristics-text-container {
