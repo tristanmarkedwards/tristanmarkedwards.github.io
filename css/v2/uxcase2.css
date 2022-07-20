@@ -224,6 +224,7 @@
     .heuristics-parent-container {
         flex-direction: column;
         padding: 0px;
+        width: 100%;
     }
 } 
 

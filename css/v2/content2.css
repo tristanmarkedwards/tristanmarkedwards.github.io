@@ -14,7 +14,6 @@
 .content2-container {
     width: 100%;
     height: 800px;
-    background: grey;
     position: relative;
     overflow: hidden;
     display: flex;
@@ -23,10 +22,10 @@
     transition: all .2s ease-in-out;
 }
 
-.content2-container:hover .image-section-link {
+/* .content2-container:hover .image-section-link {
     transform: scale(1.05);
     transition: all .2s ease-in-out;
-}
+} */
 
 .content2-container-header-top {
     width: 100%;
