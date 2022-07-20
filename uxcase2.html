@@ -92,7 +92,7 @@
 					<br>
 					<br>
 
-					<div id="who-is-the-user" class="case-header">
+					<div id="overview" class="case-header">
 						<div class="ux2-iconcontainer"><img src="assets/icons/UXCaseStudy/overview.svg" style="height: 33px;"></div>
 						<h3>BACKGROUND & OVERVIEW</h3>
 					</div>
@@ -170,7 +170,7 @@
 						<br>
 
 						<p style="width: 100%;">
-							As Fugro ROAMES had an estabished relationship with Ergon Energy (who previously owned ROAMES), I was fortunate in being able to reach out to Ergon's linesman to conduct in person interviews on-site in our office.
+							As Fugro ROAMES had an estabished relationship with Ergon Energy (who previously owned ROAMES), I was fortunate in being able to reach out to Ergon's surveyors to conduct in person interviews on-site in our office. I spoke to 8 surveyors, and asked them a variety of questions related to their usual work routines and pain points.
 						</p>
 						<br>
 		
@@ -328,12 +328,109 @@
 				<br>
 
 				<p>
-					Once they were happy with the general concept, I needed to work with the engineers to figure out how the workflow would look, and to gain a better understanding of how the AWS backend would serve up the jobs to the front end:
+					Once they were happy with the general concept, I needed to work with the engineers to figure out how the workflow would look, and to gain a better understanding of how the AWS backend that they were busy working on would serve up the jobs to the front end. An important consideration I started to make at this point was how the UI design system should look, because while many of the interfaces would use job specific controls, there would also be a need for universal controls with the user's mental model in mind - a control / interface in one job should have the same behavior in another.
 				</p>
 				<br>
 
 				<img class="rr-workflow" src="assets/ux2/rr-workflow.png">
 				<br>
+
+				<h4 style="font-weight: bold">User Heuristics</h4>
+				<br>
+
+				<p>
+					I've adapted The Nielsen-Molich heuristics from their 1990 article, “Improving a Human-Computer Dialogue”
+				</p>
+				<br>
+
+				<div class="heuristics-parent-container">
+
+    				<div class="heuristics-row-container">
+
+						<div class="heuristics-container">
+							<div class="heuristics-number">1</div>
+							<div class="heuristics-text-container">
+								<div class="heuristics-main-text">Keep users informed about its status</div>
+							</div>
+						</div>
+
+						<div class="heuristics-container">
+							<div class="heuristics-number">2</div>
+							<div class="heuristics-text-container">
+								<div class="heuristics-main-text">Show information in ways users understand</div>
+								<div class="heuristics-subtext">from how the real world operates, and in the users’ language</div>
+							</div>
+						</div>
+
+						<div class="heuristics-container">
+							<div class="heuristics-number">3</div>
+							<div class="heuristics-text-container">
+								<div class="heuristics-main-text">Offer users control</div>
+								<div class="heuristics-subtext">and let them undo errors easily</div>
+							</div>
+						</div>
+
+						<div class="heuristics-container">
+							<div class="heuristics-number">4</div>
+							<div class="heuristics-text-container">
+								<div class="heuristics-main-text">Be consistent</div>
+								<div class="heuristics-subtext">so users aren’t confused over what different words, icons, etc. mean.</div>
+							</div>
+						</div>
+
+						<div class="heuristics-container">
+							<div class="heuristics-number">5</div>
+							<div class="heuristics-text-container">
+								<div class="heuristics-main-text">Prevent errors</div>
+								<div class="heuristics-subtext">a system should either avoid conditions where errors arise or warn users before they take risky actions (e.g., “Are you sure you want to do this?” messages).</div>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="heuristics-row-container">
+
+						<div class="heuristics-container">
+							<div class="heuristics-number">6</div>
+							<div class="heuristics-text-container">Have visible information, instructions, etc. to let users recognize options, actions, etc</div>
+							<div class="heuristics-subtext">instead of forcing them to rely on memory</div>
+						</div>
+
+						<div class="heuristics-container">
+							<div class="heuristics-number">7</div>
+							<div class="heuristics-text-container">
+								<div class="heuristics-main-text">Be flexible</div>
+								<div class="heuristics-subtext">so experienced users find faster ways to attain goal</div>
+							</div>
+						</div>
+
+						<div class="heuristics-container">
+							<div class="heuristics-number">8</div>
+							<div class="heuristics-text-container">
+								<div class="heuristics-main-text">Have no clutter</div>
+								<div class="heuristics-subtext">containing only relevant information for current tasks</div>
+							</div>
+						</div>
+
+						<div class="heuristics-container">
+							<div class="heuristics-number">9</div>
+							<div class="heuristics-text-container">
+								<div class="heuristics-main-text">Provide plain-language help</div>
+								<div class="heuristics-subtext">regarding errors and solutions</div>
+							</div>
+						</div>
+
+						<div class="heuristics-container">
+							<div class="heuristics-number">10</div>
+							<div class="heuristics-text-container">
+								<div class="heuristics-main-text">List concise steps in lean, searchable documentation</div>
+								<div class="heuristics-subtext">for overcoming problems</div>
+							</div>
+						</div>
+
+					</div>
+				
+				</div>
 
 				<h4 style="font-weight: bold">Testing Interactive Mockups</h4>
 				<br>
