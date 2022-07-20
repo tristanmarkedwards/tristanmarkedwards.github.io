@@ -151,6 +151,7 @@
     flex-direction: column;
     justify-content: center;
     display: flex;
+    margin-right: 20px;
 }
 
 .heuristics-main-text {
@@ -178,6 +179,8 @@
 
     .heuristics-parent-container {
         flex-direction: column;
+        padding: 0px;
+        width: 80%;
     }
 } 
 
@@ -211,6 +214,11 @@
 
     .ux2-youtube {
         width: 550px; 
+    }
+
+    .heuristics-parent-container {
+        flex-direction: column;
+        padding: 0px;
     }
 } 
 
