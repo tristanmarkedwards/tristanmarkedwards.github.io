@@ -111,10 +111,6 @@
 		$(`#logofade`).remove();
     });
 
-	var arrowTimer = setInterval(function () {
-		element.innerHTML += "Hello"
-	}, 1000);
-
 	$(`.movement-arrow`).click(function (){
 		var offset = $(`.content2`).offset().top;
 		if(offset > window.scrollY){
@@ -126,13 +122,15 @@
 				{
 					duration: 1000,
 					complete: function () {
+						$(`.movement-arrow`).addClass(`movement-arrow-fadein`);
 					}
 				});
 		}
 
 		var fadeOutArrow = setInterval(function () {
 			if (window.scrollY > 200){
-				$(`.movement-arrow`).hide();
+				$(`.movement-arrow`).removeClass(`movement-arrow-fadein`);
+				$(`.movement-arrow`).css(`opacity`, `0`);
 				clearInterval(fadeOutArrow);
 			}
 		}, 250);
