@@ -20,7 +20,7 @@
     justify-content: center;
 }
 
-.content2-container:hover {
+.content2-container .content2-container-description:hover {
     background: #000000c4;
 }
 
