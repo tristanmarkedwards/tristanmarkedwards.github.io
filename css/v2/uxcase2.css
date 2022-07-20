@@ -146,7 +146,7 @@
 }
 
 .heuristics-main-text {
-
+    font-weight: bold;
 }
 
 @media only screen and (max-width: 1000px) {
