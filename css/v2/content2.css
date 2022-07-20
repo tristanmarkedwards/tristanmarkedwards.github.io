@@ -101,7 +101,7 @@ h3 {
 }
 
 .movement-arrow-fadein {
-    animation: arrow-fadein-animation 6s;
+    animation: arrow-fadein-animation 3s;
 }
 
 @keyframes arrow-fadein-animation {
