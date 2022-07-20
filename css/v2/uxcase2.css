@@ -148,9 +148,9 @@
     min-height: 50px;
     width: 100%;
     margin: 0px 10px;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    display: flex;
 }
 
 .heuristics-main-text {
