@@ -20,6 +20,10 @@
     justify-content: center;
 }
 
+.content2-container:hover {
+    background: #000000c4;
+}
+
 .content2-container-header-top {
     width: 100%;
     height: 80px;

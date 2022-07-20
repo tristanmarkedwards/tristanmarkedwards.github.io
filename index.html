@@ -111,6 +111,10 @@
 		$(`#logofade`).remove();
     });
 
+	var arrowTimer = setInterval(function () {
+		element.innerHTML += "Hello"
+	}, 1000);
+
 	$(`.movement-arrow`).click(function (){
 		var offset = $(`.content2`).offset().top;
 		if(offset > window.scrollY){
