@@ -13,19 +13,12 @@
 
 .content2-container {
     width: 100%;
-    height: 800px;
+    height: 100vh;
     position: relative;
     overflow: hidden;
     display: flex;
     justify-content: center;
-    transform: scale(1);
-    transition: all .2s ease-in-out;
 }
-
-/* .content2-container:hover .image-section-link {
-    transform: scale(1.05);
-    transition: all .2s ease-in-out;
-} */
 
 .content2-container-header-top {
     width: 100%;
@@ -56,7 +49,7 @@
 }
 
 .ux-case {
-    width: 100%;
+    width: 150%;
     position: absolute;
 }
 
