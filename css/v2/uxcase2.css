@@ -182,6 +182,11 @@
         padding: 0px;
         width: 80%;
     }
+
+    .heuristics-container {
+        margin: 0px;
+        margin-bottom: 10px;
+    }
 } 
 
 @media only screen and (max-width: 800px) {
