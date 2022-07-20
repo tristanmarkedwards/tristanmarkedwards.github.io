@@ -126,7 +126,7 @@
 
 			<!-- Section 3 -->
 
-			<div id="who-is-the-user" class="case-header">
+			<div id="the-problem" class="case-header">
 				<div class="ux2-iconcontainer"><img src="assets/icons/UXCaseStudy/problem.svg" style="height: 33px;"></div>
 				<h3>THE PROBLEM</h3>
 			</div>
@@ -145,6 +145,8 @@
 			<br>
 			<br>
 			<br>
+
+			<!-- Section 4 -->
 
 			<div class="zigzag-containers">
 				<div class="footer-triangles" style="top: -10px; width: 1000vw; left: -1000px; "></div>
@@ -208,7 +210,9 @@
 						</div>
 		
 					</div>
-
+					
+					<br>
+					
 					<div class="air-quote-container">
 
 						<div class="air-quote-row">
@@ -268,11 +272,13 @@
 						<br>
 
 						<img class="ux1-workflow-example" src="assets/ux2/persona1.png">
+						<br>
 
 						<p>Throughout this process, project stakeholders had proposed the possibility of trying to divert portions of the campaign workflow that required manual work but less technical oversight to QA departments, as a cost saving measure</p>
 						<br>
 
 						<img class="ux1-workflow-example" src="assets/ux2/persona2.png">
+						<br>
 
 					</div>	
 					
@@ -290,34 +296,45 @@
 			<br>
 			<br>
 			<br>
-	
+			
+			<!-- Section 5 -->
+
 			<div id="design" class="case-header">
 				<div class="ux2-iconcontainer"><img src="assets/icons/UXCaseStudy/design.svg" style="height: 33px;"></div>
 				<h3>DESIGN</h3>
 			</div>
 			<br>
-			<p>
-				With the intial research completed and the high level proposal for a technical solution out of the way, it was time for me to work with the engineers on a workflow for the application.
-				
-				We invited some of the linesmen to come work with us on site at our office three days a week to ask them questions and get a deeper understanding of their work process, and what these lobby 'tasks' would logically look like.
-			</p>
-			<br>
-
-			<p>
-				Some examples tasks they proposed were: <i>identifying the best front and back photo attributed to each pole from the helicopter (to assess whether the quality was high enough to make an informed decision), making sure the photos were attributed to the correct pole, identifying all the component parts making up that particular pole, and then of course, trying to identify if there were any hazards and how severe they were.</i> 
-			</p>
-			<br>
-			<br>
 
 			<div class="ux2-workflow-container">
-				<img class="rr-wireframe" src="assets/ux2/rr-wireframe.jpg">
-				<br>
 				<p>
-					I came up with the concept of a 'lobby' system, whereby a linesman can log into the service and find a list of open work tasks or 'jobs' needing to be completed. 
+					The high level concept that the HPC (high performance computing) team had put together was that Roames would offer a digital solution that broke up the surveyor's inspection work into smaller segments, known as jobs, with differing levels of technical know-how required to complete them, and these jobs would be served up to users based on the level of seniority assigned to the user account.
 				</p>
 				<br>
+	
+				<p>
+					I worked with the software engineering team to come up with some quick proposals for how the workflow of these jobs might be managed, firstly by doing some Crazy 8's - A UX technique for coming up with 8 distinct ideas, spending only a minute on each. It was in this stage that I came up with the concept of a 'lobby' system, whereby a user could log into the service and find a list of open work tasks needing to be completed. 
+				</p>
+				<br>
+
+				<img class="rr-wireframe" src="assets/ux2/crazy8s.jpg">
+				<br>
+
+				<p>
+					I then started to turn the best of the ideas into an interactive storyboard to run by the project stakeholders:
+				</p>
+				<br>
+
+				<img class="rr-wireframe" src="assets/ux2/rr-wireframe.jpg">
+				<br>
+
+				<p>
+					Once they were happy with the general concept, I needed to work with the engineers to figure out how the workflow would look, and to gain a better understanding of how the AWS backend would serve up the jobs to the front end:
+				</p>
+				<br>
+
 				<img class="rr-workflow" src="assets/ux2/rr-workflow.png">
 				<br>
+				
 				<p>
 					One of my goals for the system's design architecture was to create common UI components that would be reusable, regardless of the job type. I attempted to illustrate the workflow and how the interaction between universal and job specific UI elements would work.
 				</p>
@@ -367,6 +384,8 @@
 			<br>
 			<br>
 
+			<!-- Section 6 -->
+
 			<div class="zigzag-containers">
 				<div class="footer-triangles" style="top: -10px; width: 1000vw; left: -1000px; "></div>
 				<div style="z-index: 5;position: relative;">
@@ -409,6 +428,9 @@
 			<br>
 			<br>
 			<br>
+
+			<!-- Section 7 -->
+
 			<div id="thanks-for-reading" class="case-title" style="margin-bottom: 30px;">Thanks for reading!</div>
 			<div style="transform: rotate(180deg);width: 100%;display: flex;justify-content: center;">
 				<img src="assets/movementTriangle.png" class="movement-arrow" style="position: unset";>
@@ -450,27 +472,31 @@
 	};
 
 	$(window).on('resize scroll', function() {
-		if ($('#who-is-the-user').isInViewport()) {
+		// Section 2
+		if ($('#overview').isInViewport()) {
+			if ($(`#overview`).hasClass(`title-pop`)){
+			}
+			else {
+				$(`#overview`).addClass(`title-pop`);
+			}
+		}
+		// Section 3
+		else if ($('#the-problem').isInViewport()) {
+			if ($(`#the-problem`).hasClass(`title-pop`)){
+			}
+			else {
+				$(`#the-problem`).addClass(`title-pop`);
+			}
+		}
+		//Section 4
+		else if ($('#who-is-the-user').isInViewport()) {
 			if ($(`#who-is-the-user`).hasClass(`title-pop`)){
 			}
 			else {
 				$(`#who-is-the-user`).addClass(`title-pop`);
 			}
 		}
-		else if ($('#user-challenges').isInViewport()) {
-			if ($(`#user-challenges`).hasClass(`title-pop`)){
-			}
-			else {
-				$(`#user-challenges`).addClass(`title-pop`);
-			}
-		}
-		else if ($('#high-level-proposal').isInViewport()) {
-			if ($(`#high-level-proposal`).hasClass(`title-pop`)){
-			}
-			else {
-				$(`#high-level-proposal`).addClass(`title-pop`);
-			}
-		}
+		//Section 5
 		else if ($('#design').isInViewport()) {
 			if ($(`#design`).hasClass(`title-pop`)){
 			}
@@ -478,6 +504,7 @@
 				$(`#design`).addClass(`title-pop`);
 			}
 		}
+		//Section 6
 		else if ($('#delivery').isInViewport()) {
 			if ($(`#delivery`).hasClass(`title-pop`)){
 			}
@@ -485,6 +512,7 @@
 				$(`#delivery`).addClass(`title-pop`);
 			}
 		}
+		//Section 7
 		else if ($('#thanks-for-reading').isInViewport()) {
 			if ($(`#thanks-for-reading`).hasClass(`title-pop`)){
 			}
