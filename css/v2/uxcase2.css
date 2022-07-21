@@ -115,6 +115,7 @@
     width: 100%;
     flex-direction: row;
     padding: 20px;
+    font-size: 12px;
 }
 
 .heuristics-row-container {
@@ -126,7 +127,7 @@
     background: white;
     margin: 10px;
     align-items: center;
-    height: 100px;
+    height: 80px;
     border-radius: 15px;
 }
 
