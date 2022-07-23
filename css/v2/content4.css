@@ -41,7 +41,7 @@
     font-family: LemonMilk;
 }
 
-.experience-years-icon {
+.experience-years-icon-container {
     width: 80px;
     height: 80px;
     margin-bottom: 25px;
@@ -144,5 +144,18 @@
     
     .experience-section-subtitle {
         font-size: 14px; 
+    }
+
+    .experience-flag {
+        width: 42px;
+        height: 32px;
+    }
+
+    .experience-flag-container {
+        padding-top: 15px;
+    }
+
+    .experience-years-icon-container {
+        padding-bottom: 15px;
     }
 } 
