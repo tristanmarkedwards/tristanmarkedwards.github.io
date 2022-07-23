@@ -158,4 +158,22 @@
     .experience-years-icon-container {
         padding-bottom: 15px;
     }
+
+    .experience-industry-text {
+        font-size: 18px;
+    }
+
+    .experience-industry-icon-container {
+        width: 60px;
+        height: 50px;
+    }
+
+    .experience-industry-icon-container .industry-icon {
+        height: 32px;
+        width: 32px;
+    }
+
+    .experience-seperator {
+        height: 120px;
+    }
 } 
