@@ -2,4 +2,95 @@
     height: 100vh;
     width: 100%;
     background: #F0F0F0;
+    z-index: 1;
+    position: relative;
+}
+
+.content4-title-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: LemonMilk;
+}
+
+.experience-parent-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.experience-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: LemonMilk;
+}
+
+.experience-years-icon {
+    width: 80px;
+    height: 80px;
+    background: white;
+    margin-bottom: 25px;
+}
+
+.experience-seperator {
+    width: 3px;
+    background: #cbbfbf4a;
+    height: 150px;
+    margin: 0px 20px;
+}
+
+.experience-flag-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.experience-flag {
+    width: 60px;
+    height: 45px;
+    background: #6c656f;
+    margin: 5px;
+}
+
+.experience-industry-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.experience-industry-icons-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.experience-industry-icon-container {
+    width: 80px;
+    height: 80px;
+    background: white;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.experience-industry-icon-container .industry-icon {
+    height: 50px;
+    width: 50px;
+    background: black;
+}
+
+.experience-industry-text {
+    color: #6c656f;
+    font-size: 24px;
+    font-weight: bold;
 }

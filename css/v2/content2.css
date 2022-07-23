@@ -51,7 +51,7 @@
     position: absolute;
     display: flex;
     justify-content: center;
-    height: 180px;
+    height: 220px;
     color: white;
     padding: 20px;
     font-family: LemonMilk;
@@ -372,7 +372,7 @@ h3 {
     }
 
     .content2-container-description { 
-        height: 140px
+        height: 160px
     }
 
     .air-quote-container {
