@@ -131,11 +131,11 @@
 
 @media only screen and (max-width: 600px) {
     .content4-small-title {
-        font-size: 22px;
+        font-size: 18pxpx;
     }
 
     .content4-big-title {
-        font-size: 60px;
+        font-size: 48px;
     }
 
     .experience-section-title {
