@@ -36,6 +36,14 @@
     height: 80px;
     background: white;
     margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.experience-years-icon {
+    width: 48px;
+    height: 48px;
 }
 
 .experience-seperator {
@@ -53,9 +61,8 @@
 }
 
 .experience-flag {
-    width: 60px;
-    height: 45px;
-    background: #6c656f;
+    width: 52px;
+    height: 40px;
     margin: 5px;
 }
 
@@ -76,7 +83,6 @@
 .experience-industry-icon-container {
     width: 80px;
     height: 80px;
-    background: white;
     margin: 5px;
     display: flex;
     justify-content: center;
@@ -84,9 +90,15 @@
 }
 
 .experience-industry-icon-container .industry-icon {
-    height: 50px;
-    width: 50px;
-    background: black;
+    height: 48px;
+    width: 48px;
+}
+
+.experience-industry-text-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
 }
 
 .experience-industry-text {
