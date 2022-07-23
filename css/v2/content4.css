@@ -15,6 +15,16 @@
     font-family: LemonMilk;
 }
 
+.content4-small-title {
+    color: #cbbfbf;
+    font-size: 26px;
+}
+
+.content4-big-title {
+    color: #6c656f; 
+    font-size: 80px;
+}
+
 .experience-parent-container {
     width: 100%;
     display: flex;
@@ -106,3 +116,33 @@
     font-size: 24px;
     font-weight: bold;
 }
+
+.experience-section-title {
+    color: #6c656f; 
+    font-size: 24px; 
+    font-weight: bold; 
+}
+
+.experience-section-subtitle {
+    color: #cbbfc3; 
+    font-size: 18px; 
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .content4-small-title {
+        font-size: 22px;
+    }
+
+    .content4-big-title {
+        font-size: 60px;
+    }
+
+    .experience-section-title {
+        font-size: 20px; 
+    }
+    
+    .experience-section-subtitle {
+        font-size: 14px; 
+    }
+} 
