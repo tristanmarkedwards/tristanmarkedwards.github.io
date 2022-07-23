@@ -33,7 +33,7 @@
 <body>
 	<div class="content">
 		<div class="particle-container"></div>
-		<img src="assets/movementTriangle.png" class="movement-arrow"/>
+		<img id="movement-arrow1" src="assets/movementTriangle.png" class="movement-arrow"/>
 		<img src="assets/background.svg" style="right: 0px;position: absolute;z-index: -1;bottom: 0px;height: 100vh;"/>
 		<div class="title-container">
 			<div class="title-main-container"><img class="title-logo title-main-fadein" src="assets/tedwards_logo.png"/></div>
@@ -48,6 +48,8 @@
 	</div>
 
 	<div class="content4"">
+
+		<div class="header-triangles"></div>
 
 		<br>
 		<br>
@@ -109,12 +111,12 @@
 		</div>
 
 		<div style="display: flex; justify-content: center">
-			<img src="assets/movementTriangle.png" class="movement-arrow movement-arrow-fadein">
+			<img id="movement-arrow2" src="assets/movementTriangle.png" class="movement-arrow"/>
 		</div>
 
 	</div>
 
-	<div class="header-triangles"></div>
+	<div class="header-triangles-grey"></div>
 	<div class="content2">
 		<!-- <header></header> -->
 		<div class="content2-main">
@@ -171,7 +173,23 @@
 		$(`#logofade`).remove();
     });
 
-	$(`.movement-arrow`).click(function (){
+	$(`#movement-arrow1`).click(function (){
+		var offset = $(`.content4`).offset().top;
+		if(offset > window.scrollY){
+
+			$('html,body').animate(
+				{
+					scrollTop: offset
+				}, 
+				{
+					duration: 1000,
+					complete: function () {
+					}
+				});
+		}
+	});
+
+	$(`#movement-arrow2`).click(function (){
 		var offset = $(`.content2`).offset().top;
 		if(offset > window.scrollY){
 
@@ -185,13 +203,5 @@
 					}
 				});
 		}
-
-		var fadeOutArrow = setInterval(function () {
-			if (window.scrollY > 200){
-				$(`.movement-arrow`).removeClass(`movement-arrow-fadein`);
-				$(`.movement-arrow`).addClass(`movement-arrow-fadein`);
-				clearInterval(fadeOutArrow);
-			}
-		}, 250);
 	});
 </script>

@@ -127,6 +127,15 @@ a:active {
     z-index: 99;
 }
 
+.header-triangles-grey {
+    width: 100%;
+    height: 24px;
+    background-image: url('/assets/headerTriangle3.png');
+    background-repeat: repeat;
+    position: absolute;
+    z-index: 99;
+}
+
 /* Extra small devices */
 @media only screen and (max-width: 600px) {
     .nav-regular { display: none; }  
