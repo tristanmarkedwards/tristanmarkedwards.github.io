@@ -3,8 +3,8 @@ footer = {
         var append = ``;
     
         var options = [
-            { icon: `email`, url: `mailto:tristan.edwards.portfolio@gmail.com` },
-            { icon: `linkedin`, url: `https://linkedin.com/in/tristanmarkedwards/` }            
+            { icon: `email`, id: `footer-email`, url: `mailto:tristan.edwards.portfolio@gmail.com` },
+            { icon: `linkedin`, id: `footer-linkedin`, url: `https://linkedin.com/in/tristanmarkedwards/` }            
             // { icon: `dribbble`, url: `https://dribbble.com/BulksonBigT` },
             // { icon: `youtube`, url: `` }
         ];

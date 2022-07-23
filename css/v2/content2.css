@@ -428,6 +428,10 @@ h3 {
     .toolkit-container {
         flex-direction: column;
     }
+
+    #footer-email {
+        display: none;
+    }
 } 
 
 @media only screen and (max-width: 500px) {
