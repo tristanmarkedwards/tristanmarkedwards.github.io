@@ -283,39 +283,47 @@
 		}
 	});
 
+	$.fn.isInViewport = function() {
+		var elementTop = $(this).offset().top;
+		var elementBottom = elementTop + $(this).outerHeight();
+
+		var viewportTop = $(window).scrollTop();
+		var viewportBottom = viewportTop + $(window).height();
+
+		return elementBottom > viewportTop && elementTop < viewportBottom;
+	};
+
 	$(window).on('resize scroll', function() {
 		if ($(`.content4`).isInViewport()) {
-			// if ($(`#experience`).hasClass(`experience-anim`)){
-			// }
-			// else {
-			// 	$(`#experience`).addClass(`experience-anim`);
-			// }
+			if ($(`#experience`).hasClass(`experience-anim`)){
+			}
+			else {
+				$(`#experience`).addClass(`experience-anim`);
+			}
 
-			// if ($(`#imtristan`).hasClass(`imtristan-anim`)){
-			// }
-			// else {
-			// 	$(`#imtristan`).addClass(`imtristan-anim`);
-			// }
+			if ($(`#imtristan`).hasClass(`imtristan-anim`)){
+			}
+			else {
+				$(`#imtristan`).addClass(`imtristan-anim`);
+			}
 
-			// if ($(`#experience-container1`).hasClass(`experience-container1-anim`)){
-			// }
-			// else {
-			// 	$(`#experience-container1`).addClass(`experience-container1-anim`);
-			// }
+			if ($(`#experience-container1`).hasClass(`experience-container1-anim`)){
+			}
+			else {
+				$(`#experience-container1`).addClass(`experience-container1-anim`);
+			}
 
-			// if ($(`#experience-container2`).hasClass(`experience-container2-anim`)){
-			// }
-			// else {
-			// 	$(`#experience-container2`).addClass(`experience-container2-anim`);
-			// }
+			if ($(`#experience-container2`).hasClass(`experience-container2-anim`)){
+			}
+			else {
+				$(`#experience-container2`).addClass(`experience-container2-anim`);
+			}
 
-			// if ($(`#countries`).hasClass(`countries-anim`)){
-			// }
-			// else {
-			// 	$(`#countries`).addClass(`countries-anim`);
-			// }
-
-			console.log("can see content 4");
+			if ($(`#countries`).hasClass(`countries-anim`)){
+			}
+			else {
+				$(`#countries`).addClass(`countries-anim`);
+			}
 		}
 	});
 </script>
