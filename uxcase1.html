@@ -170,33 +170,40 @@
 
 			<div class="zigzag-containers">
 				<div class="footer-triangles" style="top: -10px; width: 1000vw; left: -1000px; "></div>
-				<div style="z-index: 5;position: relative;">
+				
+				<div class="ux-case1-section4-container">
 					
-					<br>
-					<br>
-					<br>
-					<br>
+					<div id="section4-cover" class="uxcase-coverup-white"></div>
 
-					<div id="the-problem" class="case-header">
-						<div class="ux2-iconcontainer"><img src="assets/icons/UXCaseStudy/problem.svg" style="height: 33px;"></div>
-						<h3>THE PROBLEM</h3>
+					<div class="ux-case1-section4">
+
+						<br>
+						<br>
+						<br>
+						<br>
+
+						<div id="the-problem" class="case-header">
+							<div class="ux2-iconcontainer"><img src="assets/icons/UXCaseStudy/problem.svg" style="height: 33px;"></div>
+							<h3>THE PROBLEM</h3>
+						</div>
+						<br>
+						
+						<p style="width: 100%">
+							The company's web-based WakeupData Hub allows customers to control their data feeds centrally and deploy variations to different channels, but a complication was idenitified by the Chief Technical Officer (CTO). 
+							Essentially, because WakeupData Hub supports data feeds of various formats and purposes, their was no means to give the user detailed insights into what changes specifically would improve their data quality - a key ingredient in improving various business metrics, such as click through rate, and ultimately product sales.
+						</p>
+						<br>
+			
+						<p style="width: 100%">
+							With <a href="https://www.linkedin.com/pulse/last-e-commerce-duel-between-amazon-google-faisal-masud/">Google Shopping feeds controlling 28.9% of the market in 2020</a>, and <a href="https://www.linkedin.com/pulse/last-e-commerce-duel-between-amazon-google-faisal-masud/">Amazon in second with a 10.3% share</a>, the CTO decided that the ideal technical solution was to build an application that specifically catered to Google Shopping feeds. This would provide the flexibility required to give users specific, well informed suggestions on what changes to make to their data feeds. This would significantly reduce the barrier of entry for users to intervene with their own data and remove a reliance of some customers on WakeupData's Customer Success manager's to micromanage their feeds no their behalf - a significant operational cost.   
+						</p>
+			
+						<br>
+						<br>
+						<br>
+						<br>
+
 					</div>
-					<br>
-					
-					<p style="width: 100%">
-						The company's web-based WakeupData Hub allows customers to control their data feeds centrally and deploy variations to different channels, but a complication was idenitified by the Chief Technical Officer (CTO). 
-						Essentially, because WakeupData Hub supports data feeds of various formats and purposes, their was no means to give the user detailed insights into what changes specifically would improve their data quality - a key ingredient in improving various business metrics, such as click through rate, and ultimately product sales.
-					</p>
-					<br>
-		
-					<p style="width: 100%">
-						With <a href="https://www.linkedin.com/pulse/last-e-commerce-duel-between-amazon-google-faisal-masud/">Google Shopping feeds controlling 28.9% of the market in 2020</a>, and <a href="https://www.linkedin.com/pulse/last-e-commerce-duel-between-amazon-google-faisal-masud/">Amazon in second with a 10.3% share</a>, the CTO decided that the ideal technical solution was to build an application that specifically catered to Google Shopping feeds. This would provide the flexibility required to give users specific, well informed suggestions on what changes to make to their data feeds. This would significantly reduce the barrier of entry for users to intervene with their own data and remove a reliance of some customers on WakeupData's Customer Success manager's to micromanage their feeds no their behalf - a significant operational cost.   
-					</p>
-		
-					<br>
-					<br>
-					<br>
-					<br>
 
 				</div>
 				<div class="footer-triangles" style="bottom: -10px; transform: rotate(0deg); width: 1000vw; left: -1000px;"></div>
@@ -760,6 +767,8 @@
 			}
 			else {
 				$(`#the-problem`).addClass(`title-pop`);
+				$(`#section3-cover`).hide();
+				$(`.ux-case1-section4`).addClass(`ux-case1-section-anim`);
 			}
 		}
 		//Section 5

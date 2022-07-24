@@ -59,6 +59,14 @@
     height: 500px;
 }
 
+.ux-case1-section4-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 500px;
+}
+
 .ux-case1-section2 {
     z-index: 5; 
     position: absolute; 
@@ -66,6 +74,12 @@
 }
 
 .ux-case1-section3 {
+    z-index: 5; 
+    position: absolute; 
+    top: 0px;
+}
+
+.ux-case1-section4 {
     z-index: 5; 
     position: absolute; 
     top: 0px;
