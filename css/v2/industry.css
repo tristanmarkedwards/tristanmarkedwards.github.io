@@ -1,19 +1,31 @@
 .industry-icon.industry-icon1 {
-    animation: industry-icon-animation-1 5s infinite;
+    animation: industry-icon-animation-1 10s infinite;
 }
 
 .industry-icon.industry-icon2 {
-    animation: industry-icon-animation-2 5s infinite;
+    animation: industry-icon-animation-2 10s infinite;
+}
+
+.industry-icon.industry-icon3 {
+    animation: industry-icon-animation-3 10s infinite;
+}
+
+.industry-icon.industry-icon4 {
+    animation: industry-icon-animation-4 10s infinite;
+}
+
+.industry-icon.industry-icon5 {
+    animation: industry-icon-animation-5 10s infinite;
 }
 
 @keyframes industry-icon-animation-1 {
     0% {
         transform: scale(1);
     }    
-    10% {
+    5% {
         transform: scale(1.2);
     }
-    20% {
+    10% {
         transform: scale(1);
     }
 }
@@ -25,7 +37,43 @@
     20% {
         transform: scale(1.2);
     }
-    30% {
+    25% {
+        transform: scale(1);
+    }
+}
+
+@keyframes industry-icon-animation-3 {
+    0% {
+        transform: scale(1);
+    }    
+    35% {
+        transform: scale(1.2);
+    }
+    40% {
+        transform: scale(1);
+    }
+}
+
+@keyframes industry-icon-animation-4 {
+    0% {
+        transform: scale(1);
+    }    
+    50% {
+        transform: scale(1.2);
+    }
+    60% {
+        transform: scale(1);
+    }
+}
+
+@keyframes industry-icon-animation-5 {
+    0% {
+        transform: scale(1);
+    }    
+    70% {
+        transform: scale(1.2);
+    }
+    80% {
         transform: scale(1);
     }
 }
