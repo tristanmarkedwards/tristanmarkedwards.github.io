@@ -55,14 +55,14 @@
     z-index: 5; 
     position: absolute; 
     top: 0px;
-    display: none;
+    /* display: none; */
 }
 
 .ux-case1-section3 {
     z-index: 5; 
     position: absolute; 
     top: 0px;
-    display: none;
+    /* display: none; */
 }
 
 .ux-case1-section-anim {
