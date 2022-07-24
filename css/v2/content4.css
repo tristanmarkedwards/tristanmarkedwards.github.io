@@ -173,23 +173,23 @@
 
 #imtristan {
     position: absolute;
-    animation: imtristan-fadein 2s;
+    animation: imtristan-fadein 1.5s;
 }
 
 #experience {
-    animation: experience-fadein 4s;
+    animation: experience-fadein 3s;
 }
 
 #experience-container1 {
-    animation: experience-container-fadein 6s;
+    animation: experience-container-fadein 4.5s;
 }
 
 #experience-container2 {
-    animation: experience-container-fadein 6s;
+    animation: experience-container-fadein 4.5s;
 }
 
 #countries {
-    animation: countries-fadein 8s;
+    animation: countries-fadein 6s;
 }
 
 .content4-padding1 {
