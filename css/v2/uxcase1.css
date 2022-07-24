@@ -45,11 +45,13 @@
 
 .ux-case1-section2-container {
     position: relative;
+    width: 100%;
     height: 900px;
 }
 
 .ux-case1-section3-container {
     position: relative;
+    width: 100%;
     height: 500px;
 }
 
@@ -57,14 +59,14 @@
     z-index: 5; 
     position: absolute; 
     top: 0px;
-    /* display: none; */
+    display: none;
 }
 
 .ux-case1-section3 {
     z-index: 5; 
     position: absolute; 
     top: 0px;
-    /* display: none; */
+    display: none;
 }
 
 .ux-case1-section-anim {
@@ -154,6 +156,10 @@
     .ux-case1-section2-container {
         height: 700px;
     }
+
+    .ux-case1-section3-container {
+        height: 650px;
+    }
 } 
 
 @media only screen and (max-width: 500px) {
@@ -182,5 +188,9 @@
 
     .ux-case1-section2-container {
         height: 650px;
+    }
+
+    .ux-case1-section3-container {
+        height: 775px;
     }
 } 
