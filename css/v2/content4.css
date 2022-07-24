@@ -113,6 +113,8 @@
     justify-content: center;
     padding-top: 20px;
     font-family: LemonMilk;
+    flex-direction: column;
+    align-items: center;
 }
 
 .experience-industry-text {
@@ -142,6 +144,7 @@
 
 .experience-industry-name-text {
     position: absolute;
+    opacity: 0;
 }
 
 @media only screen and (max-width: 600px) {
