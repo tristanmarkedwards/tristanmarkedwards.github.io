@@ -171,25 +171,25 @@
     opacity: 0;
 }
 
+#imtristan {
+    position: absolute;
+    animation: imtristan-fadein 2s;
+}
+
 #experience {
-    animation: experience-fadein 3s;
+    animation: experience-fadein 4s;
 }
 
 #experience-container1 {
-    animation: experience-container-fadein 3s;
+    animation: experience-container-fadein 6s;
 }
 
 #experience-container2 {
-    animation: experience-container-fadein 3s;
+    animation: experience-container-fadein 6s;
 }
 
 #countries {
-    animation: countries-fadein 3s;
-}
-
-#imtristan {
-    position: absolute;
-    animation: imtristan-fadein 3s;
+    animation: countries-fadein 8s;
 }
 
 .content4-padding1 {
@@ -204,8 +204,27 @@
     height: 25vh;
 }
 
-@keyframes experience-fadein {
+@keyframes imtristan-fadein {
     0% {
+        opacity: 0;
+        transform: translate(0px, -100px);
+        -webkit-transform: translate(0px, -100px);
+        -moz-transform: translate(0px, -100px);
+        -ms-transform: translate(0px, -100px);
+        -o-transform: translate(0px, -100px);
+    }    
+    100% {
+        opacity: 1;
+        transform: translate(0px, 0px);
+        -webkit-transform: translate(0px, 0px);
+        -moz-transform: translate(0px, 0px);
+        -ms-transform: translate(0px, 0px);
+        -o-transform: translate(0px, 0px);
+    }
+}
+
+@keyframes experience-fadein {
+    50% {
         opacity: 0;
         transform: translate(0px, -100px);
         -webkit-transform: translate(0px, -100px);
@@ -224,7 +243,7 @@
 }
 
 @keyframes experience-container-fadein {
-    0% {
+    66% {
         opacity: 0;
         transform: translate(0px, -100px);
         -webkit-transform: translate(0px, -100px);
@@ -243,26 +262,7 @@
 }
 
 @keyframes countries-fadein {
-    0% {
-        opacity: 0;
-        transform: translate(0px, -100px);
-        -webkit-transform: translate(0px, -100px);
-        -moz-transform: translate(0px, -100px);
-        -ms-transform: translate(0px, -100px);
-        -o-transform: translate(0px, -100px);
-    }    
-    100% {
-        opacity: 1;
-        transform: translate(0px, 0px);
-        -webkit-transform: translate(0px, 0px);
-        -moz-transform: translate(0px, 0px);
-        -ms-transform: translate(0px, 0px);
-        -o-transform: translate(0px, 0px);
-    }
-}
-
-@keyframes imtristan-fadein {
-    0% {
+    75% {
         opacity: 0;
         transform: translate(0px, -100px);
         -webkit-transform: translate(0px, -100px);
@@ -304,6 +304,14 @@
     
     .content4-padding3 {
         height: 0vh;
+    }
+
+    .content4-small-title {
+        font-size: 22px;
+    }
+
+    .content4-big-title {
+        font-size: 62px;
     }
 }
 
