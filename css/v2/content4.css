@@ -164,6 +164,7 @@
 
 #experience-container-parent1 {
     opacity: 1;
+    width: 100%;
 }
 
 #experience-container-parent2 {
@@ -175,6 +176,10 @@
 }
 
 #experience-container1 {
+    animation: experience-container-fadein 3s;
+}
+
+#experience-container2 {
     animation: experience-container-fadein 3s;
 }
 
@@ -270,6 +275,7 @@
 
     #experience-container-parent1 {
         opacity: 0;
+        width: 0px;
     }
 
     #experience-container-parent2 {
