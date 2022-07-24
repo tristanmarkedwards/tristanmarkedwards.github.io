@@ -182,6 +182,11 @@
     animation: countries-fadein 3s;
 }
 
+#imtristan {
+    position: absolute;
+    animation: imtristan-fadein 3s;
+}
+
 @keyframes experience-fadein {
     0% {
         opacity: 0;
