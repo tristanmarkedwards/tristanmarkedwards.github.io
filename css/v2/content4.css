@@ -192,6 +192,18 @@
     animation: imtristan-fadein 3s;
 }
 
+.content4-padding1 {
+    height: 30vh;
+}
+
+.content4-padding2 {
+    height: 10vh;
+}
+
+.content4-padding3 {
+    height: 30vh;
+}
+
 @keyframes experience-fadein {
     0% {
         opacity: 0;
