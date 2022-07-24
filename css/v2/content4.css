@@ -163,11 +163,11 @@
 }
 
 #experience-container-parent1 {
-    display: unset;
+    opacity: 1;
 }
 
 #experience-container-parent2 {
-    display: none;
+    opacity: 0;
 }
 
 #experience {
@@ -269,11 +269,11 @@
     }
 
     #experience-container-parent1 {
-        display: none;
+        opacity: 0;
     }
 
     #experience-container-parent2 {
-        display: unset;
+        opacity: 1;
     }
 }
 
