@@ -90,7 +90,7 @@
 			<div class="zigzag-containers">
 				<div class="footer-triangles" style="top: -10px; width: 1000vw; left: -1000px; "></div>
 				
-				<div class="ux-case1-section2-container" style="height: 900px">
+				<div class="ux-case1-section2-container">
 					<div class="ux-case1-section2">
 					
 						<br>
@@ -128,33 +128,37 @@
 				<div class="footer-triangles" style="bottom: -10px; transform: rotate(0deg); width: 1000vw; left: -1000px;"></div>
 			</div>
 
-			<br>
-			<br>
-			<br>
-			<br>
-
 			<!-- Section 3 -->
 
-			<div id="overview" class="case-header">
-				<div class="ux2-iconcontainer"><img src="assets/icons/UXCaseStudy/overview.svg" style="height: 33px;"></div>
-				<h3>BACKGROUND & OVERVIEW</h3>
-			</div>
-			
-			<br>
-			<p style="width: 100%">
-				E-commerce merchants and marketeers are often held back from having more product sale conversions by utilising inferior quality data feeds, and while many are generally aware the problem exists, they often don't know how or where to take action.
-			</p>
-			<br>
+			<div class="ux-case1-section3-container">
+				<div class="ux-case1-section3"></div>
+					<br>
+					<br>
+					<br>
+					<br>
 
-			<p style="width: 100%">
-				WakeupData is a startup IT company which specialises in optimising data feeds for Google Shopping Ads, Facebook Dynamic Ads, Amazon, and hundreds of other channels. Customers range from sole traders to large conglomerates (eg. Salling Group), in a variety of industries (fashion & apparel, outdoors, supermarket & household goods). Their goal is to improve customers' ROI by increasing the visbility of their products in online stores.
-				
-			</p>
-			
-			<br>
-			<br>
-			<br>
-			<br>
+					<div id="overview" class="case-header">
+						<div class="ux2-iconcontainer"><img src="assets/icons/UXCaseStudy/overview.svg" style="height: 33px;"></div>
+						<h3>BACKGROUND & OVERVIEW</h3>
+					</div>
+					
+					<br>
+					<p style="width: 100%">
+						E-commerce merchants and marketeers are often held back from having more product sale conversions by utilising inferior quality data feeds, and while many are generally aware the problem exists, they often don't know how or where to take action.
+					</p>
+					<br>
+
+					<p style="width: 100%">
+						WakeupData is a startup IT company which specialises in optimising data feeds for Google Shopping Ads, Facebook Dynamic Ads, Amazon, and hundreds of other channels. Customers range from sole traders to large conglomerates (eg. Salling Group), in a variety of industries (fashion & apparel, outdoors, supermarket & household goods). Their goal is to improve customers' ROI by increasing the visbility of their products in online stores.
+						
+					</p>
+					
+					<br>
+					<br>
+					<br>
+					<br>
+				</div>
+			</div>
 
 			<!-- Section 4 -->
 
@@ -725,27 +729,29 @@
 
 	$(window).on('resize scroll', function() {
 		// Section 2
-		if ($('#overview').isInViewport()) {
+		if ($('#design-process').isInViewport()) {
+			if ($(`#design-process`).hasClass(`title-pop`)){
+			}
+			else {
+				$(`#design-process`).addClass(`title-pop`);
+				$(`.ux-case1-section2`).addClass(`ux-case1-section2-anim`);
+			}
+		}
+		// Section 3
+		else if ($('#overview').isInViewport()) {
 			if ($(`#overview`).hasClass(`title-pop`)){
 			}
 			else {
 				$(`#overview`).addClass(`title-pop`);
+				$(`.ux-case1-section3`).addClass(`ux-case1-section3-anim`);
 			}
 		}
-		// Section 3
+		//Section 4
 		else if ($('#the-problem').isInViewport()) {
 			if ($(`#the-problem`).hasClass(`title-pop`)){
 			}
 			else {
 				$(`#the-problem`).addClass(`title-pop`);
-			}
-		}
-		//Section 4
-		else if ($('#design-process').isInViewport()) {
-			if ($(`#design-process`).hasClass(`title-pop`)){
-			}
-			else {
-				$(`#design-process`).addClass(`title-pop`);
 			}
 		}
 		//Section 5
