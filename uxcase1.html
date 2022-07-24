@@ -722,9 +722,9 @@
 		$(`#responsiveMenu`).addClass(`ux-use-case-menu`);
     });
 
-	$(window).load(
+	$(window).load(function() {
 		resizeSectionHeights();
-	);  
+    });
 
 	$(`.movement-arrow`).click(function (){
 		$('html,body').animate({
