@@ -720,8 +720,11 @@
 
 		$(`#responsive-menu-cs1`).hide();
 		$(`#responsiveMenu`).addClass(`ux-use-case-menu`);
-		resizeSectionHeights();
     });
+
+	$(window).load(
+		resizeSectionHeights();
+	);  
 
 	$(`.movement-arrow`).click(function (){
 		$('html,body').animate({
