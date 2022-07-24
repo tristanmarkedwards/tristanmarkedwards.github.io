@@ -47,50 +47,29 @@
     height: 900px;
 }
 
+.ux-case1-section3-container {
+    height: 900px;
+}
+
 .ux-case1-section2 {
     z-index: 5; 
     position: absolute; 
     top: 0px;
-}
-
-.ux-case1-section2-anim {
-    animation: ux-case1-section2-animation 1.5s;
-}
-
-.ux-case1-section3-container {
-    height: 900px;
+    opacity: 0;
 }
 
 .ux-case1-section3 {
     z-index: 5; 
     position: absolute; 
     top: 0px;
+    opacity: 0;
 }
 
-.ux-case1-section3-anim {
-    animation: ux-case1-section3-animation 1.5s;
+.ux-case1-section-anim {
+    animation: ux-case1-section-animation 1.5s;
 }
 
-@keyframes ux-case1-section2-animation {
-    0% {
-        transform: translate(0px, -100px);
-        -webkit-transform: translate(0px, -100px);
-        -moz-transform: translate(0px, -100px);
-        -ms-transform: translate(0px, -100px);
-        -o-transform: translate(0px, -100px);
-        opacity: 0;
-    }
-    100% {
-        transform: translate(0px, 0px);
-        -webkit-transform: translate(0px, 0px);
-        -moz-transform: translate(0px, 0px);
-        -ms-transform: translate(0px, 0px);
-        -o-transform: translate(0px, 0px);
-        opacity: 1;
-    }
-}
-
-@keyframes ux-case1-section3-animation {
+@keyframes ux-case1-section-animation {
     0% {
         transform: translate(0px, -100px);
         -webkit-transform: translate(0px, -100px);
