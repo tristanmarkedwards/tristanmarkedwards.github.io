@@ -106,6 +106,12 @@ p {
     padding: 0px 25px;
 }
 
+h5 {
+    z-index: 1;
+    font-family: 'LemonMilk';
+    font-size: 16px;
+}
+
 h4 {
     font-size: 26px;
 }
