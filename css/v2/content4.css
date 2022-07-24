@@ -165,6 +165,52 @@
     display: none;
 }
 
+#experience {
+    animation: experience-fadein 3s;
+}
+
+#countries {
+    animation: countries-fadein 3s;
+}
+
+@keyframes experience-fadein {
+    0% {
+        opacity: 0;
+        transform: translate(0px, -100px);
+        -webkit-transform: translate(0px, -100px);
+        -moz-transform: translate(0px, -100px);
+        -ms-transform: translate(0px, -100px);
+        -o-transform: translate(0px, -100px);
+    }    
+    100% {
+        opacity: 1;
+        transform: translate(0px, 0px);
+        -webkit-transform: translate(0px, 0px);
+        -moz-transform: translate(0px, 0px);
+        -ms-transform: translate(0px, 0px);
+        -o-transform: translate(0px, 0px);
+    }
+}
+
+@keyframes countries-fadein {
+    0% {
+        opacity: 0;
+        transform: translate(0px, -100px);
+        -webkit-transform: translate(0px, -100px);
+        -moz-transform: translate(0px, -100px);
+        -ms-transform: translate(0px, -100px);
+        -o-transform: translate(0px, -100px);
+    }    
+    100% {
+        opacity: 1;
+        transform: translate(0px, 0px);
+        -webkit-transform: translate(0px, 0px);
+        -moz-transform: translate(0px, 0px);
+        -ms-transform: translate(0px, 0px);
+        -o-transform: translate(0px, 0px);
+    }
+}
+
 @media only screen and (max-width: 1000px) {
     .experience-seperator {
         display: unset;
