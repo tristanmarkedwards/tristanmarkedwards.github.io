@@ -166,11 +166,7 @@
     display: unset;
 }
 
-#experience-container1 {
-    display: unset;
-}
-
-#experience-container2 {
+#experience-container-parent2 {
     display: none;
 }
 
@@ -271,7 +267,7 @@
         display: none;
     }
 
-    #experience-container2 {
+    #experience-container-parent2 {
         display: unset;
     }
 }
