@@ -23,7 +23,7 @@
         transform: scale(1);
     }    
     5% {
-        transform: scale(1.2);
+        transform: scale(1.4);
     }
     10% {
         transform: scale(1);
@@ -31,11 +31,11 @@
 }
 
 @keyframes industry-icon-animation-2 {
-    0% {
+    15% {
         transform: scale(1);
-    }    
+    }
     20% {
-        transform: scale(1.2);
+        transform: scale(1.4);
     }
     25% {
         transform: scale(1);
@@ -43,11 +43,11 @@
 }
 
 @keyframes industry-icon-animation-3 {
-    0% {
+    30% {
         transform: scale(1);
-    }    
+    }
     35% {
-        transform: scale(1.2);
+        transform: scale(1.4);
     }
     40% {
         transform: scale(1);
@@ -55,25 +55,25 @@
 }
 
 @keyframes industry-icon-animation-4 {
-    0% {
+    45% {
         transform: scale(1);
-    }    
-    50% {
-        transform: scale(1.2);
     }
-    60% {
+    50% {
+        transform: scale(1.4);
+    }
+    55% {
         transform: scale(1);
     }
 }
 
 @keyframes industry-icon-animation-5 {
-    0% {
+    65% {
         transform: scale(1);
     }    
     70% {
-        transform: scale(1.2);
+        transform: scale(1.4);
     }
-    80% {
+    75% {
         transform: scale(1);
     }
 }
