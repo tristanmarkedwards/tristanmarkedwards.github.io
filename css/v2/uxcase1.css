@@ -88,6 +88,29 @@
     }
 }
 
+.ux-case1-section-anim2 {
+    animation: ux-case1-section-animation2 1.5s;
+}
+
+@keyframes ux-case1-section-animation2 {
+    0% {
+        transform: translate(0px, -100px);
+        -webkit-transform: translate(0px, -100px);
+        -moz-transform: translate(0px, -100px);
+        -ms-transform: translate(0px, -100px);
+        -o-transform: translate(0px, -100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(0px, 0px);
+        -webkit-transform: translate(0px, 0px);
+        -moz-transform: translate(0px, 0px);
+        -ms-transform: translate(0px, 0px);
+        -o-transform: translate(0px, 0px);
+        opacity: 1;
+    }
+}
+
 @media only screen and (max-width: 1000px) {
     .ux1-workflow-example {
         width: 700px;
