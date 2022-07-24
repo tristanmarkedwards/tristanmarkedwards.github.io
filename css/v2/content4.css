@@ -224,6 +224,14 @@
 }
 
 @keyframes experience-fadein {
+    0% {
+        opacity: 0;
+        transform: translate(0px, -100px);
+        -webkit-transform: translate(0px, -100px);
+        -moz-transform: translate(0px, -100px);
+        -ms-transform: translate(0px, -100px);
+        -o-transform: translate(0px, -100px);
+    } 
     50% {
         opacity: 0;
         transform: translate(0px, -100px);
@@ -243,6 +251,14 @@
 }
 
 @keyframes experience-container-fadein {
+    0% {
+        opacity: 0;
+        transform: translate(0px, -100px);
+        -webkit-transform: translate(0px, -100px);
+        -moz-transform: translate(0px, -100px);
+        -ms-transform: translate(0px, -100px);
+        -o-transform: translate(0px, -100px);
+    } 
     66% {
         opacity: 0;
         transform: translate(0px, -100px);
@@ -262,6 +278,14 @@
 }
 
 @keyframes countries-fadein {
+    0% {
+        opacity: 0;
+        transform: translate(0px, -100px);
+        -webkit-transform: translate(0px, -100px);
+        -moz-transform: translate(0px, -100px);
+        -ms-transform: translate(0px, -100px);
+        -o-transform: translate(0px, -100px);
+    } 
     75% {
         opacity: 0;
         transform: translate(0px, -100px);
