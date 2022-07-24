@@ -235,6 +235,14 @@
         padding: 0px;
         width: 100%;
     }
+
+    .ux2-iconcontainer {
+        padding: 0px;
+    }
+
+    .case-header {
+        flex-direction: column;
+    }
 } 
 
 

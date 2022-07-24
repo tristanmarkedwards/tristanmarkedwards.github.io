@@ -64,6 +64,22 @@
     width: 100%;
     display: flex;
     align-items: center;
+    height: 625px;
+
+}
+.ux-case1-section5-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 500px;
+}
+
+.ux-case1-section6-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
     height: 500px;
 }
 
@@ -80,6 +96,18 @@
 }
 
 .ux-case1-section4 {
+    z-index: 5; 
+    position: absolute; 
+    top: 0px;
+}
+
+.ux-case1-section5 {
+    z-index: 5; 
+    position: absolute; 
+    top: 0px;
+}
+
+.ux-case1-section6 {
     z-index: 5; 
     position: absolute; 
     top: 0px;
@@ -139,7 +167,7 @@
     }
 
     .ux-case1-section2-container {
-        height: 830px;
+        height: 800px;
     }
 } 
 
@@ -203,7 +231,7 @@
     }
 
     .ux-case1-section2-container {
-        height: 650px;
+        height: 700px;
     }
 
     .ux-case1-section3-container {
