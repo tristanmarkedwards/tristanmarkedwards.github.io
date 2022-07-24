@@ -63,6 +63,7 @@
     background: #cbbfbf2b;
     height: 150px;
     margin: 0px 20px;
+    display: none;
 }
 
 .experience-flag-container {
@@ -127,6 +128,7 @@
     color: #6c656f; 
     font-size: 24px; 
     font-weight: bold; 
+    text-align: center;
 }
 
 .experience-section-subtitle {
@@ -145,6 +147,30 @@
 .experience-industry-name-text {
     position: absolute;
     opacity: 0;
+    color: #cbbfc3;
+    font-size: 12px;
+}
+
+#experience-container1 {
+    display: unset;
+}
+
+#experience-container2 {
+    display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+    .experience-seperator {
+        display: unset;
+    }
+
+    #experience-container1 {
+        display: none;
+    }
+
+    #experience-container2 {
+        display: unset;
+    }
 }
 
 @media only screen and (max-width: 600px) {
