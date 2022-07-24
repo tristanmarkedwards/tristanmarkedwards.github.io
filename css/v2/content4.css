@@ -133,6 +133,17 @@
     text-align: center;
 }
 
+.experience-industry-name-container {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.experience-industry-name-text {
+    position: absolute;
+}
+
 @media only screen and (max-width: 600px) {
     .content4-small-title {
         font-size: 18px;
@@ -156,11 +167,11 @@
     }
 
     .experience-flag-container {
-        padding-top: 15px;
+        margin-top: 15px;
     }
 
     .experience-years-icon-container {
-        padding-bottom: 15px;
+        margin-bottom: 15px;
     }
 
     .experience-industry-text {
