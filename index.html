@@ -47,7 +47,7 @@
 		<div class="gradient-fade"></div>
 	</div>
 
-	<div class="content4"">
+	<div class="content4">
 
 		<div class="header-triangles"></div>
 
@@ -285,35 +285,35 @@
 
 	$(window).on('resize scroll', function() {
 		// I'm Tristan Section
-		if ($('.content4').isInViewport()) {
+		if ($(`.content4`).isInViewport()) {
 			if ($(`#experience`).hasClass(`experience-anim`)){
 			}
 			else {
-				$(`#experience`).hasClass(`experience-anim`);
+				$(`#experience`).addClass(`experience-anim`);
 			}
 
 			if ($(`#imtristan`).hasClass(`imtristan-anim`)){
 			}
 			else {
-				$(`#imtristan`).hasClass(`imtristan-anim`);
+				$(`#imtristan`).addClass(`imtristan-anim`);
 			}
 
 			if ($(`#experience-container1`).hasClass(`experience-container1-anim`)){
 			}
 			else {
-				$(`#experience-container1`).hasClass(`experience-container1-anim`);
+				$(`#experience-container1`).addClass(`experience-container1-anim`);
 			}
 
 			if ($(`#experience-container2`).hasClass(`experience-container2-anim`)){
 			}
 			else {
-				$(`#experience-container2`).hasClass(`experience-container2-anim`);
+				$(`#experience-container2`).addClass(`experience-container2-anim`);
 			}
 
 			if ($(`#countries`).hasClass(`countries-anim`)){
 			}
 			else {
-				$(`#countries`).hasClass(`countries-anim`);
+				$(`#countries`).addClass(`countries-anim`);
 			}
 		}
 	});
