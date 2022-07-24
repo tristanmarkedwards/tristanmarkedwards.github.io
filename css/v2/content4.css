@@ -104,6 +104,7 @@
 .experience-industry-icon-container .industry-icon {
     height: 48px;
     width: 48px;
+    position: absolute;
 }
 
 .experience-industry-text-container {
