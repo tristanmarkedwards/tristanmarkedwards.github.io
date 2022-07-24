@@ -44,11 +44,13 @@
 }
 
 .ux-case1-section2-container {
+    position: relative;
     height: 900px;
 }
 
 .ux-case1-section3-container {
-    height: 900px;
+    position: relative;
+    height: 500px;
 }
 
 .ux-case1-section2 {
