@@ -232,7 +232,7 @@
         -ms-transform: translate(0px, -100px);
         -o-transform: translate(0px, -100px);
     } 
-    50% {
+    35% {
         opacity: 0;
         transform: translate(0px, -100px);
         -webkit-transform: translate(0px, -100px);
@@ -259,7 +259,7 @@
         -ms-transform: translate(0px, -100px);
         -o-transform: translate(0px, -100px);
     } 
-    66% {
+    50% {
         opacity: 0;
         transform: translate(0px, -100px);
         -webkit-transform: translate(0px, -100px);
@@ -286,7 +286,7 @@
         -ms-transform: translate(0px, -100px);
         -o-transform: translate(0px, -100px);
     } 
-    75% {
+    65% {
         opacity: 0;
         transform: translate(0px, -100px);
         -webkit-transform: translate(0px, -100px);
