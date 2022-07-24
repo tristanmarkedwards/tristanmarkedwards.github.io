@@ -740,6 +740,11 @@
 		return elementBottom > viewportTop && elementTop < viewportBottom;
 	};
 
+	$( window ).resize(function() {
+		console.log($(`.ux-case1-section2`).height());
+		// $(`.ux-case1-section2-container`).css(`height`, ``);
+	});
+
 	$(window).on('resize scroll', function() {
 		// Section 2
 		if ($('#design-process').isInViewport()) {
