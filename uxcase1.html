@@ -91,6 +91,9 @@
 				<div class="footer-triangles" style="top: -10px; width: 1000vw; left: -1000px; "></div>
 				
 				<div class="ux-case1-section2-container">
+
+					<div id="section2-cover" class="uxcase-coverup-white"></div>
+
 					<div class="ux-case1-section2">
 					
 						<br>
@@ -131,6 +134,9 @@
 			<!-- Section 3 -->
 
 			<div class="ux-case1-section3-container">
+
+				<div id="section3-cover" class="uxcase-coverup-grey"></div>
+
 				<div class="ux-case1-section3">
 					<br>
 					<br>
@@ -734,7 +740,7 @@
 			}
 			else {
 				$(`#design-process`).addClass(`title-pop`);
-				$(`.ux-case1-section2`).css(`display`, `unset`);
+				$(`#section2-cover`).hide();
 				$(`.ux-case1-section2`).addClass(`ux-case1-section-anim`);
 			}
 		}
@@ -744,7 +750,7 @@
 			}
 			else {
 				$(`#overview`).addClass(`title-pop`);
-				$(`.ux-case1-section3`).css(`display`, `unset`);
+				$(`#section3-cover`).hide();
 				$(`.ux-case1-section3`).addClass(`ux-case1-section-anim`);
 			}
 		}
