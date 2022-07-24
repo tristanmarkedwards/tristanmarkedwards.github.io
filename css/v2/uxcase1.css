@@ -48,7 +48,6 @@
     width: 100%;
     display: flex;
     align-items: center;
-    height: 900px;
 }
 
 .ux-case1-section3-container {
@@ -56,7 +55,6 @@
     width: 100%;
     display: flex;
     align-items: center;
-    height: 500px;
 }
 
 .ux-case1-section4-container {
@@ -64,7 +62,6 @@
     width: 100%;
     display: flex;
     align-items: center;
-    height: 625px;
 
 }
 .ux-case1-section5-container {
@@ -72,7 +69,6 @@
     width: 100%;
     display: flex;
     align-items: center;
-    height: 500px;
 }
 
 .ux-case1-section6-container {
@@ -80,7 +76,13 @@
     width: 100%;
     display: flex;
     align-items: center;
-    height: 500px;
+}
+
+.ux-case1-section7-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
 }
 
 .ux-case1-section2 {
@@ -108,6 +110,12 @@
 }
 
 .ux-case1-section6 {
+    z-index: 5; 
+    position: absolute; 
+    top: 0px;
+}
+
+.ux-case1-section7 {
     z-index: 5; 
     position: absolute; 
     top: 0px;
