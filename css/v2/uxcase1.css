@@ -165,10 +165,6 @@
         height: unset;
         width: 400px;
     }
-
-    .ux-case1-section2-container {
-        height: 800px;
-    }
 } 
 
 @media only screen and (max-width: 600px) {
@@ -196,14 +192,6 @@
     .ux1-workflow-container {
         padding: 40px 10px;
     }
-
-    .ux-case1-section2-container {
-        height: 700px;
-    }
-
-    .ux-case1-section3-container {
-        height: 650px;
-    }
 } 
 
 @media only screen and (max-width: 500px) {
@@ -228,13 +216,5 @@
     .ux1-wm-mockups-container img {
         height: unset;
         width: 300px;
-    }
-
-    .ux-case1-section2-container {
-        height: 700px;
-    }
-
-    .ux-case1-section3-container {
-        height: 775px;
     }
 } 

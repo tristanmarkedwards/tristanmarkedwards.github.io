@@ -720,6 +720,7 @@
 
 		$(`#responsive-menu-cs1`).hide();
 		$(`#responsiveMenu`).addClass(`ux-use-case-menu`);
+		resizeSectionHeights();
     });
 
 	$(`.movement-arrow`).click(function (){
@@ -740,9 +741,16 @@
 		return elementBottom > viewportTop && elementTop < viewportBottom;
 	};
 
+	function resizeSectionHeights() {
+		$(`.ux-case1-section2-container`).css(`height`, $(`.ux-case1-section2`).height());
+		$(`.ux-case1-section3-container`).css(`height`, $(`.ux-case1-section3`).height());
+		$(`.ux-case1-section4-container`).css(`height`, $(`.ux-case1-section4`).height());
+		$(`.ux-case1-section5-container`).css(`height`, $(`.ux-case1-section5`).height());
+		$(`.ux-case1-section6-container`).css(`height`, $(`.ux-case1-section6`).height());
+	}
+
 	$( window ).resize(function() {
-		console.log($(`.ux-case1-section2`).height());
-		// $(`.ux-case1-section2-container`).css(`height`, ``);
+		resizeSectionHeights();
 	});
 
 	$(window).on('resize scroll', function() {
