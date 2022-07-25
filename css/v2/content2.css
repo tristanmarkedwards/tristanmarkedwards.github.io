@@ -374,7 +374,7 @@ h3 {
     10% {
         transform: scale(1.3) rotate(30deg);
     }
-    30% {
+    25% {
         transform: scale(1.3) rotate(0deg);
     }
     40% {
