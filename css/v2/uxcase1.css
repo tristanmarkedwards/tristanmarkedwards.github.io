@@ -151,6 +151,15 @@
     animation: ux-case1-section-animation 1.5s;
 }
 
+.use-case1-promo-text-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    flex-direction: column;
+}
+
 @keyframes ux-case1-section-animation {
     0% {
         transform: translate(0px, -100px);
@@ -173,6 +182,14 @@
 @media only screen and (max-width: 1200px) {
     .ux-case1-promo1-content {
         flex-direction: column;
+    }
+
+    .ux2-rr3 {
+        padding-right: 0px;
+    }
+
+    .use-case1-promo-text-container {
+        padding-top: 50px;
     }
 } 
 

@@ -314,7 +314,7 @@ h3 {
 .air-quote-icon {
     width: 24px;
     height: 24px;
-    animation: air-quote-icon-animation 5s;
+    animation: air-quote-icon-animation 5s infinite;
 }
 
 .platform-parent-container {
