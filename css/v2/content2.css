@@ -311,6 +311,12 @@ h3 {
     align-items: center;
 }
 
+.air-quote-icon {
+    width: 24px;
+    height: 24px;
+    animation: air-quote-icon-animation 5;
+}
+
 .platform-parent-container {
     width: 100%; 
     display: flex; 
@@ -359,6 +365,24 @@ h3 {
     background: #f0f0f0;
     z-index: 999999;
     position: absolute;
+}
+
+@keyframes air-quote-icon-animation {
+    0% {
+        transform: scale(1);
+    }    
+    10% {
+        transform: scale(1.1) rotate(30deg);
+    }
+    30% {
+        transform: scale(1.1) rotate(0deg);
+    }
+    40% {
+        transform: scale(1.1) rotate(-30deg);
+    }
+    50% {
+        transform: scale(1);
+    }
 }
 
 @keyframes title-pop-animation {

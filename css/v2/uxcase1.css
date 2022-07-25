@@ -167,6 +167,12 @@
     }
 }
 
+@media only screen and (max-width: 1200px) {
+    .ux-case1-promo1-content {
+        flex-direction: column;
+    }
+} 
+
 @media only screen and (max-width: 1000px) {
     .ux1-workflow-example {
         width: 700px;
@@ -180,10 +186,6 @@
     .ux1-wm-mockups-container img {
         height: unset;
         width: 500px;
-    }
-
-    .ux-case1-promo1-content {
-        flex-direction: column;
     }
 } 
 
