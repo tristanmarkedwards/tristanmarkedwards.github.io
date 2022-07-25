@@ -127,6 +127,12 @@
     width: 100%;
 }
 
+.ux-case1-promo1 {
+    display: flex; 
+    width: 100%; 
+    flex-direction: unset;
+}
+
 .ux-case1-section-anim {
     animation: ux-case1-section-animation 1.5s;
 }
@@ -163,6 +169,10 @@
     .ux1-wm-mockups-container img {
         height: unset;
         width: 500px;
+    }
+
+    .ux-case1-promo1 {
+        flex-direction: column;
     }
 } 
 
