@@ -274,4 +274,8 @@
         height: unset;
         width: 300px;
     }
+
+    .ux-case1-promo1-logo {
+        max-width: 300px;
+    }
 } 
