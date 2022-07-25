@@ -161,7 +161,7 @@
 }
 
 .ux-case1-promo1-text {
-    padding-top: 20px;
+    padding-top: 40px;
     font-weight: bold;
     color: white;
     font-size: 20px;
@@ -255,6 +255,7 @@
     }
 
     .ux-case1-promo1-text {
+        padding-top: 20px;
         font-size: 16px;
     }
 } 
