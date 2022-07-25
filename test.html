@@ -827,14 +827,14 @@
 	};
 
 	function resizeSectionHeights() {
-		$(`.ux-case1-section2-container`).css(`height`, $(`.ux-case1-section2`).outerHeight());
-		$(`.ux-case1-section3-container`).css(`height`, $(`.ux-case1-section3`).outerHeight());
-		$(`.ux-case1-section4-container`).css(`height`, $(`.ux-case1-section4`).outerHeight());
-		$(`.ux-case1-section5-container`).css(`height`, $(`.ux-case1-section5`).outerHeight());
-		$(`.ux-case1-section6-container`).css(`height`, $(`.ux-case1-section6`).outerHeight());
-		$(`.ux-case1-section7-container`).css(`height`, $(`.ux-case1-section7`).outerHeight());
+		$(`.ux-case1-section2-container`).css(`height`, parseInt($(`.ux-case1-section2`).outerHeight()));
+		$(`.ux-case1-section3-container`).css(`height`, parseInt($(`.ux-case1-section3`).outerHeight()));
+		$(`.ux-case1-section4-container`).css(`height`, parseInt($(`.ux-case1-section4`).outerHeight()));
+		$(`.ux-case1-section5-container`).css(`height`, parseInt($(`.ux-case1-section5`).outerHeight()));
+		$(`.ux-case1-section6-container`).css(`height`, parseInt($(`.ux-case1-section6`).outerHeight()));
+		$(`.ux-case1-section7-container`).css(`height`, parseInt($(`.ux-case1-section7`).outerHeight()));
 
-        $(`.ux-case1-promo1-container`).css(`height`, $(`.ux-case1-promo1`).outerHeight());
+        $(`.ux-case1-promo1-container`).css(`height`, parseInt($(`.ux-case1-promo1`).outerHeight()));
 	}
 
 	function revealSections() {
