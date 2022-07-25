@@ -47,19 +47,19 @@
 
 @keyframes ux-case-section-animation-reverse {
     0% {
+        transform: translate(0px, 100px);
+        -webkit-transform: translate(0px, 100px);
+        -moz-transform: translate(0px, 100px);
+        -ms-transform: translate(0px, 100px);
+        -o-transform: translate(0px, 100px);
+        opacity: 0;
+    }
+    100% {
         transform: translate(0px, 0px);
         -webkit-transform: translate(0px, 0px);
         -moz-transform: translate(0px, 0px);
         -ms-transform: translate(0px, 0px);
         -o-transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    100% {
-        transform: translate(0px, -100px);
-        -webkit-transform: translate(0px, -100px);
-        -moz-transform: translate(0px, -100px);
-        -ms-transform: translate(0px, -100px);
-        -o-transform: translate(0px, -100px);
         opacity: 1;
     }
 }
