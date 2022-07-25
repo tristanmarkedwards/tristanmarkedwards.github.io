@@ -160,6 +160,13 @@
     flex-direction: column;
 }
 
+.ux-case1-promo1-text {
+    padding-top: 20px;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
 @keyframes ux-case1-section-animation {
     0% {
         transform: translate(0px, -100px);
@@ -182,10 +189,6 @@
 @media only screen and (max-width: 1200px) {
     .ux-case1-promo1-content {
         flex-direction: column;
-    }
-
-    .ux2-rr3 {
-        padding-right: 0px;
     }
 
     .use-case1-promo-text-container {
@@ -248,6 +251,10 @@
 
     .ux1-workflow-container {
         padding: 40px 10px;
+    }
+
+    .ux-case1-promo1-text {
+        font-size: 16px;
     }
 } 
 
