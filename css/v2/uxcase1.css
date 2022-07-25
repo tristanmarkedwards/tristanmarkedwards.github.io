@@ -165,6 +165,7 @@
     font-weight: bold;
     color: white;
     font-size: 20px;
+    text-align: center;
 }
 
 @keyframes ux-case1-section-animation {
@@ -262,6 +263,10 @@
     .wm-logos {
         width: 400px;
     }
+
+    .ux-case1-promo1-logo {
+        max-width: 300px;
+    }
 } 
 
 @media only screen and (max-width: 400px) {
@@ -280,9 +285,5 @@
     .ux1-wm-mockups-container img {
         height: unset;
         width: 300px;
-    }
-
-    .ux-case1-promo1-logo {
-        max-width: 300px;
     }
 } 
