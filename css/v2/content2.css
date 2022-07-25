@@ -269,54 +269,6 @@ h3 {
     margin-right: 10px;
 }
 
-.air-quote {
-    padding: 30px;
-    background: white;
-    border-radius: 15px 15px 15px 0px;
-    max-width: 500px;
-    color: #8a8a8a;
-    text-align: center;
-    font-size: 18px;
-    font-style: italic;
-    height: 200px;
-}
-
-.air-quote-row {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    flex-direction: column;
-    margin: 0px 10px;
-}
-
-.air-quote-container {
-    display: flex;
-    flex-direction: row;
-    padding-bottom: 20px;
-    width: 100%;
-}
-
-.air-quote.grey-quote {
-    background: #f7f7f7;
-}
-
-.air-quote-symbol {
-    height: 50px;
-    width: 50px;
-    background: #f0f0f0;
-    border-radius: 5000px;
-    margin-bottom: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.air-quote-icon {
-    width: 24px;
-    height: 24px;
-    animation: air-quote-icon-animation 5s infinite;
-}
-
 .platform-parent-container {
     width: 100%; 
     display: flex; 
@@ -367,24 +319,6 @@ h3 {
     position: absolute;
 }
 
-@keyframes air-quote-icon-animation {
-    0% {
-        transform: scale(1);
-    }    
-    10% {
-        transform: scale(1.3) rotate(30deg);
-    }
-    25% {
-        transform: scale(1.3) rotate(0deg);
-    }
-    40% {
-        transform: scale(1.3) rotate(-30deg);
-    }
-    50% {
-        transform: scale(1);
-    }
-}
-
 @keyframes title-pop-animation {
     0% {
         transform: scale(1);
@@ -428,19 +362,6 @@ h3 {
 
     .content2-container-description { 
         height: 160px
-    }
-
-    .air-quote-container {
-        flex-direction: column;
-        padding-bottom: 0px;
-    }
-    
-    .air-quote {
-        height: unset;
-    }
-    
-    .air-quote-row {
-        margin: 0px;
     }
 } 
 
@@ -487,18 +408,5 @@ h3 {
 
     #footer-email {
         display: none;
-    }
-} 
-
-@media only screen and (max-width: 500px) {
-    .air-quote {
-        width: 380px;
-    }
-} 
-
-@media only screen and (max-width: 400px) {
-    .air-quote {
-        width: 300px;
-        padding: 15px;
     }
 } 

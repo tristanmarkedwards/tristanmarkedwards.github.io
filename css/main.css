@@ -16,8 +16,10 @@
 @import 'work-examples/roames.css';
 
 /* v2 */
+@import 'v2/airquote.css';
 @import 'v2/content2.css';
 @import 'v2/content4.css';
+@import 'v2/heuristics.css';
 @import 'v2/highlevelplan.css';
 @import 'v2/industry.css';
 @import 'v2/particle.css';
