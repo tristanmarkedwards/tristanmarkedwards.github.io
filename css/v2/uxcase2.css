@@ -161,6 +161,113 @@
     width: 600px;
 }
 
+.ux-case2-section2-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.ux-case2-section3-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.ux-case2-section4-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+.ux-case2-section5-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.ux-case2-section6-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.ux-case2-section7-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.ux-case2-section2 {
+    z-index: 5; 
+    position: absolute; 
+    top: 0px;
+    width: 100%;
+}
+
+.ux-case2-section3 {
+    z-index: 5; 
+    position: absolute; 
+    top: 0px;
+    width: 100%;
+}
+
+.ux-case2-section4 {
+    z-index: 5; 
+    position: absolute; 
+    top: 0px;
+    width: 100%;
+}
+
+.ux-case2-section5 {
+    z-index: 5; 
+    position: absolute; 
+    top: 0px;
+    width: 100%;
+}
+
+.ux-case2-section6 {
+    z-index: 5; 
+    position: absolute; 
+    top: 0px;
+    width: 100%;
+}
+
+.ux-case2-section7 {
+    z-index: 5; 
+    position: absolute; 
+    top: 0px;
+    width: 100%;
+}
+
+.ux-case2-section-anim {
+    animation: ux-case1-section-animation 1.5s;
+}
+
+@keyframes ux-case2-section-animation {
+    0% {
+        transform: translate(0px, -100px);
+        -webkit-transform: translate(0px, -100px);
+        -moz-transform: translate(0px, -100px);
+        -ms-transform: translate(0px, -100px);
+        -o-transform: translate(0px, -100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(0px, 0px);
+        -webkit-transform: translate(0px, 0px);
+        -moz-transform: translate(0px, 0px);
+        -ms-transform: translate(0px, 0px);
+        -o-transform: translate(0px, 0px);
+        opacity: 1;
+    }
+}
+
 @media only screen and (max-width: 1000px) {
     .content3-main {
         padding: 0px;
