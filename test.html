@@ -581,12 +581,12 @@
 								<div class="air-quote grey-quote">
 									<div style="width: 100%; display: flex; justify-content: center;">
 										<div class="air-quote-symbol">
-											<img src="assets/icons/quote.png" style="width: 24px; height: 24px;">
+											<img src="assets/icons/quote.png" class="air-quote-icon">
 										</div>
 									</div>
 									<h4>"What is WakeupData and what is WiseMetrics? Aren't they the same?"</h4>
 								</div>
-								<img src="assets/quoteTriangle.png" style="position: absolute;">
+								<img src="assets/quoteTriangleGrey.png" style="position: absolute;">
 							</div>
 						</div>
 						<br>
@@ -847,7 +847,7 @@
 			else {
 				$(`#design-process`).addClass(`title-pop`);
 				$(`#section2-cover`).hide();
-				$(`.ux-case1-section2`).addClass(`ux-case1-section-anim`);
+				$(`.ux-case1-section2`).addClass(`ux-case-section-anim`);
 			}
 		}
 		// Section 3
@@ -857,7 +857,7 @@
 			else {
 				$(`#overview`).addClass(`title-pop`);
 				$(`#section3-cover`).hide();
-				$(`.ux-case1-section3`).addClass(`ux-case1-section-anim`);
+				$(`.ux-case1-section3`).addClass(`ux-case-section-anim`);
 			}
 		}
 		//Section 4
@@ -867,7 +867,7 @@
 			else {
 				$(`#the-problem`).addClass(`title-pop`);
 				$(`#section4-cover`).hide();
-				$(`.ux-case1-section4`).addClass(`ux-case1-section-anim`);
+				$(`.ux-case1-section4`).addClass(`ux-case-section-anim`);
 			}
 		}
 		//Section 5
@@ -877,7 +877,7 @@
 			else {
 				$(`#who-is-the-user`).addClass(`title-pop`);
 				$(`#section5-cover`).hide();
-				$(`.ux-case1-section5`).addClass(`ux-case1-section-anim`);
+				$(`.ux-case1-section5`).addClass(`ux-case-section-anim`);
 			}
 		}
 		//Section 6
@@ -887,7 +887,7 @@
 			else {
 				$(`#design`).addClass(`title-pop`);
 				$(`#section6-cover`).hide();
-				$(`.ux-case1-section6`).addClass(`ux-case1-section-anim`);
+				$(`.ux-case1-section6`).addClass(`ux-case-section-anim`);
 			}
 		}
 		//Section 7
@@ -897,7 +897,7 @@
 			else {
 				$(`#delivery`).addClass(`title-pop`);
 				$(`#section7-cover`).hide();
-				$(`.ux-case1-section7`).addClass(`ux-case1-section-anim`);
+				$(`.ux-case1-section7`).addClass(`ux-case-section-anim`);
 			}
 		}
 		//Section 8
@@ -911,11 +911,11 @@
 
         //Promo 1
         else if ($('#ux-case1-promo1').isInViewport()) {
-			if ($(`.ux-case1-promo1`).hasClass(`ux-case1-section-anim`)){
+			if ($(`.ux-case1-promo1`).hasClass(`ux-case-section-anim-reverse`)){
 			}
 			else {
                 $(`#promo1-cover`).hide();
-				$(`.ux-case1-promo1`).addClass(`ux-case1-section-anim`);
+				$(`.ux-case1-promo1`).addClass(`ux-case-section-anim-reverse`);
 			}
 		}
     }

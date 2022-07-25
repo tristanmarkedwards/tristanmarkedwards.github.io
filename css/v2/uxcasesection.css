@@ -1,0 +1,77 @@
+.uxcase-coverup-white {
+    width: 100%;
+    height: 95%;
+    background: white;
+    z-index: 999999;
+    position: absolute;
+}
+
+.uxcase-coverup-grey {
+    width: 100%;
+    height: 95%;
+    background: #f0f0f0;
+    z-index: 999999;
+    position: absolute;
+}
+
+.ux-case-section-anim {
+    animation: ux-case-section-animation 1.5s;
+}
+
+.ux-case-section-anim-reverse {
+    animation: ux-case-section-animation-reverse 1.5s;
+}
+
+.title-pop {
+    animation: title-pop-animation 0.8s;
+}
+
+@keyframes ux-case-section-animation {
+    0% {
+        transform: translate(0px, -100px);
+        -webkit-transform: translate(0px, -100px);
+        -moz-transform: translate(0px, -100px);
+        -ms-transform: translate(0px, -100px);
+        -o-transform: translate(0px, -100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(0px, 0px);
+        -webkit-transform: translate(0px, 0px);
+        -moz-transform: translate(0px, 0px);
+        -ms-transform: translate(0px, 0px);
+        -o-transform: translate(0px, 0px);
+        opacity: 1;
+    }
+}
+
+@keyframes ux-case-section-animation-reverse {
+    0% {
+        transform: translate(0px, 0px);
+        -webkit-transform: translate(0px, 0px);
+        -moz-transform: translate(0px, 0px);
+        -ms-transform: translate(0px, 0px);
+        -o-transform: translate(0px, 0px);
+        opacity: 1;
+    }
+    100% {
+        transform: translate(0px, -100px);
+        -webkit-transform: translate(0px, -100px);
+        -moz-transform: translate(0px, -100px);
+        -ms-transform: translate(0px, -100px);
+        -o-transform: translate(0px, -100px);
+        opacity: 0;
+    }
+}
+
+@keyframes title-pop-animation {
+    0% {
+        transform: scale(1);
+    }    
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
