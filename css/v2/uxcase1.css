@@ -141,6 +141,9 @@
 }
 
 .ux-case1-promo1 {
+    z-index: 5; 
+    position: absolute; 
+    top: 0px;
     width: 100%; 
 }
 
