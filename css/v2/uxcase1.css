@@ -85,13 +85,6 @@
     align-items: center;
 }
 
-.ux-case1-promo1-container {
-    position: relative;
-    width: 100%;
-    display: flex;
-    align-items: center;
-}
-
 .ux-case1-section2 {
     z-index: 5; 
     position: absolute; 
@@ -134,10 +127,21 @@
     width: 100%;
 }
 
+.ux-case1-promo1-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
 .ux-case1-promo1-content {
     display: flex; 
     width: 100%; 
     flex-direction: unset;
+}
+
+.ux-case1-promo1 {
+    width: 100%; 
 }
 
 .ux-case1-section-anim {
@@ -178,7 +182,7 @@
         width: 500px;
     }
 
-    .ux-case1-promo1 {
+    .ux-case1-promo1-content {
         flex-direction: column;
     }
 } 
