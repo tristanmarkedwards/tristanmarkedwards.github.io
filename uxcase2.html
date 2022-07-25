@@ -492,7 +492,7 @@
                             <div class="air-quote">
                                 <div style="width: 100%; display: flex; justify-content: center;">
                                     <div class="air-quote-symbol">
-                                        <img src="assets/icons/quote.png" style="width: 24px; height: 24px;">
+                                        <img src="assets/icons/quote.png" class="air-quote-icon">
                                     </div>
                                 </div>
                                 <h4>'Can there be some kind of 'dark mode'? My eyes will get easily strained if I have to stare at the same bright interface all day.'</h4>
@@ -602,7 +602,16 @@
 		$(`#responsiveMenu`).addClass(`ux-use-case-menu`);
     });
 
-    $(window).on('load', function(){ 
+	$(window).on('load', function(){ 
+		resizeSectionHeights();
+        revealSections();
+	});
+
+    $(window).on('resize scroll', function() {
+		revealSections();
+	});
+
+	$( window ).resize(function() {
 		resizeSectionHeights();
 	});
 
@@ -632,7 +641,7 @@
 		$(`.ux-case2-section6-container`).css(`height`, $(`.ux-case2-section6`).outerHeight());
 	}
 
-	$(window).on('resize scroll', function() {
+	function revealSections() {
 		// Section 2
 		if ($('#overview').isInViewport()) {
 			if ($(`#overview`).hasClass(`title-pop`)){
@@ -691,5 +700,5 @@
 				$(`#thanks-for-reading`).addClass(`title-pop`);
 			}
 		}
-	});
+	}
 </script>
