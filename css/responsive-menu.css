@@ -1,5 +1,5 @@
 #responsiveMenu {
-    z-index: 10003;
+    z-index: 99999999;
     position: fixed;
     width: 100%;
     top: 0;

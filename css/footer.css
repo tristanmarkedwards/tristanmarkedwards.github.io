@@ -7,7 +7,7 @@ footer {
     align-items: center;
     background: white;
 	padding: 0px 20px;
-	z-index: 999;
+	z-index: 99999999;
 }
 
 footer .iconsField {
