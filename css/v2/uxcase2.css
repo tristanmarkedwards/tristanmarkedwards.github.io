@@ -215,6 +215,23 @@
     width: 100%; 
 }
 
+.use-case2-promo-text-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    flex-direction: column;
+}
+
+.ux-case2-promo1-text {
+    padding-top: 40px;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
 .ux-case2-section-anim {
     animation: ux-case1-section-animation 1.5s;
 }
