@@ -195,6 +195,26 @@
     width: 100%;
 }
 
+.ux-case2-promo1-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.ux-case2-promo1-content {
+    display: flex; 
+    width: 100%; 
+    flex-direction: unset;
+}
+
+.ux-case2-promo1 {
+    z-index: 5; 
+    position: absolute; 
+    top: 0px;
+    width: 100%; 
+}
+
 .ux-case2-section-anim {
     animation: ux-case1-section-animation 1.5s;
 }
