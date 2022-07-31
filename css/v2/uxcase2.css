@@ -259,6 +259,14 @@
     .ux2-rr3 {
         padding-right: 0px;
     }
+
+    .ux-case2-promo1-content {
+        flex-direction: column;
+    }
+
+    .use-case2-promo-text-container {
+        padding-top: 50px;
+    }
 } 
 
 @media only screen and (max-width: 1000px) {
