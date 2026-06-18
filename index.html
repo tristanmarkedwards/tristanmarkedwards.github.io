@@ -1,329 +1,216 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>Tristan Edwards</title>
-	<base href="/">
-	<link rel="icon" type="image/png" href="/favicon.png"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, content="width=800">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="/css/main.css">
-
-	<!-- Layout -->
-	<script type="text/javascript" src="/js/responsive-menu.js"></script>
-	<script type="text/javascript" src="/js/header.js"></script>
-	<script type="text/javascript" src="/js/footer.js"></script>
-	<script type="text/javascript" src="/js/image-viewer.js"></script>
-	
-	<!-- Pages -->
-	<script type="text/javascript" src="/js/pages/work-examples.js"></script>
-	<script type="text/javascript" src="/js/pages/about.js"></script>
-	<script type="text/javascript" src="/js/pages/contact.js"></script>
-
-	<script type="text/javascript" src="/js/v2/particle.js"></script>
-
-	<script type="text/javascript" src="/js/routing.js"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tristan Edwards — Senior Product Designer</title>
+<meta name="description" content="Senior Product Designer specialising in design systems and enterprise platforms. 10+ years across Australia, the Netherlands, and Denmark.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
 </head>
-<div id="responsiveMenu">
-	<div class="responsiveMenu"></div>
-</div>
 <body>
-	<div class="content">
-		<div class="particle-container"></div>
-		<img id="movement-arrow1" src="assets/movementTriangle.png" class="movement-arrow"/>
-		<img src="assets/background.svg" style="right: 0px;position: absolute;z-index: -1;bottom: 0px;height: 100vh;"/>
-		<div class="title-container">
-			<div class="title-main-container"><img class="title-logo title-main-fadein" src="assets/tedwards_logo.png"/></div>
-			<div class="sub-title-container">
-				<img src="assets/uxdesign.png" class="sub-title sub-titles-fadein-1"/>
-				<img src="assets/softwareengineer.png" class="sub-title sub-titles-fadein-2"/>
-				<img src="assets/2dartist.png" class="sub-title sub-titles-fadein-3"/>
-			</div>
-		</div>	
 
-		<div class="gradient-fade"></div>
-	</div>
+<header class="site-nav">
+  <div class="container">
+    <a href="index.html" class="nav-logo">Tristan Edwards</a>
+    <nav class="nav-links" id="nav-links">
+      <a href="#work">Work</a>
+      <a href="#skills">Approach</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
 
-	<div class="content4">
+<main>
 
-		<div class="header-triangles"></div>
+  <!-- ============ HERO ============ -->
+  <section class="hero container">
+    <div class="hero-grid">
+      <div>
+        <span class="eyebrow">Senior Product Designer — Design Systems &amp; Enterprise Platforms</span>
+        <h1>Designing the systems that keep enterprise products consistent at scale.</h1>
+        <p class="hero-sub">I'm Tristan — a product designer with a software-engineering background, with 10+ years experience building design systems, complex workflows, and B2B platforms for teams in Australia, the Netherlands, and Denmark.</p>
+        <div class="hero-actions">
+          <a href="#work" class="btn btn-primary">View work</a>
+          <a href="#contact" class="btn btn-ghost">Get in touch</a>
+        </div>
+      </div>
+  </section>
 
-		<!-- <br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br> -->
+  <div class="container">
+    <div class="fact-row">
+      <span><strong>10+ years</strong> in product design</span>
+      <span><strong>3 countries</strong> — Australia, Netherlands, Denmark</span>
+      <span><strong>Engineer → Designer</strong> background</span>
+      <span>Currently at <strong>Stibo Systems</strong></span>
+    </div>
+  </div>
 
-		<div class="content4-padding1"></div>
+  <!-- ============ APPROACH / SKILLS ============ -->
+  <section class="section container" id="skills">
+    <div class="section-head" data-reveal>
+      <span class="eyebrow">How I work</span>
+      <h2>Four things I keep coming back to</h2>
+      <p>My background spans front-end engineering and UX, which shapes how I approach every product problem — systemically, and with implementation in mind.</p>
+    </div>
 
-		<div class="content4-title-parent-container">
-			<div id="imtristan" class="content4-title-container">
-				<div class="content4-small-title">Hello There!</div>
-				<div class="content4-big-title">I'm Tristan</div>
-			</div>
-		</div>
+    <div class="skills-grid" data-reveal>
+      <div class="skill-card">
+        <span class="index">01</span>
+        <h3>Design systems &amp; scalable UX</h3>
+        <p>Component libraries, tokens, and reusable patterns that let teams ship consistent experiences without rebuilding from scratch every time.</p>
+      </div>
+      <div class="skill-card">
+        <span class="index">02</span>
+        <h3>Enterprise product design</h3>
+        <p>B2B SaaS, complex workflows, and information architecture for platforms that people rely on to do their actual jobs, every day.</p>
+      </div>
+      <div class="skill-card">
+        <span class="index">03</span>
+        <h3>Research &amp; facilitation</h3>
+        <p>Usability testing, user interviews, and play-testing that turn assumptions into decisions backed by what people actually do.</p>
+      </div>
+      <div class="skill-card">
+        <span class="index">04</span>
+        <h3>Design–engineering collaboration</h3>
+        <p>A software-engineering background that makes handoffs faster and keeps the shipped product closer to the original intent.</p>
+      </div>
+    </div>
+  </section>
 
-		<!-- <br>
-		<br>
-		<br> -->
+  <!-- ============ SELECTED WORK ============ -->
+  <section class="section container" id="work">
+    <div class="section-head" data-reveal>
+      <span class="eyebrow">Selected work</span>
+      <h2>Turning complexity into clarity</h2>
+      <p>From enterprise data platforms to field surveyors with no time to spare — the common thread is taking something complex and making it usable.</p>
+    </div>
 
-		<div class="content4-padding2"></div>
+    <div class="work-list">
 
-		<div class="experience-main-container">
+      <a href="work-stibo-design-systems.html" class="work-card" data-reveal>
+        <div class="work-card-media">
+          <img src="assets/ux1/wm-9.jpg" alt="" loading="lazy">
+        </div>
+        <div class="work-card-body">
+          <span class="work-card-tag">Stibo Systems · Design Systems · Ongoing</span>
+          <h3>Building a design system across a multi-product enterprise platform</h3>
+          <p class="desc">Driving cross-product design-system strategy, reusable interaction patterns, and UX consistency across Stibo's PXDC suite.</p>
+          <span class="work-card-metric">Current role · 2022–Present</span>
+          <span class="work-card-link">Read the summary <span class="arrow">→</span></span>
+        </div>
+      </a>
 
-			<div class="experience-parent-container">
-				<div id="experience" class="experience-container">
-					<div class="experience-years-icon-container">
-						<img class="experience-years-icon" src="assets/icons/years-experience.png">
-					</div>
-					<div class="experience-section-title">6.5 YEARS</div>
-					<div class="experience-section-subtitle">PROFESSIONAL DESIGN</div>
-					<div class="experience-section-subtitle">EXPERIENCE</div>
-				</div>
-			</div>
+      <a href="work-wisemetrics.html" class="work-card" data-reveal>
+        <div class="work-card-media">
+          <img src="assets/ux1/wm-7.png" alt="" loading="lazy">
+        </div>
+        <div class="work-card-body">
+          <span class="work-card-tag">WakeupData · B2B SaaS</span>
+          <h3>WiseMetrics — turning data overwhelm into a clear path to ROI</h3>
+          <p class="desc">Designed and helped build a standalone product that gives e-commerce merchants specific, actionable suggestions to improve their Google Shopping feeds.</p>
+          <span class="work-card-metric">Customers saw ROI gains of up to 10x</span>
+          <span class="work-card-link">Read the case study <span class="arrow">→</span></span>
+        </div>
+      </a>
 
-			<div id="experience-container-parent1" class="experience-parent-container">
-				<div id="experience-container1" class="experience-industry-container">
+      <a href="work-roames-review.html" class="work-card" data-reveal>
+        <div class="work-card-media">
+          <img src="assets/ux2/rr-3.png" alt="" loading="lazy">
+        </div>
+        <div class="work-card-body">
+          <span class="work-card-tag">Fugro ROAMES · Enterprise Tools</span>
+          <h3>Roames Review — replacing paper logbooks with a guided digital workflow</h3>
+          <p class="desc">Designed a job-based inspection tool that let power-network surveyors verify and report faults digitally, with a dark mode built in from day one.</p>
+          <span class="work-card-metric">Saved Ergon Energy millions in inspection costs</span>
+          <span class="work-card-link">Read the case study <span class="arrow">→</span></span>
+        </div>
+      </a>
 
-					<div class="experience-industry-text-container" style="padding-bottom: 30px;">
-						<div class="experience-section-title">A WIDE VARIETY OF INDUSTRIES</div>
-						<div class="experience-industry-name-container">
-							<div class="experience-industry-name-text industry-icon-text-fade1">POWER & VEGETATION MANAGEMENT</div>
-							<div class="experience-industry-name-text industry-icon-text-fade2">MARINE, OIL & GAS</div>
-							<div class="experience-industry-name-text industry-icon-text-fade3">SITE CHARACTERISATION</div>
-							<div class="experience-industry-name-text industry-icon-text-fade4">E COMMERCE</div>
-							<div class="experience-industry-name-text industry-icon-text-fade5">GAMING</div>
-						</div>
-					</div>
+    </div>
+  </section>
 
-					<div class="experience-industry-icons-container">
-						<div class="experience-industry-icon-container">
-							<img class="industry-icon industry-icon-set2-fade1" src="assets/icons/industries/energy-dark.png">
-							<img class="industry-icon industry-icon-set1-fade1" src="assets/icons/industries/energy.png">
-						</div>
-						<div class="experience-industry-icon-container">
-							<img class="industry-icon industry-icon-set2-fade2" src="assets/icons/industries/marine-dark.png">
-							<img class="industry-icon industry-icon-set1-fade2" src="assets/icons/industries/marine.png">
-						</div>
-						<div class="experience-industry-icon-container">
-							<img class="industry-icon industry-icon-set2-fade3" src="assets/icons/industries/site-characterisation-dark.png">
-							<img class="industry-icon industry-icon-set1-fade3" src="assets/icons/industries/site-characterisation.png">
-						</div>
-						<div class="experience-industry-icon-container">
-							<img class="industry-icon industry-icon-set2-fade4" src="assets/icons/industries/ecommerce-dark.png">
-							<img class="industry-icon industry-icon-set1-fade4" src="assets/icons/industries/ecommerce.png">
-						</div>
-						<div class="experience-industry-icon-container">
-							<img class="industry-icon industry-icon-set2-fade5" src="assets/icons/industries/gaming-dark.png">
-							<img class="industry-icon industry-icon-set1-fade5" src="assets/icons/industries/gaming.png">
-						</div>
-					</div>
-		
-				</div>
-			</div>
+  <!-- ============ EXPERIENCE ============ -->
+  <section class="section container" id="experience">
+    <div class="section-head" data-reveal>
+      <span class="eyebrow">Experience</span>
+      <h2>10 years, a journey in engineering and design</h2>
+    </div>
 
-			<div class="experience-seperator"></div>
+    <div class="timeline" data-reveal>
+      <div class="timeline-item">
+        <div class="timeline-date">Jun 2025 — Present</div>
+        <div class="timeline-role">
+          <h4><span class="company">Stibo Systems</span> · Senior Product Designer <span class="country">DK</span></h4>
+          <p>Own product design for Product Onboarding and Product Data Syndication on the PXDC platform. Drive cross-product design-system strategy and explore AI-assisted design workflows.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">Oct 2022 — Jun 2025</div>
+        <div class="timeline-role">
+          <h4><span class="company">Stibo Systems</span> · Product Designer <span class="country">DK</span></h4>
+          <p>Led design for Enhanced Content, enabling scalable below-the-fold content for retailer product pages (e.g. Amazon). Helped lay the foundations of PXDC's design system.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">Nov 2021 — Oct 2022</div>
+        <div class="timeline-role">
+          <h4><span class="company">Spillehallen</span> · UX Lead <span class="country">DK</span></h4>
+          <p>Directed UX strategy for digital gaming products, balancing creative vision with technical feasibility across research and interaction design.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">Jan 2020 — Nov 2021</div>
+        <div class="timeline-role">
+          <h4><span class="company">WakeupData</span> (acquired by Channable) · UX Lead &amp; Front End Developer <span class="country">DK</span></h4>
+          <p>Shaped the UX and front-end architecture of a B2B SaaS platform for product feed management, including the standalone WiseMetrics product.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">Aug 2018 — Jan 2020</div>
+        <div class="timeline-role">
+          <h4><span class="company">Fugro</span> · UX Lead &amp; Front End Developer <span class="country">NL</span></h4>
+          <p>Delivered UX and WebGL solutions for EMEA innovation-centre projects — interactive applications and prototypes for data visualisation and operational workflows.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">Feb 2016 — Aug 2018</div>
+        <div class="timeline-role">
+          <h4><span class="company">Fugro ROAMES</span> · UX Lead &amp; Unity Developer <span class="country">AU</span></h4>
+          <p>Designed and built interactive Unity and web applications for spatial infrastructure, including Roames Review. Progressed from junior engineer to UX-focused designer.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-			<div class="experience-parent-container">
-				<div id="countries" class="experience-container">
-					<div class="experience-section-subtitle">FULL-TIME ROLES IN</div>
-					<div class="experience-section-title">3 COUNTRIES</div>
-					<div class="experience-flag-container">
-						<img class="experience-flag" src="assets/icons/countries/aus.jpg">
-						<img class="experience-flag" src="assets/icons/countries/netherlands.jpg">
-						<img class="experience-flag" src="assets/icons/countries/denmark.jpg">
-					</div>
-				</div>
-			</div>
+</main>
 
-		</div>
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer container" id="contact">
+  <div class="footer-grid">
+    <div class="footer-contact">
+      <span class="eyebrow">Get in touch</span>
+      <h2>Let's talk about your product.</h2>
+      <p>Based in Skanderborg, Denmark — happy to talk remote or on-site.</p>
+      <div class="footer-links">
+        <a href="mailto:tristan.mark.edwards@gmail.com">tristan.mark.edwards@gmail.com →</a>
+        <a href="https://linkedin.com/in/tristanmarkedwards" target="_blank" rel="noopener">linkedin.com/in/tristanmarkedwards →</a>
+        <a href="tel:+4530844019">+45 30 84 40 19</a>
+      </div>
+    </div>
+  </div>
 
-		<!-- <br>
-		<br>
-		<br> -->
+  <div class="footer-bottom">
+    <span>© 2026 Tristan Edwards</span>
+  </div>
+</footer>
 
-		<div class="content4-padding3"></div>
-
-		<div id="experience-container-parent2" class="experience-parent-container">
-			<div id="experience-container2" class="experience-industry-container">
-
-				<div class="experience-industry-icons-container">
-					<div class="experience-industry-icon-container">
-						<img class="industry-icon industry-icon-set2-fade1" src="assets/icons/industries/energy-dark.png">
-						<img class="industry-icon industry-icon-set1-fade1" src="assets/icons/industries/energy.png">
-					</div>
-					<div class="experience-industry-icon-container">
-						<img class="industry-icon industry-icon-set2-fade2" src="assets/icons/industries/marine-dark.png">
-						<img class="industry-icon industry-icon-set1-fade2" src="assets/icons/industries/marine.png">
-					</div>
-					<div class="experience-industry-icon-container">
-						<img class="industry-icon industry-icon-set2-fade3" src="assets/icons/industries/site-characterisation-dark.png">
-						<img class="industry-icon industry-icon-set1-fade3" src="assets/icons/industries/site-characterisation.png">
-					</div>
-					<div class="experience-industry-icon-container">
-						<img class="industry-icon industry-icon-set2-fade4" src="assets/icons/industries/ecommerce-dark.png">
-						<img class="industry-icon industry-icon-set1-fade4" src="assets/icons/industries/ecommerce.png">
-					</div>
-					<div class="experience-industry-icon-container">
-						<img class="industry-icon industry-icon-set2-fade5" src="assets/icons/industries/gaming-dark.png">
-						<img class="industry-icon industry-icon-set1-fade5" src="assets/icons/industries/gaming.png">
-					</div>
-				</div>
-
-				<div class="experience-industry-text-container" style="padding-top: 20px;">
-					<div class="experience-section-title">A WIDE VARIETY OF INDUSTRIES</div>
-					<div class="experience-industry-name-container">
-						<div class="experience-industry-name-text industry-icon-text-fade1">POWER & VEGETATION MANAGEMENT</div>
-						<div class="experience-industry-name-text industry-icon-text-fade2">MARINE, OIL & GAS</div>
-						<div class="experience-industry-name-text industry-icon-text-fade3">SITE CHARACTERISATION</div>
-						<div class="experience-industry-name-text industry-icon-text-fade4">E COMMERCE</div>
-						<div class="experience-industry-name-text industry-icon-text-fade5">GAMING</div>
-					</div>
-				</div>
-
-			</div>
-		</div>
-
-		<div style="display: flex; justify-content: center">
-			<img id="movement-arrow2" src="assets/movementTriangle.png" class="movement-arrow"/>
-		</div>
-
-	</div>
-
-	<div class="header-triangles-grey"></div>
-	<div class="content2">
-		<!-- <header></header> -->
-		<div class="content2-main">
-			
-			<a href="uxcase1.html" style="width: 100%">
-				<div class="content2-container">
-					<div class="content2-container-description">
-						<div style="height: 50px; font-size: 14px;">UX Case Study: WiseMetrics</div>
-						<h4>Creating a better return on investment for online merchants</h4>
-					</div>
-					<img src="assets/ux1/wisemetrics.jpg" class="ux-case image-section-link">
-				</div>				
-			</a>
-
-			<a href="uxcase2.html" style="width: 100%">
-				<div class="content2-container">
-					<div class="content2-container-description">
-						<div style="height: 50px; font-size: 14px;">UX Case Study: Roames Review</div>
-						<h4>Giving surveyors a helping hand to identify critical network faults</h4>
-					</div>
-					<img src="assets/ux2/powerlines.jpg" class="ux-case image-section-link">
-				</div>				
-			</a>
-
-			<a href="#" style="width: 100%">
-				<div class="content2-container">
-					<div class="content2-container-description">
-						<div style="height: 50px; font-size: 14px;">UX Case Study: Roames World</div>
-						<h4>Designing & building UI tools for digital asset management</h4>
-					</div>
-					<img src="assets/ux3/roames-point-cloud.jpg" class="ux-case image-section-link">
-				</div>				
-			</a>
-
-			<br>
-			<br>
-
-		</div>
-	</div>
-	<footer></footer>
+<script src="script.js"></script>
 </body>
 </html>
-
-<script type="text/javascript">
-    $(document).ready(function() {
-		menu.create();
-		// header.create();
-		footer.create();
-		
-		particle.controller.start();
-
-		$(`#header-home`).hide();
-		$(`#responsive-menu-home`).hide();
-		$(`#logofade`).remove();
-    });
-
-	$(`#movement-arrow1`).click(function (){
-		var offset = $(`.content4`).offset().top;
-		if(offset > window.scrollY){
-
-			$('html,body').animate(
-				{
-					scrollTop: offset
-				}, 
-				{
-					duration: 1000,
-					complete: function () {
-					}
-				});
-		}
-	});
-
-	$(`#movement-arrow2`).click(function (){
-		var offset = $(`.content2`).offset().top;
-		if(offset > window.scrollY){
-
-			$('html,body').animate(
-				{
-					scrollTop: offset
-				}, 
-				{
-					duration: 1000,
-					complete: function () {
-					}
-				});
-		}
-	});
-
-	$.fn.isInViewport = function() {
-		var elementTop = $(this).offset().top;
-		var elementBottom = elementTop + $(this).outerHeight();
-
-		var viewportTop = $(window).scrollTop();
-		var viewportBottom = viewportTop + $(window).height();
-
-		return elementBottom > viewportTop && elementTop < viewportBottom;
-	};
-
-	$(window).on('resize scroll', function() {
-		if ($(`.content4`).isInViewport()) {
-			if ($(`#experience`).hasClass(`experience-anim`)){
-			}
-			else {
-				$(`#experience`).addClass(`experience-anim`);
-			}
-
-			if ($(`#imtristan`).hasClass(`imtristan-anim`)){
-			}
-			else {
-				$(`#imtristan`).addClass(`imtristan-anim`);
-			}
-
-			if ($(`#experience-container1`).hasClass(`experience-container1-anim`)){
-			}
-			else {
-				$(`#experience-container1`).addClass(`experience-container1-anim`);
-			}
-
-			if ($(`#experience-container2`).hasClass(`experience-container2-anim`)){
-			}
-			else {
-				$(`#experience-container2`).addClass(`experience-container2-anim`);
-			}
-
-			if ($(`#countries`).hasClass(`countries-anim`)){
-			}
-			else {
-				$(`#countries`).addClass(`countries-anim`);
-			}
-		}
-	});
-</script>

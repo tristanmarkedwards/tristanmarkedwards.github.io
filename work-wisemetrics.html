@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WiseMetrics — Case Study — Tristan Edwards</title>
+<meta name="description" content="How a standalone product gave e-commerce merchants a clear, specific path to improving their Google Shopping feed performance.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-nav">
+  <div class="container">
+    <a href="index.html" class="nav-logo">Tristan Edwards</a>
+    <nav class="nav-links" id="nav-links">
+      <a href="index.html#work">Work</a>
+      <a href="index.html#skills">Approach</a>
+      <a href="index.html#experience">Experience</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+  <section class="container hero case-hero" style="padding-top: var(--space-7);">
+    <a href="index.html#work" class="breadcrumb">← All work</a>
+    <br>
+    <span class="eyebrow">WakeupData · B2B SaaS</span>
+    <h1>WiseMetrics: turning data overwhelm into a clear path to ROI</h1>
+    <p class="hero-sub">A standalone product that gives e-commerce merchants specific, actionable suggestions for improving their Google Shopping feeds — instead of just telling them something's wrong.</p>
+
+    <div class="meta-row">
+      <div class="meta-item">
+        <div class="label">My role</div>
+        <div class="value">UI/UX, graphic design, front-end engineering</div>
+      </div>
+      <div class="meta-item">
+        <div class="label">Designed for</div>
+        <div class="value">Desktop, laptop, tablet</div>
+      </div>
+      <div class="meta-item">
+        <div class="label">Toolkit</div>
+        <div class="value">Photoshop, Illustrator, Adobe XD, Draw.io, FullStory</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BACKGROUND -->
+  <section class="case-section container" data-reveal>
+    <span class="eyebrow kicker">Background</span>
+    <h2>A data-quality problem most merchants didn't know how to name</h2>
+    <p>E-commerce merchants and marketers are often held back from converting more sales by low-quality product data feeds. Most are aware something's off — they just don't know what to fix, or how.</p>
+    <p>WakeupData is a data-feed optimisation platform for Google Shopping, Facebook Dynamic Ads, Amazon, and hundreds of other channels, serving customers from sole traders to large retail groups like Salling Group. Their goal: improve customers' return on ad spend by improving how their products show up online.</p>
+  </section>
+
+  <!-- PROBLEM -->
+  <section class="case-section container" data-reveal>
+    <span class="eyebrow kicker">The problem</span>
+    <h2>Generic feed management couldn't give specific answers</h2>
+    <p>WakeupData's existing product, the WakeupData Hub, let customers manage data feeds centrally and deploy variations across channels — but it had no way to tell users exactly what to change to improve quality, because it had to support feed formats and purposes far too broad to give targeted advice.</p>
+    <p>With Google Shopping controlling close to 29% of e-commerce ad share at the time and Amazon a close second, our CTO proposed something narrower by design: a separate product purpose-built for Google Shopping feeds, specific enough to give real, actionable suggestions. The goal was to let customers fix their own data instead of relying on a Customer Success Manager to do it for them — a meaningful operational cost we were trying to remove.</p>
+  </section>
+
+  <!-- RESEARCH -->
+  <section class="case-section container" data-reveal>
+    <span class="eyebrow kicker">Who is the user?</span>
+    <h2>22 interviews, three recurring frustrations</h2>
+    <div class="case-body-grid">
+      <div>
+        <p>I interviewed 22 existing WakeupData customers, selected for engagement with our product, recency of onboarding, or heavy reliance on Google Shopping feeds specifically. Larger organisations often had in-house teams or agencies dedicated to feed management — a luxury most smaller sellers couldn't afford. Across the board, though, everyone wanted the same thing: better visibility for their listings, whether they sold one product category or a dozen.</p>
+        <p>I used these interviews to build a small set of personas, anchoring most design decisions around "Timothy," an independent seller managing his own feed with no dedicated support.</p>
+        <div class="quote-block">
+          "I have no overview of why one product sells better than the other."
+          <cite>WakeupData customer interview</cite>
+        </div>
+      </div>
+      <figure class="case-figure">
+        <img src="assets/ux1/persona1.png" alt="Persona document for an independent seller, the primary persona used to guide design decisions" loading="lazy">
+        <figcaption>Primary persona — independent seller managing their own feed</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- DESIGN -->
+  <section class="case-section container" data-reveal>
+    <span class="eyebrow kicker">Design</span>
+    <h2>Borrowing familiarity, then deliberately breaking from it</h2>
+    <p>The product needed its own name, independent of WakeupData — the team landed on "WiseMetrics" after a brainstorm and vote. Early wireframes focused on two things: the data-integration and sign-up flow, and the general shape of the application.</p>
+    <p>My first instinct was to mirror WakeupData Hub's layout — same header, breadcrumb, and navigation positions — so existing Hub users would recognise the new interface instantly.</p>
+
+    <div class="figure-row">
+      <figure class="case-figure">
+        <img src="assets/ux1/login-wireframe.png" alt="Early wireframe of the WiseMetrics sign-up and data-integration flow" loading="lazy">
+        <figcaption>Early onboarding wireframe</figcaption>
+      </figure>
+      <figure class="case-figure">
+        <img src="assets/ux1/wm-6.jpg" alt="Wireframe of the WiseMetrics suggestions page, the primary screen users see on every visit" loading="lazy">
+        <figcaption>Suggestions page — the primary screen on every visit</figcaption>
+      </figure>
+    </div>
+
+    <p style="margin-top: var(--space-6);">Two pieces of feedback shaped the higher-fidelity design. Engineering flagged that users had no way to tell whether they were looking at a stale feed or a freshly processed one — so every suggestion needed a visible processing state. And to avoid relying on colour alone for severity (a colour-blind accessibility issue), I gave each suggestion a star rating across an 11-point scale, with half-intervals.</p>
+
+    <figure class="case-figure" style="margin-top: var(--space-6);">
+      <img src="assets/ux1/wm-11.png" alt="High fidelity mockup of the suggestions page showing star ratings and processing states" loading="lazy">
+      <figcaption>Suggestions page — severity shown through more than colour alone</figcaption>
+    </figure>
+
+    <h3 style="margin-top: var(--space-8); font-size: var(--text-xl);">Mapping the two most common flows</h3>
+    <p>Working with engineering, I mapped two technically feasible flows that covered the most common tasks: acting on a single suggestion, and bulk-editing two fields across multiple products at once.</p>
+    <div class="figure-row">
+      <figure class="case-figure">
+        <img src="assets/ux1/wm-flow1.png" alt="User flow diagram for making an edit based on a suggestion" loading="lazy">
+        <figcaption>Flow 1 — act on a suggestion</figcaption>
+      </figure>
+      <figure class="case-figure">
+        <img src="assets/ux1/wm-flow2.png" alt="User flow diagram for bulk-editing two fields of a product at once" loading="lazy">
+        <figcaption>Flow 2 — bulk-edit two fields at once</figcaption>
+      </figure>
+    </div>
+
+    <h3 style="margin-top: var(--space-8); font-size: var(--text-xl);">What testing actually revealed</h3>
+    <p>I ran moderated usability sessions with customers from the original interviews, using an interactive Adobe XD prototype shared over a video call. The core workflow tested well — but a recurring comment surfaced a different problem entirely.</p>
+    <div class="quote-block">
+      "What is WakeupData, and what is WiseMetrics? Aren't they the same thing?"
+      <cite>Usability test participant</cite>
+    </div>
+    <p>The visual similarity I'd deliberately built in to ease the learning curve had backfired into brand confusion. With stakeholder buy-in, I explored a more distinct direction: top navigation vs. side navigation, soft colours vs. high contrast, full logo vs. icon mark — effectively two products with their own visual identity, rather than one wearing the other's clothes.</p>
+
+    <div class="figure-row">
+      <figure class="case-figure">
+        <img src="assets/ux1/wakeupdata-template.jpg" alt="WakeupData Hub layout template" loading="lazy">
+        <figcaption>WakeupData Hub — existing layout</figcaption>
+      </figure>
+      <figure class="case-figure">
+        <img src="assets/ux1/wisemetrics-template.jpg" alt="Revised WiseMetrics layout template with distinct navigation and colour treatment" loading="lazy">
+        <figcaption>WiseMetrics — revised, deliberately distinct layout</figcaption>
+      </figure>
+    </div>
+
+    <p style="margin-top: var(--space-6);">Every colour combination used across the workflow was tested for readability and checked against WCAG contrast guidelines before sign-off.</p>
+
+    <figure class="case-figure" style="margin-top: var(--space-6);">
+      <img src="assets/ux1/wm-4.png" alt="High fidelity prototype of the final WiseMetrics interface" loading="lazy">
+      <figcaption>High-fidelity prototype, post stakeholder approval</figcaption>
+    </figure>
+
+    <p style="margin-top: var(--space-6);">After the new direction was approved internally, I went back to the original test group for a sanity check — the most common reaction was that it felt "fresher" and "more futuristic." I then built the front end myself in ASP.NET, working against API calls written by the engineering team, and ran one final round of testing on a working prototype covering catalogue switching and account settings.</p>
+
+    <div class="quote-block">
+      "This is great. When can I get it?"
+      <cite>Usability test participant, final round</cite>
+    </div>
+  </section>
+
+  <!-- DELIVERY -->
+  <section class="case-section container" data-reveal>
+    <span class="eyebrow kicker">Delivery</span>
+    <h2>How it performed for customers</h2>
+    <p>Results below reflect the combined performance of WakeupData Hub and WiseMetrics for two customers, year-on-year.</p>
+
+    <h3 style="margin-top: var(--space-7); font-size: var(--text-lg);">Kaufmann — fashion &amp; apparel retailer</h3>
+    <div class="metric-grid">
+      <div class="metric-card"><div class="num">+267%</div><div class="label">Product clicks</div></div>
+      <div class="metric-card"><div class="num">+71%</div><div class="label">Sales</div></div>
+      <div class="metric-card"><div class="num">+44%</div><div class="label">Revenue</div></div>
+    </div>
+
+    <h3 style="margin-top: var(--space-8); font-size: var(--text-lg);">Legeakademiet — children's toys &amp; gear</h3>
+    <div class="metric-grid">
+      <div class="metric-card"><div class="num">+61%</div><div class="label">Conversions</div></div>
+      <div class="metric-card"><div class="num">+131%</div><div class="label">Conversion value</div></div>
+      <div class="metric-card"><div class="num">10x</div><div class="label">Return on investment</div></div>
+    </div>
+
+    <p style="margin-top: var(--space-7);">I'd put the result down to close planning and communication between design and engineering throughout, and — more than anything — the specific, unglamorous work of actually talking to the customers who'd be using it.</p>
+  </section>
+
+  <div class="container">
+    <div class="case-nav">
+      <a href="index.html#work">← All work</a>
+      <a href="work-roames-review.html" style="text-align:right;">
+        <span class="next-label">Next case study</span>
+        <span class="next-title">Roames Review →</span>
+      </a>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer container" id="contact">
+  <div class="footer-grid">
+    <div class="footer-contact">
+      <span class="eyebrow">Get in touch</span>
+      <h2>Let's talk about your product.</h2>
+      <p>Based in Skanderborg, Denmark — happy to talk remote or on-site.</p>
+      <div class="footer-links">
+        <a href="mailto:tristan.mark.edwards@gmail.com">tristan.mark.edwards@gmail.com →</a>
+        <a href="https://linkedin.com/in/tristanmarkedwards" target="_blank" rel="noopener">linkedin.com/in/tristanmarkedwards →</a>
+        <a href="tel:+4530844019">+45 30 84 40 19</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <span>© 2026 Tristan Edwards</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

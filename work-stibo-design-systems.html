@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stibo Systems — Design Systems at Scale — Tristan Edwards</title>
+<meta name="description" content="Building and driving a cross-product design system across Stibo Systems' PXDC enterprise platform.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-nav">
+  <div class="container">
+    <a href="index.html" class="nav-logo">Tristan Edwards</a>
+    <nav class="nav-links" id="nav-links">
+      <a href="index.html#work">Work</a>
+      <a href="index.html#skills">Approach</a>
+      <a href="index.html#experience">Experience</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+  <section class="container hero case-hero" style="padding-top: var(--space-7);">
+    <a href="index.html#work" class="breadcrumb">← All work</a>
+    <br>
+    <span class="eyebrow">Stibo Systems · Design Systems · Ongoing</span>
+    <h1>Building a design system across a multi-product enterprise platform</h1>
+    <p class="hero-sub">A summary of ongoing work at Stibo Systems — driving design-system strategy across PXDC, a multi-product platform for product experience data and content.</p>
+
+    <div class="meta-row">
+      <div class="meta-item">
+        <div class="label">Roles</div>
+        <div class="value">Senior Product Designer (2025–present), Product Designer (2022–2025)</div>
+      </div>
+      <div class="meta-item">
+        <div class="label">Platform</div>
+        <div class="value">PXDC — Product Experience Data &amp; Content</div>
+      </div>
+      <div class="meta-item">
+        <div class="label">Focus</div>
+        <div class="value">Design systems, onboarding, syndication, enhanced content</div>
+      </div>
+    </div>
+
+    <div class="status-banner">
+      <span class="dot"></span>
+      This is current, ongoing work — written as a summary rather than a full case study.
+    </div>
+  </section>
+
+  <!-- OVERVIEW -->
+  <section class="case-section container" data-reveal>
+    <span class="eyebrow kicker">Overview</span>
+    <h2>One platform, several product teams, one system</h2>
+    <p>Stibo Systems builds enterprise platforms for managing and distributing product data and content at scale. Within PXDC, I own design for two product areas — Product Onboarding and Product Data Syndication — while also driving design-system strategy across the wider suite, including the foundations I helped lay during Enhanced Content, a scalable below-the-fold content experience for retailer product pages such as Amazon.</p>
+  </section>
+
+  <!-- THE CHALLENGE -->
+  <section class="case-section container" data-reveal>
+    <span class="eyebrow kicker">The challenge</span>
+    <h2>Multiple teams shipping in parallel, without a shared language</h2>
+    <p>Enterprise platforms like PXDC are built by several product teams moving at once. Without a shared system of patterns, components, and vocabulary, a platform fragments quietly — duplicated effort, inconsistent interactions between modules, and a steeper learning curve for customers who move between them. The job isn't just designing good individual screens; it's making sure good decisions made in one product don't have to be re-made from scratch in another.</p>
+  </section>
+
+  <!-- FOCUS AREAS -->
+  <section class="case-section container" data-reveal>
+    <span class="eyebrow kicker">Focus areas</span>
+    <h2>Where the design-system work actually lives</h2>
+
+    <svg viewBox="0 0 800 280" style="width:100%; height:auto; margin-top: var(--space-6);" role="img" aria-label="Diagram showing a shared design system feeding three product areas: onboarding, data syndication, and enhanced content">
+      <rect x="260" y="16" width="280" height="56" rx="6" fill="none" stroke="var(--color-ink)" stroke-width="1.5"/>
+      <text x="400" y="40" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="13" fill="var(--color-ink)">Shared design system</text>
+      <text x="400" y="58" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="11" fill="var(--color-ink-faint)">tokens · components · patterns</text>
+
+      <line x1="400" y1="72" x2="130" y2="170" stroke="var(--color-line-strong)" stroke-width="1.5"/>
+      <line x1="400" y1="72" x2="400" y2="170" stroke="var(--color-line-strong)" stroke-width="1.5"/>
+      <line x1="400" y1="72" x2="670" y2="170" stroke="var(--color-line-strong)" stroke-width="1.5"/>
+
+      <rect x="20" y="170" width="220" height="80" rx="6" fill="var(--color-accent-soft)" stroke="var(--color-accent)" stroke-width="1"/>
+      <text x="130" y="202" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="12" fill="var(--color-accent-ink)">Product Onboarding</text>
+      <text x="130" y="222" text-anchor="middle" font-family="IBM Plex Sans, sans-serif" font-size="11" fill="var(--color-ink-soft)">first time user login → confident first use</text>
+
+      <rect x="290" y="170" width="220" height="80" rx="6" fill="var(--color-accent-soft)" stroke="var(--color-accent)" stroke-width="1"/>
+      <text x="400" y="202" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="12" fill="var(--color-accent-ink)">Data Syndication</text>
+      <text x="400" y="222" text-anchor="middle" font-family="IBM Plex Sans, sans-serif" font-size="11" fill="var(--color-ink-soft)">distributing data across channels</text>
+
+      <rect x="560" y="170" width="220" height="80" rx="6" fill="var(--color-accent-soft)" stroke="var(--color-accent)" stroke-width="1"/>
+      <text x="670" y="202" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="12" fill="var(--color-accent-ink)">Enhanced Content</text>
+      <text x="670" y="222" text-anchor="middle" font-family="IBM Plex Sans, sans-serif" font-size="11" fill="var(--color-ink-soft)">scalable below-the-fold PDP content</text>
+    </svg>
+
+    <div class="process-list" style="margin-top: var(--space-8);">
+      <div class="process-item">
+        <span class="tag">01</span>
+        <div>
+          <h4>Cross-product design system</h4>
+          <p>Reusable interaction patterns and a shared component vocabulary, so individual product teams can build consistently without needing to coordinate on every single screen.</p>
+        </div>
+      </div>
+      <div class="process-item">
+        <span class="tag">02</span>
+        <div>
+          <h4>Specific products & features</h4>
+          <p>Product instances that utilise the centralised design information of the cross-product design system. </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- APPROACH -->
+  <section class="case-section container" data-reveal>
+    <span class="eyebrow kicker">Approach</span>
+    <h2>Consistency without slowing teams down</h2>
+    <p>The hard part of design-system work at this scale isn't drawing the components — it's keeping platform-wide consistency from becoming a bottleneck for any one product team. I work closely with engineering on implementation validation to make sure what ships matches intent, and I've been exploring where AI-assisted design workflows can remove repetitive work without compromising the consistency the system exists to protect.</p>
+  </section>
+
+    <!-- CHALLENGES -->
+    <section class="case-section container" data-reveal>
+        <span class="eyebrow kicker">Challenges</span>
+        <h2>Diverse customer types</h2>
+        <p>The hard part of design-system work at this scale isn't drawing the components — it's keeping platform-wide consistency from becoming a bottleneck for any one product team. I work closely with engineering on implementation validation to make sure what ships matches intent, and I've been exploring where AI-assisted design workflows can remove repetitive work without compromising the consistency the system exists to protect.</p>
+      </section>
+
+  <div class="container">
+    <div class="case-nav">
+      <a href="index.html#work">← All work</a>
+      <a href="work-wisemetrics.html" style="text-align:right;">
+        <span class="next-label">Next case study</span>
+        <span class="next-title">WiseMetrics →</span>
+      </a>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer container" id="contact">
+  <div class="footer-grid">
+    <div class="footer-contact">
+      <span class="eyebrow">Get in touch</span>
+      <h2>Let's talk about your product.</h2>
+      <p>Based in Skanderborg, Denmark — happy to talk remote or on-site.</p>
+      <div class="footer-links">
+        <a href="mailto:tristan.mark.edwards@gmail.com">tristan.mark.edwards@gmail.com →</a>
+        <a href="https://linkedin.com/in/tristanmarkedwards" target="_blank" rel="noopener">linkedin.com/in/tristanmarkedwards →</a>
+        <a href="tel:+4530844019">+45 30 84 40 19</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <span>© 2026 Tristan Edwards</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
