@@ -18,7 +18,6 @@
     <a href="index.html" class="nav-logo">Tristan Edwards</a>
     <nav class="nav-links" id="nav-links">
       <a href="index.html#work">Work</a>
-      <a href="index.html#skills">Approach</a>
       <a href="index.html#experience">Experience</a>
       <a href="index.html#contact">Contact</a>
     </nav>
@@ -34,7 +33,7 @@
     <br>
     <span class="eyebrow">Fugro ROAMES · Enterprise Tools</span>
     <h1>Roames Review: replacing paper logbooks with a guided digital workflow</h1>
-    <p class="hero-sub">A job-based inspection tool that let power-network surveyors verify and report faults digitally — built with a dark mode from day one, because the people using it asked for one.</p>
+    <p class="hero-sub">A job-based inspection tool that let power-network surveyors verify and report faults digitally. Built with a dark mode from day one, because the people using it asked for one.</p>
 
     <div class="meta-row">
       <div class="meta-item">
@@ -63,7 +62,7 @@
   <section class="case-section container" data-reveal>
     <span class="eyebrow kicker">The problem</span>
     <h2>A process built on logbooks, memory, and long drives</h2>
-    <p>Ergon ran yearly campaigns to monitor network condition and catch serious faults — like a damaged crossarm that could drop a live line and start a fire. Surveyors drove hours to investigate sites manually, recorded findings in physical logbooks, then transcribed them back at the office.</p>
+    <p>Ergon ran yearly campaigns to monitor network condition and catch serious faults, like a damaged crossarm that could drop a live line and start a fire. Surveyors drove hours to investigate sites manually, recorded findings in physical logbooks, then transcribed them back at the office.</p>
     <p>Logbooks went missing. Poles got mixed up. Findings were often subjective, with no easy way for a colleague to verify a call. The whole process was slow, error-prone, and expensive — leaning heavily on the time and expertise of veteran linesmen who couldn't be everywhere at once.</p>
   </section>
 
@@ -73,12 +72,13 @@
     <h2>Eight surveyors, one clear constraint</h2>
     <div class="case-body-grid">
       <div>
-        <p>Through Fugro's existing relationship with Ergon, I interviewed 8 surveyors on-site about their routines and pain points. They were a fairly uniform group — similar age range, same company-issued equipment, comparable technical comfort — which made it clear early on that the solution needed to be desktop, browser-based, and able to clear Ergon's lengthy IT security approval process.</p>
+        <p>Through Fugro's existing relationship with Ergon, I interviewed 8 surveyors on-site about their routines and pain points. They were a fairly uniform group: similar age range, same company-issued equipment, comparable technical comfort. This made it clear early on that the solution needed to be desktop, browser-based, and able to clear Ergon's lengthy IT security approval process.</p>
         <div class="quote-block">
           "We have to run campaigns every year to monitor the network for changes, which can take months and costs us millions to undertake."
           <cite>Ergon Energy surveyor</cite>
         </div>
-        <p>I translated the interviews into an empathy map and two personas — a primary "Power Line Surveyor" persona, and a secondary "QA Analyst" persona reflecting a stakeholder proposal to offload some lower-skill verification work to a QA team as a cost-saving measure.</p>
+        <br>
+        <p>I translated the interviews into an empathy map and two personas: a primary "Power Line Surveyor" persona, and a secondary "QA Analyst" persona reflecting a stakeholder proposal to offload some lower-skill verification work to a QA team as a cost-saving measure.</p>
       </div>
       <figure class="case-figure">
         <img src="assets/ux2/empathyMap.jpg" alt="Empathy map built from surveyor interviews" loading="lazy">
@@ -91,16 +91,16 @@
   <section class="case-section container" data-reveal>
     <span class="eyebrow kicker">Design</span>
     <h2>Designing for someone who can't afford to guess</h2>
-    <p>The HPC team's concept was to break inspection work into smaller "jobs," distributed to users based on seniority and qualification. Given my research showed the primary persona had limited technical confidence, I leaned on the Nielsen-Molich heuristics throughout — visible status, easy error recovery, no unnecessary clutter, plain-language guidance over reliance on memory.</p>
+    <p>The HPC team's concept was to break inspection work into smaller "jobs," distributed to users based on seniority and qualification. Given my research showed the primary persona had limited technical confidence, I leaned on the Nielsen-Molich heuristics throughout, such as visible status, easy error recovery, no unnecessary clutter, plain-language guidance over reliance on memory.</p>
 
     <div class="process-list">
-      <div class="process-item"><span class="tag">→</span><div><h4>Keep users informed</h4><p>Status is always visible — never silent or ambiguous.</p></div></div>
+      <div class="process-item"><span class="tag">→</span><div><h4>Keep users informed</h4><p>Status is always visible. Never silent or ambiguous.</p></div></div>
       <div class="process-item"><span class="tag">→</span><div><h4>Offer control, prevent errors</h4><p>Easy undo, and warnings before risky actions.</p></div></div>
       <div class="process-item"><span class="tag">→</span><div><h4>Reduce clutter and reliance on memory</h4><p>Show only what's relevant to the current task.</p></div></div>
       <div class="process-item"><span class="tag">→</span><div><h4>Stay flexible for experienced users</h4><p>Faster paths for people who already know the job.</p></div></div>
     </div>
 
-    <p style="margin-top: var(--space-7);">Working with engineering on how the AWS backend would serve jobs to the front end, I ran a Crazy 8s session and landed on a "lobby" concept — surveyors log in and see a queue of available work, scoped to their qualifications. I pitched it as "Roames Review," and the team ran with it.</p>
+    <p style="margin-top: var(--space-7);">Working with engineering on how the AWS backend would serve jobs to the front end, I ran a Crazy 8s session and landed on a "lobby" concept. Surveyors log in and see a queue of available work, scoped to their qualifications. I pitched it as "Roames Review," and the team ran with it.</p>
 
     <div class="figure-row">
       <figure class="case-figure">
@@ -119,14 +119,14 @@
       "Can there be some kind of dark mode? My eyes will get easily strained if I have to stare at the same bright interface all day."
       <cite>Field surveyor, usability test</cite>
     </div>
-    <p>The dark version tested well enough that I designed every job interface natively for dark mode rather than offering both — the value of a light alternative didn't justify the added development cost.</p>
+    <p>The dark version tested well enough that I designed every job interface natively for dark mode rather than offering both. The value of a light alternative didn't justify the added development cost.</p>
 
     <figure class="case-figure" style="margin-top: var(--space-6);">
-      <img src="assets/ux2/rr-3.png" alt="High fidelity Roames Review interface in dark mode" loading="lazy">
+      <img src="assets/ux2/rr-2.png" alt="High fidelity Roames Review interface in dark mode" loading="lazy">
       <figcaption>Roames Review — dark mode, designed natively rather than as an alternate theme</figcaption>
     </figure>
 
-    <p style="margin-top: var(--space-6);">From there, each job type went through the same cycle — wireframes, low-fidelity interactive mockups, on-site testing. I also built a custom, chainable animation system in Unity so every action gave the surveyor clear visual feedback, rather than leaving them guessing whether something had registered.</p>
+    <p style="margin-top: var(--space-6);">From there, each job type went through the same cycle: wireframes, low-fidelity interactive mockups, on-site testing. I also built a custom, chainable animation system in Unity so every action gave the surveyor clear visual feedback, rather than leaving them guessing whether something had registered.</p>
 
     <div class="case-figure" style="margin-top: var(--space-6); aspect-ratio: 16/9;">
       <iframe width="100%" height="100%" style="display:block;" src="https://www.youtube.com/embed/t7gY6gaCbkc" title="Roames Review job animation system" frameborder="0" allowfullscreen loading="lazy"></iframe>
@@ -137,7 +137,8 @@
   <section class="case-section container" data-reveal>
     <span class="eyebrow kicker">Delivery</span>
     <h2>From months in the field to a faster, repeatable process</h2>
-    <p>Ergon reduced annual campaign work from months to a fraction of that, with a meaningful drop in operational cost — a saving in the millions of Australian dollars. Off the back of it, Fugro ROAMES won a competitive tender to do similar work for Essential Energy in New South Wales, and later extended the same approach to marine asset-integrity projects for Fugro's Western Australian office, where I designed the interfaces and flows for the new job types remotely.</p>
+    <p>Ergon reduced annual campaign work from months to a fraction of that, with a meaningful drop in operational cost - saving in the millions of Australian dollars. </p>
+    <p>Off the back of it, Fugro ROAMES won a competitive tender to do similar work for Essential Energy in New South Wales, and later extended the same approach to marine asset-integrity projects for Fugro's Western Australian office, where I designed the interfaces and flows for the new job types remotely.</p>
 
     <div class="status-banner" style="margin-top: var(--space-6);">
       <span class="dot"></span>
@@ -161,7 +162,7 @@
     <div class="footer-contact">
       <span class="eyebrow">Get in touch</span>
       <h2>Let's talk about your product.</h2>
-      <p>Based in Skanderborg, Denmark — happy to talk remote or on-site.</p>
+      <p>Based in Skanderborg, Denmark. Happy to talk remote or on-site.</p>
       <div class="footer-links">
         <a href="mailto:tristan.mark.edwards@gmail.com">tristan.mark.edwards@gmail.com →</a>
         <a href="https://linkedin.com/in/tristanmarkedwards" target="_blank" rel="noopener">linkedin.com/in/tristanmarkedwards →</a>
